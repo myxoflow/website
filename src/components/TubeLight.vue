@@ -99,6 +99,7 @@ onMounted(() => {
   position: absolute;
   top: 50%;
   left: 50%;
+  right: 50%;
   width: 1200px;
   height: 1200px;
   transform-origin: center;

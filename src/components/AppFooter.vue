@@ -1,32 +1,12 @@
 <template>
-  <q-footer
-    bordered
-    class="bg-grey-9 text-white q-pa-md transition-all"
-    :class="isFooterVisible ? 'translate-y-0' : 'translate-y-full'"
-    style="position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;"
-  >
-    <!-- COLLAPSE/EXPAND TOGGLE -->
-    <div
-      class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full bg-grey-9 rounded-t-full cursor-pointer flex items-center justify-center"
-      style="width: 40px; height: 20px;"
-      @click="toggleFooter"
-    >
-      <q-icon
-        name="keyboard_arrow_up"
-        size="sm"
-        :class="{ 'rotate-180': isFooterVisible }"
-        class="transition-transform"
-      />
-    </div>
-
-    <!-- FOOTER CONTENT -->
-    <div class="row q-col-gutter-md justify-around" v-show="isFooterVisible">
+  <q-footer bordered class="footer">
+    <div class="row footer-nav">
       <div
-        class="col-12 col-sm-3"
+        class="col footer-section"
         v-for="(section, sectionName) in footer"
         :key="sectionName"
       >
-        <div class="text-subtitle2 text-uppercase q-mb-sm">
+        <div class="footer-section-name">
           {{ sectionName }}
         </div>
         <q-list dense>
@@ -36,7 +16,6 @@
             clickable
             tag="router-link"
             :to="link.path"
-            class="text-white"
           >
             <q-item-section>{{ link.label }}</q-item-section>
           </q-item>
@@ -44,52 +23,48 @@
       </div>
     </div>
 
-    <div class="text-center q-mt-md text-grey-4" v-show="isFooterVisible">
-      © 2025 MyxoFlow. All rights reserved.
+    <div class="footer-trademark">
+      MyxoFlow<br />
+      The New Way
     </div>
   </q-footer>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
 import navigationJson from "../data/navigation.json";
-
 const footer = navigationJson.footer;
-const isFooterVisible = ref(false);
-
-const toggleFooter = () => {
-  isFooterVisible.value = !isFooterVisible.value;
-};
-
-// Automatically reveal footer when scrolling to bottom
-const handleScroll = () => {
-  const scrolledToBottom =
-    window.innerHeight + window.scrollY >= document.body.offsetHeight - 20;
-  isFooterVisible.value = scrolledToBottom;
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
-});
-onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
-});
 </script>
 
 <style scoped>
-.transition-all {
-  transition: transform 0.3s ease, opacity 0.3s ease;
+.footer {
+  background-color: var(--q-bg-color);
+  color: var(--q-text-color);
+  border-top: 1px solid var(--q-border-color);
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+/* hide footer unless at the end of the last page */
+  margin-top: auto;
 }
 
-.translate-y-full {
-  transform: translateY(calc(100% - 20px)); /* keep arrow visible */
+.footer-nav {
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.translate-y-0 {
-  transform: translateY(0);
+.footer-section {
+  margin: 10px;
+  text-align: center;
+  padding: 0 10px;
 }
 
-.rotate-180 {
-  transform: rotate(180deg);
+.footer-section-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
 </style>

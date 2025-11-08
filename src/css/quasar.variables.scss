@@ -3,37 +3,162 @@
 // Light/Dark: Standard web contrast ratios
 // Sunrise/Midnight/Forest/Energy: Extreme light conditions
 
+// -------------------------------------------------------------
+// 1) CORE: Original variables (kept exactly as provided)
+//    I keep these unchanged to preserve backward compatibility.
+//    Comments from the original preserved.
+// -------------------------------------------------------------
 
 // ============================================
 // DEFAULT (Light Mode) - Standard web theme
 // ============================================
 :root {
-  // Background & Surface
-  --q-bg-color: #f5f5f5;              // Light neutral background
-  --q-surface-color: #ffffff;         // Pure white for cards/surfaces
-  --q-text-color: #1a1a1a;            // Near-black text (21:1 contrast)
-  --q-border-color: #d0d0d0;          // Light gray borders
+  // Background & Surface (original)
+  --q-bg-color: #f5f5f5; // Light neutral background
+  --q-surface-color: #ffffff; // Pure white for cards/surfaces
+  --q-text-color: #1a1a1a; // Near-black text (21:1 contrast)
+  --q-border-color: #d0d0d0; // Light gray borders
 
-  // Text Levels
-  --q-text-primary: #1a1a1a;          // Main text (21:1)
-  --q-text-secondary: #666666;        // Secondary text (7.5:1)
-  --q-text-disabled: #999999;         // Disabled text (4.5:1)
+  // Text Levels (original)
+  --q-text-primary: #1a1a1a; // Main text (21:1)
+  --q-text-secondary: #666666; // Secondary text (7.5:1)
+  --q-text-disabled: #999999; // Disabled text (4.5:1)
 
-  // Surface States
-  --q-surface-hover: #f0f0f0;         // Subtle hover state
-  --q-surface-active: #e8e8e8;        // Active state
+  // Surface States (original)
+  --q-surface-hover: #f0f0f0; // Subtle hover state
+  --q-surface-active: #e8e8e8; // Active state
 
-  // Shadows
+  // Shadows (original)
   --q-shadow-1: 0 2px 4px rgba(0, 0, 0, 0.1);
   --q-shadow-2: 0 4px 8px rgba(0, 0, 0, 0.15);
   --q-shadow-3: 0 8px 16px rgba(0, 0, 0, 0.2);
 
-  // Accent Colors
-  --q-primary-color: #0066cc;         // Strong blue (accessible)
-  --q-secondary-color: #ff6b35;       // Warm orange (readable)
-  --q-accent-color: #9c27b0;          // Purple accent
+  // Accent Colors (original)
+  --q-primary-color: #0066cc; // Strong blue (accessible)
+  --q-secondary-color: #ff6b35; // Warm orange (readable)
+  --q-accent-color: #9c27b0; // Purple accent
+
+  // Font Families - Free edgy font options (uncomment one to activate) (original)
+  // --q-font-family-base: 'Satoshi', 'Inter', 'Arial', sans-serif; // Minimal, sleek sans-serif (default)
+
+  // --q-font-family-base: 'Clash Display', 'Arial', sans-serif; // Bold, strong headlines
+  // --q-font-family-base: 'Aeonik', 'Roboto', 'Arial', sans-serif; // Contemporary geometric sans-serif
+  // --q-font-family-base: 'Cyberiada', 'Roboto', 'Arial', sans-serif; // Futuristic tech style
+  // --q-font-family-base: 'Wolgen', 'Arial', sans-serif; // Robust geometric sans-serif
+  // --q-font-family-base: 'Expletus', 'Georgia', serif; // Sharp edged display serif
+  // --q-font-family-base: 'Migra', 'Georgia', serif; // Stylish modern serif
+  // --q-font-family-base: 'Jura', 'Georgia', serif; // Geometric serif with edge
+  // --q-font-family-base: 'Flyhead', 'Arial', sans-serif; // Minimalist tech sans-serif
+
+  // Base fallback fonts (original)
+  --q-font-family-serif: 'Georgia', serif;
+  --q-font-family-mono: 'Fira Mono', monospace;
+
+  // Font weights (original)
+  --q-font-weight-regular: 400;
+  --q-font-weight-medium: 500;
+  --q-font-weight-bold: 700;
+
+  // Font sizes (original)
+  --q-font-size-body: 1rem;
+  --q-font-size-heading: 2rem;
+  --q-font-size-caption: 0.875rem;
+
+  /* --------------------------------------------------------------
+     NEW: Core design tokens (spacing, radii, typography scale, etc.)
+     These are additive—do not remove original vars above.
+     NEW: Core tokens are generic & theme-agnostic.
+     -------------------------------------------------------------- */
+
+  // NEW: Spacing scale (use these for margins/paddings)
+  --q-space-2xs: 2px; // NEW: very small gap
+  --q-space-xs: 4px;  // NEW: extra small gap
+  --q-space-sm: 8px;  // NEW: small gap
+  --q-space-md: 16px; // NEW: medium gap (default)
+  --q-space-lg: 24px; // NEW: large gap
+  --q-space-xl: 32px; // NEW: extra large gap
+  --q-space-2xl: 48px; // NEW: very large gap
+
+  // NEW: Border radii
+  --q-radius-none: 0; // NEW
+  --q-radius-sm: 2px; // NEW
+  --q-radius-md: 6px; // NEW
+  --q-radius-lg: 12px; // NEW
+  --q-radius-pill: 999px; // NEW: fully rounded
+
+  // NEW: Border widths and style defaults
+  --q-border-width: 1px; // NEW
+  --q-border-style: solid; // NEW
+
+  // NEW: Expanded typography scale (H1..H6 and micro)
+  --q-font-size-h1: 2.5rem; // NEW
+  --q-font-size-h2: 2rem;   // NEW
+  --q-font-size-h3: 1.5rem; // NEW
+  --q-font-size-h4: 1.25rem; // NEW
+  --q-font-size-h5: 1rem;   // NEW
+  --q-font-size-h6: 0.875rem; // NEW
+  --q-font-size-small: 0.75rem; // NEW: very small caption
+
+  // NEW: Line heights & letter spacing
+  --q-line-height-body: 1.6; // NEW: comfortable body line-height
+  --q-line-height-heading: 1.2; // NEW: headings tighter line-height
+  --q-letter-spacing-tight: -0.01em; // NEW
+  --q-letter-spacing-normal: 0; // NEW
+  --q-letter-spacing-wide: 0.02em; // NEW
+
+  // NEW: Animation / transition tokens
+  --q-transition-duration-fast: 0.2s; // NEW
+  --q-transition-duration-medium: 0.4s; // NEW
+  --q-transition-duration-slow: 0.7s; // NEW
+  --q-transition-ease: ease; // NEW
+
+  // NEW: Semantic border/shadow tokens (map to your originals for compatibility)
+  --q-shadow-xs: var(--q-shadow-1); // NEW: maps to original
+  --q-shadow-sm: var(--q-shadow-2); // NEW: maps to original
+  --q-shadow-lg: var(--q-shadow-3); // NEW: maps to original
+
+  // NEW: Semantic color tokens (theme-agnostic; mapped per theme below)
+  --q-color-bg: var(--q-bg-color); // NEW: primary background — mapped to original
+  --q-color-surface: var(--q-surface-color); // NEW: surfaces/cards
+  --q-color-text-1: var(--q-text-primary); // NEW: primary text
+  --q-color-text-2: var(--q-text-secondary); // NEW: secondary text
+  --q-color-text-disabled: var(--q-text-disabled); // NEW: disabled text
+  --q-color-border: var(--q-border-color); // NEW: border color
+  --q-color-primary: var(--q-primary-color); // NEW: primary brand action
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW: default link color (mapped)
+  --q-color-focus-ring: rgba(0, 102, 204, 0.35); // NEW: default focus ring (semi-transparent)
+
+  // NEW: Buttons & interactive tokens (text-only + minimal UI)
+  --q-button-bg: transparent; // NEW: by default text-only site — transparent BG
+  --q-button-text: var(--q-color-primary); // NEW: pick primary color for CTA text
+  --q-button-hover-bg: rgba(0,0,0,0.03); // NEW: subtle hover surface for text links
+  --q-button-active-bg: rgba(0,0,0,0.05); // NEW: subtle active
+  --q-link-hover-color: darken(var(--q-color-link), 8%); // NEW: Sass function friendly note
+
+  // NEW: SVG-specific tokens (important for text + SVG sites)
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW: default svg fill (match text)
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW: default stroke
+  --q-svg-stroke-muted: rgba(0,0,0,0.25); // NEW: muted stroke fallback
+
+  // NEW: Semantic status colors
+  --q-color-success: #28a745; // NEW: success
+  --q-color-warning: #ffc107; // NEW: warning
+  --q-color-error: #dc3545; // NEW: error
+  --q-color-info: #17a2b8; // NEW: info
+
+  // NEW: Accessibility toggles
+  --q-high-contrast-on: 1; // NEW: flag variable (1 = enable higher contrast tweaks if used)
 }
 
+// -------------------------------------------------------------
+// 2) THEMES: Keep your theme blocks and extend them with the
+//    NEW semantic tokens. I map NEW tokens to your original
+//    colors so nothing changes visually until you decide to tweak.
+//    Comments are repeated for clarity where it helps.
+// -------------------------------------------------------------
 
 // ============================================
 // DARK MODE - Complete darkness, nighttime
@@ -41,32 +166,49 @@
 // Scenario: User in complete darkness or at night
 // Design: Deep dark to minimize eye strain + bright text for maximum visibility
 .theme-dark {
-  // Background & Surface
-  --q-bg-color: #0a0a0a;              // Near-black (minimal eye strain)
-  --q-surface-color: #1a1a1a;         // Very dark gray (16:1 contrast)
-  --q-text-color: #f0f0f0;            // Off-white text (16:1 contrast)
-  --q-border-color: #333333;          // Very dark border
+  // (original values preserved)
+  --q-bg-color: #0a0a0a; // Near-black (minimal eye strain)
+  --q-surface-color: #1a1a1a; // Very dark gray (16:1 contrast)
+  --q-text-color: #f0f0f0; // Off-white text (16:1 contrast)
+  --q-border-color: #333333; // Very dark border
 
-  // Text Levels
-  --q-text-primary: #f0f0f0;          // Main text (16:1)
-  --q-text-secondary: #b0b0b0;        // Secondary text (9:1)
-  --q-text-disabled: #707070;         // Disabled text (5:1)
+  --q-text-primary: #f0f0f0; // Main text (16:1)
+  --q-text-secondary: #b0b0b0; // Secondary text (9:1)
+  --q-text-disabled: #707070; // Disabled text (5:1)
 
-  // Surface States
-  --q-surface-hover: #2a2a2a;         // Subtle hover
-  --q-surface-active: #333333;        // Active state
+  --q-surface-hover: #2a2a2a; // Subtle hover
+  --q-surface-active: #333333; // Active state
 
-  // Shadows (less visible in dark mode)
   --q-shadow-1: 0 2px 4px rgba(255, 255, 255, 0.05);
   --q-shadow-2: 0 4px 8px rgba(255, 255, 255, 0.1);
   --q-shadow-3: 0 8px 16px rgba(255, 255, 255, 0.15);
 
-  // Accent Colors (bright for visibility)
-  --q-primary-color: #4da6ff;         // Bright blue
-  --q-secondary-color: #ff8c42;       // Bright orange
-  --q-accent-color: #e080d0;          // Bright purple
-}
+  --q-primary-color: #4da6ff; // Bright blue
+  --q-secondary-color: #ff8c42; // Bright orange
+  --q-accent-color: #e080d0; // Bright purple
 
+  /* --------------------------------------------------------------------
+     NEW: Map semantic tokens for theme-dark (so you can use --q-color-*)
+     everywhere and it will follow the theme. Mapping repeated for clarity.
+     -------------------------------------------------------------------- */
+  --q-color-bg: var(--q-bg-color); // NEW: maps to theme background
+  --q-color-surface: var(--q-surface-color); // NEW: maps to theme surface
+  --q-color-text-1: var(--q-text-primary); // NEW
+  --q-color-text-2: var(--q-text-secondary); // NEW
+  --q-color-text-disabled: var(--q-text-disabled); // NEW
+  --q-color-border: var(--q-border-color); // NEW
+  --q-color-primary: var(--q-primary-color); // NEW
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW: links default to primary in dark
+  --q-color-focus-ring: rgba(77,166,255,0.28); // NEW: bluish focus for dark theme
+
+  // NEW: SVG tokens follow text colors for consistency
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW
+  --q-svg-stroke-muted: rgba(255,255,255,0.18); // NEW
+}
 
 // ============================================
 // SUNRISE - Severe sunlight (extreme brightness)
@@ -74,32 +216,49 @@
 // Scenario: User viewing in direct/harsh sunlight with screen glare
 // Design: Maximum contrast, desaturated primaries to cut through glare
 .theme-sunrise {
-  // Background & Surface
-  --q-bg-color: #ffffff;              // Pure white (reflects sunlight, reduces glare)
-  --q-surface-color: #f8f8f8;         // Almost white (slightly less glare)
-  --q-text-color: #000000;            // Pure black (21:1 in sunlight)
-  --q-border-color: #cccccc;          // Light border (visible in glare)
+  // (original values preserved)
+  --q-bg-color: #ffffff; // Pure white (reflects sunlight, reduces glare)
+  --q-surface-color: #f8f8f8; // Almost white (slightly less glare)
+  --q-text-color: #000000; // Pure black (21:1 in sunlight)
+  --q-border-color: #cccccc; // Light border (visible in glare)
 
-  // Text Levels
-  --q-text-primary: #000000;          // Main text (21:1)
-  --q-text-secondary: #333333;        // Secondary text (12.6:1)
-  --q-text-disabled: #666666;         // Disabled text (7.5:1)
+  --q-text-primary: #000000; // Main text (21:1)
+  --q-text-secondary: #333333; // Secondary text (12.6:1)
+  --q-text-disabled: #666666; // Disabled text (7.5:1)
 
-  // Surface States
-  --q-surface-hover: #efefef;         // Subtle hover
-  --q-surface-active: #e8e8e8;        // Active state
+  --q-surface-hover: #efefef; // Subtle hover
+  --q-surface-active: #e8e8e8; // Active state
 
-  // Shadows (strong in bright light)
   --q-shadow-1: 0 2px 4px rgba(0, 0, 0, 0.2);
   --q-shadow-2: 0 4px 8px rgba(0, 0, 0, 0.25);
   --q-shadow-3: 0 8px 16px rgba(0, 0, 0, 0.3);
 
-  // Accent Colors (desaturated for readability through glare)
-  --q-primary-color: #003d99;         // Dark blue (visible through glare)
-  --q-secondary-color: #cc5500;       // Dark orange
-  --q-accent-color: #8b1a8b;          // Dark purple
-}
+  --q-primary-color: #003d99; // Dark blue (visible through glare)
+  --q-secondary-color: #cc5500; // Dark orange
+  --q-accent-color: #8b1a8b; // Dark purple
 
+  /* --------------------------------------------------------------------
+     NEW: Map semantic tokens for theme-sunrise.
+     Repeat mapping for clarity (semantic tokens next to original values).
+     -------------------------------------------------------------------- */
+  --q-color-bg: var(--q-bg-color); // NEW
+  --q-color-surface: var(--q-surface-color); // NEW
+  --q-color-text-1: var(--q-text-primary); // NEW
+  --q-color-text-2: var(--q-text-secondary); // NEW
+  --q-color-text-disabled: var(--q-text-disabled); // NEW
+  --q-color-border: var(--q-border-color); // NEW
+  --q-color-primary: var(--q-primary-color); // NEW
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW
+  --q-color-focus-ring: rgba(0,61,153,0.18); // NEW
+
+  // NEW: SVG tokens
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW
+  --q-svg-stroke-muted: rgba(0,0,0,0.12); // NEW
+}
 
 // ============================================
 // MIDNIGHT - Extreme darkness, starlight only
@@ -107,32 +266,49 @@
 // Scenario: Deep night, underground, or near-zero ambient light
 // Design: Ultra-dark + bright accent colors for contrast, cool tones for comfort
 .theme-midnight {
-  // Background & Surface
-  --q-bg-color: #050505;              // Almost pure black (extreme darkness comfort)
-  --q-surface-color: #0f0f1f;         // Very dark with cool blue tint (18:1 contrast)
-  --q-text-color: #e0e0ff;            // Very light blue-white (18:1 contrast)
-  --q-border-color: #1f1f2f;          // Cool dark border
+  // (original values preserved)
+  --q-bg-color: #050505; // Almost pure black (extreme darkness comfort)
+  --q-surface-color: #0f0f1f; // Very dark with cool blue tint (18:1 contrast)
+  --q-text-color: #e0e0ff; // Very light blue-white (18:1 contrast)
+  --q-border-color: #1f1f2f; // Cool dark border
 
-  // Text Levels
-  --q-text-primary: #e0e0ff;          // Main text (18:1)
-  --q-text-secondary: #a8a8d0;        // Secondary text (10:1)
-  --q-text-disabled: #707090;         // Disabled text (5.5:1)
+  --q-text-primary: #e0e0ff; // Main text (18:1)
+  --q-text-secondary: #a8a8d0; // Secondary text (10:1)
+  --q-text-disabled: #707090; // Disabled text (5.5:1)
 
-  // Surface States
-  --q-surface-hover: #1a1a2a;         // Subtle hover
-  --q-surface-active: #252535;        // Active state
+  --q-surface-hover: #1a1a2a; // Subtle hover
+  --q-surface-active: #252535; // Active state
 
-  // Shadows (minimal - already very dark)
   --q-shadow-1: 0 2px 4px rgba(255, 255, 255, 0.02);
   --q-shadow-2: 0 4px 8px rgba(255, 255, 255, 0.05);
   --q-shadow-3: 0 8px 16px rgba(255, 255, 255, 0.08);
 
-  // Accent Colors (bright like stars/neon for visibility)
-  --q-primary-color: #00ccff;         // Bright cyan (like stars)
-  --q-secondary-color: #ffdd00;       // Bright yellow
-  --q-accent-color: #ff55ff;          // Bright magenta
-}
+  --q-primary-color: #00ccff; // Bright cyan (like stars)
+  --q-secondary-color: #ffdd00; // Bright yellow
+  --q-accent-color: #ff55ff; // Bright magenta
 
+  /* --------------------------------------------------------------------
+     NEW: Map semantic tokens for theme-midnight.
+     Repeated mapping for clarity and explicitness.
+     -------------------------------------------------------------------- */
+  --q-color-bg: var(--q-bg-color); // NEW
+  --q-color-surface: var(--q-surface-color); // NEW
+  --q-color-text-1: var(--q-text-primary); // NEW
+  --q-color-text-2: var(--q-text-secondary); // NEW
+  --q-color-text-disabled: var(--q-text-disabled); // NEW
+  --q-color-border: var(--q-border-color); // NEW
+  --q-color-primary: var(--q-primary-color); // NEW
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW
+  --q-color-focus-ring: rgba(0,204,255,0.18); // NEW
+
+  // NEW: SVG tokens
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW
+  --q-svg-stroke-muted: rgba(224,224,255,0.12); // NEW
+}
 
 // ============================================
 // FOREST - Deep shade / Dense forest shadow
@@ -140,33 +316,49 @@
 // Scenario: User in deep shadows, dense forest, or heavily shaded area
 // Design: Green-tinted dark with high contrast, natural feel
 .theme-forest {
-  // Background & Surface
-  --q-bg-color: #051a05;              // Very dark green
-  --q-surface-color: #0f3a0f;         // Dark forest green
-  --q-text-color: #c0f0c0;            // Softer light green (readable!)
-  --q-border-color: #1a4a1a;          // Medium-dark green
+  // (original values preserved)
+  --q-bg-color: #051a05; // Very dark green
+  --q-surface-color: #0f3a0f; // Dark forest green
+  --q-text-color: #c0f0c0; // Softer light green (readable!)
+  --q-border-color: #1a4a1a; // Medium-dark green
 
-  // Text Levels
-  --q-text-primary: #c0f0c0;          // Main text
-  --q-text-secondary: #80d080;        // Secondary text
-  --q-text-disabled: #609060;         // Disabled text
+  --q-text-primary: #c0f0c0; // Main text
+  --q-text-secondary: #80d080; // Secondary text
+  --q-text-disabled: #609060; // Disabled text
 
-  // Surface States
   --q-surface-hover: #1a4a1a;
   --q-surface-active: #245024;
 
-  // Shadows
   --q-shadow-1: 0 2px 4px rgba(0, 30, 0, 0.15);
   --q-shadow-2: 0 4px 8px rgba(0, 30, 0, 0.2);
   --q-shadow-3: 0 8px 16px rgba(0, 30, 0, 0.25);
 
-  // Accent Colors (use earthy, readable colors instead of neon)
-  --q-primary-color: #66dd66;         // Soft bright green (readable)
-  --q-secondary-color: #ffcc00;       // Muted gold (not bright yellow)
-  --q-accent-color: #66ddaa;          // Soft cyan-green
+  --q-primary-color: #66dd66; // Soft bright green (readable)
+  --q-secondary-color: #ffcc00; // Muted gold (not bright yellow)
+  --q-accent-color: #66ddaa; // Soft cyan-green
+
+  /* --------------------------------------------------------------------
+     NEW: Map semantic tokens for theme-forest.
+     Again repeated mapping for clarity and simple overrides.
+     -------------------------------------------------------------------- */
+  --q-color-bg: var(--q-bg-color); // NEW
+  --q-color-surface: var(--q-surface-color); // NEW
+  --q-color-text-1: var(--q-text-primary); // NEW
+  --q-color-text-2: var(--q-text-secondary); // NEW
+  --q-color-text-disabled: var(--q-text-disabled); // NEW
+  --q-color-border: var(--q-border-color); // NEW
+  --q-color-primary: var(--q-primary-color); // NEW
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW
+  --q-color-focus-ring: rgba(102,221,102,0.22); // NEW
+
+  // NEW: SVG tokens tuned for forest (so SVGs read well in green)
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW
+  --q-svg-stroke-muted: rgba(0,60,0,0.18); // NEW
 }
-
-
 
 // ============================================
 // ENERGY - High contrast / Extreme conditions
@@ -174,55 +366,144 @@
 // Scenario: Harsh artificial light, fog, haze, or high-stress environments
 // Design: Cool high-contrast with cyan/magenta neon feel for maximum visibility
 .theme-energy {
-  // Background & Surface
-  --q-bg-color: #000d1a;              // Deep blue-black (cyberpunk feel)
-  --q-surface-color: #001a33;         // Dark blue (16:1 contrast)
-  --q-text-color: #00e6ff;            // Bright cyan (16:1 contrast, neon-like)
-  --q-border-color: #003366;          // Medium blue border
+  // (original values preserved)
+  --q-bg-color: #000d1a; // Deep blue-black (cyberpunk feel)
+  --q-surface-color: #001a33; // Dark blue (16:1 contrast)
+  --q-text-color: #00e6ff; // Bright cyan (16:1 contrast, neon-like)
+  --q-border-color: #003366; // Medium blue border
 
-  // Text Levels
-  --q-text-primary: #00e6ff;          // Main text (16:1, bright)
-  --q-text-secondary: #00b3cc;        // Secondary text (10:1)
-  --q-text-disabled: #0088aa;         // Disabled text (6:1)
+  --q-text-primary: #00e6ff; // Main text (16:1, bright)
+  --q-text-secondary: #00b3cc; // Secondary text (10:1)
+  --q-text-disabled: #0088aa; // Disabled text (6:1)
 
-  // Surface States
-  --q-surface-hover: #002244;         // Subtle hover
-  --q-surface-active: #003366;        // Active state
+  --q-surface-hover: #002244; // Subtle hover
+  --q-surface-active: #003366; // Active state
 
-  // Shadows (blue-tinted)
   --q-shadow-1: 0 2px 4px rgba(0, 150, 200, 0.1);
   --q-shadow-2: 0 4px 8px rgba(0, 150, 200, 0.15);
   --q-shadow-3: 0 8px 16px rgba(0, 150, 200, 0.2);
 
-  // Accent Colors (neon-like, high contrast)
-  --q-primary-color: #00ffff;         // Bright cyan (maximum visibility)
-  --q-secondary-color: #ff0099;       // Bright magenta (neon contrast)
-  --q-accent-color: #00ffaa;          // Bright teal
+  --q-primary-color: #00ffff; // Bright cyan (maximum visibility)
+  --q-secondary-color: #ff0099; // Bright magenta (neon contrast)
+  --q-accent-color: #00ffaa; // Bright teal
+
+  /* --------------------------------------------------------------------
+     NEW: Map semantic tokens for theme-energy.
+     Repeated mapping ensures you can use --q-color-* across UI code.
+     -------------------------------------------------------------------- */
+  --q-color-bg: var(--q-bg-color); // NEW
+  --q-color-surface: var(--q-surface-color); // NEW
+  --q-color-text-1: var(--q-text-primary); // NEW
+  --q-color-text-2: var(--q-text-secondary); // NEW
+  --q-color-text-disabled: var(--q-text-disabled); // NEW
+  --q-color-border: var(--q-border-color); // NEW
+  --q-color-primary: var(--q-primary-color); // NEW
+  --q-color-secondary: var(--q-secondary-color); // NEW
+  --q-color-accent: var(--q-accent-color); // NEW
+  --q-color-link: var(--q-primary-color); // NEW
+  --q-color-focus-ring: rgba(0,255,255,0.18); // NEW
+
+  // NEW: SVG tokens (neon-friendly)
+  --q-svg-fill-primary: var(--q-color-text-1); // NEW
+  --q-svg-fill-secondary: var(--q-color-text-2); // NEW
+  --q-svg-stroke-primary: var(--q-color-text-1); // NEW
+  --q-svg-stroke-muted: rgba(0,150,200,0.14); // NEW
 }
 
+// -------------------------------------------------------------
+// 3) GLOBAL UTILITIES: Useful defaults & helper rules
+//    These use the semantic tokens so they respond to theme changes.
+// -------------------------------------------------------------
 
-// ============================================
-// SMOOTH TRANSITIONS
-// ============================================
-// Apply smooth color transitions when theme changes
+/* Smooth transitions — preserved but split into tokens above.
+   Keep this for quick fallback; tokens above provide finer control. */
 * {
   transition:
-    background-color 0.4s ease,
-    color 0.4s ease,
-    border-color 0.4s ease,
-    box-shadow 0.4s ease;
+    background-color var(--q-transition-duration-medium) var(--q-transition-ease),
+    color var(--q-transition-duration-medium) var(--q-transition-ease),
+    border-color var(--q-transition-duration-medium) var(--q-transition-ease),
+    box-shadow var(--q-transition-duration-medium) var(--q-transition-ease);
 }
 
+/* Example semantic usage (commented to show pattern):
+   body { background: var(--q-color-bg); color: var(--q-color-text-1); }
+   .card { background: var(--q-color-surface); box-shadow: var(--q-shadow-sm); }
+   svg { fill: var(--q-svg-fill-primary); stroke: var(--q-svg-stroke-primary); }
+   Buttons/links should use semantic tokens: --q-color-link, --q-color-focus-ring
+*/
 
-// ============================================
-// ACCESSIBILITY NOTES
-// ============================================
-// Light:     #1a1a1a on #ffffff = 21:1 ✅ WCAG AAA
-// Dark:      #f0f0f0 on #0a0a0a = 16:1 ✅ WCAG AAA
-// Sunrise:   #000000 on #ffffff = 21:1 ✅ WCAG AAA
-// Midnight:  #e0e0ff on #050505 = 18:1 ✅ WCAG AAA
-// Forest:    #d0f0d0 on #051a05 = 14:1 ✅ WCAG AAA
-// Energy:    #00e6ff on #000d1a = 16:1 ✅ WCAG AAA
-//
-// All themes meet WCAG AAA (7:1) for normal text
-// All themes meet WCAG AAA (4.5:1) for secondary text
+// -------------------------------------------------------------
+// 4) ACCESSIBILITY NOTES (kept & repeated for reference)
+//    Reiterated so anyone reading the file sees the guarantees.
+// -------------------------------------------------------------
+/*
+
+ACCESSIBILITY NOTES (repeated):
+Light:     #1a1a1a on #ffffff = 21:1 ✅ WCAG AAA
+Dark:      #f0f0f0 on #0a0a0a = 16:1 ✅ WCAG AAA
+Sunrise:   #000000 on #ffffff = 21:1 ✅ WCAG AAA
+Midnight:  #e0e0ff on #050505 = 18:1 ✅ WCAG AAA
+Forest:    #d0f0d0 on #051a05 = 14:1 ✅ WCAG AAA
+Energy:    #00e6ff on #000d1a = 16:1 ✅ WCAG AAA
+
+All themes meet WCAG AAA (7:1) for normal text
+All themes meet WCAG AAA (4.5:1) for secondary text
+
+*/
+
+// -------------------------------------------------------------
+// 5) UTILITY SNIPPETS (copy-paste ready) — optional helpers
+//    Keep as comments to avoid forcing any particular style
+// -------------------------------------------------------------
+
+/*
+
+// Body / page baseline
+body {
+  background-color: var(--q-color-bg);
+  color: var(--q-color-text-1);
+  font-family: var(--q-font-family-base);
+  font-size: var(--q-font-size-body);
+  line-height: var(--q-line-height-body);
+}
+
+// Links (text-heavy site)
+a {
+  color: var(--q-color-link);
+  text-decoration: underline;
+  transition: color var(--q-transition-duration-fast) var(--q-transition-ease);
+}
+a:hover {
+  color: var(--q-link-hover-color);
+}
+
+// Focus ring (always visible for keyboard users)
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--q-color-focus-ring);
+  border-radius: var(--q-radius-sm);
+}
+
+// SVG defaults (for the text + svg site)
+svg {
+  fill: var(--q-svg-fill-primary);
+  stroke: var(--q-svg-stroke-primary);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke; // keep strokes consistent at all sizes
+}
+
+// Cards (text + thin surfaces)
+.card {
+  background: var(--q-color-surface);
+  color: var(--q-color-text-1);
+  border: var(--q-border-width) var(--q-border-style) var(--q-color-border);
+  border-radius: var(--q-radius-md);
+  box-shadow: var(--q-shadow-sm);
+  padding: var(--q-space-md);
+}
+
+*/
+
+// -------------------------------------------------------------
+// End of file
+// -------------------------------------------------------------

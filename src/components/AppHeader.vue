@@ -84,14 +84,5 @@ async function goHome(): Promise<void> {
 </script>
 
 <style scoped>
-.q-menu.bg-dark {
-  background: #1e1e1e !important;
-  color: white !important;
-}
-.q-btn {
-  transition: background 0.2s ease;
-}
-.q-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
+
 </style>

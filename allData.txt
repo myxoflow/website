@@ -1,0 +1,1543 @@
+{
+  "caseStudies": [
+    {
+      "id": "textilecorp-manufacturing",
+      "client": "TextileCorp Manufacturing",
+      "industry": "Textile Manufacturing",
+      "industryKey": "textile",
+      "challenge": "Manual production tracking led to 30% waste, inconsistent quality control across 5 facilities, and inability to predict maintenance needs. Operations were reactive rather than proactive.",
+      "solution": "Implemented StichFlow with real-time monitoring, automated quality control, predictive maintenance, and unified dashboard across all facilities. Integrated with existing ERP systems.",
+      "results": [
+        "40% increase in overall production efficiency",
+        "25% reduction in material waste and costs",
+        "60% improvement in quality consistency scores",
+        "50% reduction in unplanned equipment downtime",
+        "ROI achieved within 3 months of implementation"
+      ],
+      "quote": "StichFlow revolutionized our operations. We achieved ROI within 3 months and continue to see improvements every quarter. The direct developer support has been invaluable.",
+      "metrics": [
+        {
+          "label": "Production Efficiency",
+          "before": "65%",
+          "after": "91%",
+          "improvement": "+40%",
+          "unit": "efficiency score"
+        },
+        {
+          "label": "Material Waste",
+          "before": "30%",
+          "after": "7%",
+          "improvement": "-77%",
+          "unit": "waste percentage"
+        },
+        {
+          "label": "Quality Consistency",
+          "before": "72%",
+          "after": "95%",
+          "improvement": "+32%",
+          "unit": "quality score"
+        },
+        {
+          "label": "Equipment Downtime",
+          "before": "120 hrs/month",
+          "after": "24 hrs/month",
+          "improvement": "-80%",
+          "unit": "hours per month"
+        }
+      ],
+      "image": "/images/case-studies/textilecorp.jpg",
+      "duration": "3 months implementation",
+      "featured": true,
+      "tags": ["manufacturing", "automation", "roi"],
+      "publishedDate": "2024-03-15"
+    },
+    {
+      "id": "moderndating-platform",
+      "client": "ModernDating Platform",
+      "industry": "Dating & Social Platforms",
+      "industryKey": "dating",
+      "challenge": "Low match success rate (25%), declining user engagement, high churn rates (65%), and poor premium conversion rates. Existing algorithms were not effective.",
+      "solution": "Deployed MyxoDate with advanced ML matching algorithms, user behavior analytics, engagement optimization tools, and A/B testing framework for continuous improvement.",
+      "results": [
+        "73% match success rate (192% improvement)",
+        "68% user retention rate (94% improvement)",
+        "85% increase in daily active users",
+        "125% increase in premium conversions",
+        "Revenue doubled within 6 months"
+      ],
+      "quote": "MyxoDate transformed our platform completely. Users are happier, engagement is through the roof, and our revenue has doubled. The AI matching is incredibly sophisticated.",
+      "metrics": [
+        {
+          "label": "Match Success Rate",
+          "before": "25%",
+          "after": "73%",
+          "improvement": "+192%",
+          "unit": "success rate"
+        },
+        {
+          "label": "User Retention",
+          "before": "35%",
+          "after": "68%",
+          "improvement": "+94%",
+          "unit": "retention rate"
+        },
+        {
+          "label": "Premium Conversion",
+          "before": "8%",
+          "after": "18%",
+          "improvement": "+125%",
+          "unit": "conversion rate"
+        },
+        {
+          "label": "Daily Active Users",
+          "before": "12k",
+          "after": "22k",
+          "improvement": "+83%",
+          "unit": "active users"
+        }
+      ],
+      "image": "/images/case-studies/moderndating.jpg",
+      "duration": "2 months implementation",
+      "featured": true,
+      "tags": ["dating", "ai", "engagement"],
+      "publishedDate": "2024-02-15"
+    },
+    {
+      "id": "craftmasters-marketplace",
+      "client": "CraftMasters Marketplace",
+      "industry": "E-commerce & Marketplaces",
+      "industryKey": "marketplace",
+      "challenge": "Fragmented vendor management, inefficient order fulfillment (5.2 days average), low customer satisfaction (3.2/5), and high support ticket volume.",
+      "solution": "Implemented MyxoCraft with unified vendor dashboard, automated order routing, quality assurance workflows, customer experience optimization, and integrated support system.",
+      "results": [
+        "54% faster order fulfillment (2.4 days average)",
+        "45% increase in vendor satisfaction scores",
+        "44% improvement in customer ratings (4.6/5)",
+        "60% reduction in support tickets",
+        "30% increase in marketplace revenue"
+      ],
+      "quote": "The unified platform approach made managing our marketplace incredibly efficient. Both vendors and customers love the streamlined experience.",
+      "metrics": [
+        {
+          "label": "Order Fulfillment Time",
+          "before": "5.2 days",
+          "after": "2.4 days",
+          "improvement": "-54%",
+          "unit": "days average"
+        },
+        {
+          "label": "Customer Satisfaction",
+          "before": "3.2/5",
+          "after": "4.6/5",
+          "improvement": "+44%",
+          "unit": "rating score"
+        },
+        {
+          "label": "Vendor Retention",
+          "before": "68%",
+          "after": "89%",
+          "improvement": "+31%",
+          "unit": "retention rate"
+        },
+        {
+          "label": "Support Tickets",
+          "before": "450/month",
+          "after": "180/month",
+          "improvement": "-60%",
+          "unit": "tickets per month"
+        }
+      ],
+      "image": "/images/case-studies/craftmasters.jpg",
+      "duration": "6 weeks implementation",
+      "featured": true,
+      "tags": ["marketplace", "automation", "satisfaction"],
+      "publishedDate": "2024-01-20"
+    }
+  ]
+}
+{
+  "company": {
+    "name": "MyxoFlow",
+    "tagline": "Decentralized Intelligence, Real Results",
+    "description": "Inspired by nature's most efficient problem-solver, the slime mold, MyxoFlow operates as a decentralized, adaptive, profit-driven network. We optimize workflows, deployment, and resources — without unnecessary corporate layers.",
+    "email": "info@myxoflow.com",
+    "phone": "(+39) 3758327534",
+    "address": {
+      "street": "Innovation Hub",
+      "city": "Naples",
+      "state": "Campania",
+      "zip": "80100",
+      "country": "Italy"
+    },
+    "social": [
+      {
+        "platform": "github",
+        "url": "https://github.com/myxoflow",
+        "handle": "myxoflow"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/myxoflow",
+        "handle": "MyxoFlow"
+      }
+    ]
+  },
+  "hero": {
+    "badge": {
+      "icon": "🧬",
+      "text": "Nature-Inspired Intelligence"
+    },
+    "title": "Decentralized Intelligence, Real Results",
+    "subtitle": "Like a slime mold finding the fastest path, we optimize workflows, deployment, and resources across Europe — without corporate layers, hidden markups, or price-stupid assumptions.",
+    "highlights": [
+      "Decentralized Network",
+      "Fair Freelancer Pay",
+      "Global Supply Chain",
+      "30-Day Deployments"
+    ],
+    "cta": {
+      "primary": "Explore Solutions",
+      "secondary": "Become a Partner"
+    }
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "subtitle": "We challenge traditional business models with transparency and efficiency",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralized & Adaptive",
+        "description": "No corporate hierarchy. We operate as a single adaptive system inspired by slime mold intelligence — finding optimal paths in real-time."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair & Transparent",
+        "description": "Companies overcharge assuming users are 'price stupid.' We flip the model: transparency, efficiency, and fair compensation for everyone."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast & Accountable",
+        "description": "From idea to execution in 30 days. No bureaucracy, no delays — just results delivered by a resilient, accountable network."
+      }
+    ]
+  },
+  "team": {
+    "title": "The Core System",
+    "subtitle": "Two nodes, one adaptive intelligence",
+    "members": [
+      {
+        "name": "Bobby Seelam",
+        "role": "Founder & Product Lead",
+        "avatar": "/images/team/bobby.jpg",
+        "responsibilities": [
+          "Business strategy & ideation",
+          "Product design & content",
+          "Client relations & deployment oversight",
+          "Freelancer competition management",
+          "End-to-end execution"
+        ],
+        "bio": "Brings complete capability from idea to execution and client acquisition."
+      },
+      {
+        "name": "Saivinay Manda",
+        "role": "Full-Stack & AI Lead",
+        "avatar": "/images/team/saivinay.jpg",
+        "responsibilities": [
+          "Frontend & backend development",
+          "AI & automation systems",
+          "Neo4j dashboard architecture",
+          "Scalable software engineering",
+          "Reliable deployment infrastructure"
+        ],
+        "bio": "Builds intelligent systems that ensure real-time optimization and scalability."
+      }
+    ]
+  },
+  "network": {
+    "title": "Global Network, European Excellence",
+    "deployment": {
+      "title": "Deployment & Backfill",
+      "scope": "Europe-Wide",
+      "description": "All installation, backfill, and on-site services are delivered across Europe by vetted freelancers and our core team."
+    },
+    "supply": {
+      "title": "Suppliers & Manufacturing",
+      "scope": "Global Network",
+      "description": "Our supplier and factory network spans the globe, optimized for cost efficiency without unnecessary quality checks. Real-time optimization via Neo4j dashboards."
+    }
+  },
+  "operationalModel": {
+    "title": "How We Work",
+    "subtitle": "A simple, transparent, competitive process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Client Needs",
+        "description": "Define requirements for backfill, software deployment, or custom products. We clarify scope and timeline.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Competition Release",
+        "description": "Europe-based freelancers or partner companies bid on tasks. Fair competition ensures quality and efficiency.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Execution & Delivery",
+        "description": "Winners complete backfill coverage, deployments, or production. If no freelancer is available, our team handles it.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Payment & Results",
+        "description": "Freelancers receive guaranteed minimum pay (€150/day, fully insured). MyxoFlow earns via service fees and micro-margins.",
+        "icon": "payments"
+      }
+    ]
+  },
+  "partnerOpportunities": {
+    "title": "Partner, Don't Apply",
+    "subtitle": "We don't hire employees — we create equity partnerships",
+    "benefits": [
+      {
+        "icon": "handshake",
+        "title": "50% Equity Share",
+        "description": "Build solutions on our platform and earn 50% equity. Your innovation, our infrastructure."
+      },
+      {
+        "icon": "trending_up",
+        "title": "Market Opportunity",
+        "description": "Spot markets or workflows that benefit from decentralization. We help you optimize and scale."
+      },
+      {
+        "icon": "groups",
+        "title": "Autonomous Collaboration",
+        "description": "Work independently with full platform support. No corporate structure, just partnership."
+      }
+    ],
+    "ideal": "Ideal partners: Companies and professionals who see inefficiencies and want to solve them with decentralized intelligence."
+  },
+  "revenue": {
+    "title": "Revenue Model",
+    "streams": [
+      {
+        "name": "Freelancer Competitions",
+        "description": "Backfill gigs, installations, custom deployment tasks"
+      },
+      {
+        "name": "Service Fees",
+        "description": "Software deployments, cloud support, installation services"
+      },
+      {
+        "name": "Micro-Margins",
+        "description": "Merchandise, garments, custom product production"
+      },
+      {
+        "name": "Cloud/IaaS Subscriptions",
+        "description": "Recurring support for deployed systems and dashboards"
+      },
+      {
+        "name": "Partner Equity",
+        "description": "50% revenue share from partner-created solutions"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Forward-Looking Vision",
+    "goals": [
+      "Expand products with client-driven innovations",
+      "Launch articles section showcasing market insights and use-cases",
+      "Grow partner network with equity-sharing opportunities",
+      "Continuously optimize global supply and European deployment via Neo4j-powered dashboards"
+    ]
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Operations?",
+    "subtitle": "Join the decentralized network. No corporate layers, no hidden markups — just real results.",
+    "primary": "Get Started",
+    "secondary": "Become a Partner",
+    "guarantee": "Freelancers guaranteed €150/day minimum, fully insured. 30-day deployment guarantee."
+  }
+}
+{
+  "categories": [
+    {
+      "title": "General Questions",
+      "questions": [
+        {
+          "question": "What is MyxoFlow and how does it work?",
+          "answer": "MyxoFlow is a Dashboard technology platform that enables businesses to rapidly expand and optimize operations across different market verticals. Our platform provides consistent interfaces and shared optimization benefits.",
+          "tags": ["general", "platform"]
+        },
+        {
+          "question": "How does the dashboard approach benefit my business?",
+          "answer": "Our platform provides consistent interface and shared optimization benefits across all market solutions. Improvements in one area automatically benefit all your operations, reducing training time and maximizing efficiency.",
+          "tags": ["benefits", "dashboard"]
+        },
+        {
+          "question": "What markets and industries do you currently support?",
+          "answer": "We currently support textiles and fashion, manufacturing, dating platforms, food services, crafts and handmade goods, with new verticals added regularly based on demand.",
+          "tags": ["markets", "industries"]
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "questions": [
+        {
+          "question": "How long does implementation typically take?",
+          "answer": "Most implementations are completed within 2-4 weeks, depending on your specific requirements, data migration needs, and integration complexity. Simple setups can be done in under 48 hours.",
+          "tags": ["implementation", "timeline"]
+        },
+        {
+          "question": "What kind of technical support do you provide?",
+          "answer": "We provide direct developer support with no account managers. You work directly with our technical team for rapid iteration, problem-solving, and feature requests.",
+          "tags": ["support", "developers"]
+        }
+      ]
+    },
+    {
+      "title": "Pricing & Plans",
+      "questions": [
+        {
+          "question": "How is your pricing structured?",
+          "answer": "Pricing is based on your specific market vertical, user count, and feature requirements. We offer transparent pricing with clear ROI projections and no hidden fees.",
+          "tags": ["pricing", "cost"]
+        },
+        {
+          "question": "Do you offer a free trial?",
+          "answer": "Yes, we do not offer any free trial. If you buy, you get full access to platform features, dedicated setup assistance, and direct developer support to ensure success.",
+          "tags": ["trial", "free"]
+        }
+      ]
+    }
+  ]
+}
+{
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/",
+      "external": false
+    },
+    {
+      "label": "Products",
+      "path": "/products",
+      "children": [
+        {
+          "label": "MyxoFill",
+          "path": "/products/myxofill",
+          "external": false
+        },
+        {
+          "label": "MyxoMake",
+          "path": "/products/myxomake",
+          "external": false
+        },
+        {
+          "label": "StitchFlow",
+          "path": "/products/stitchflow",
+          "external": false
+        },
+        {
+          "label": "Cheddar",
+          "path": "/products/cheddar",
+          "external": false
+        },
+        {
+          "label": "KitchenOS",
+          "path": "/products/kitchenos",
+          "external": false
+        },
+        {
+          "label": "Timid Browser",
+          "path": "/products/timid",
+          "external": false
+        },
+        {
+          "label": "Software Deployment",
+          "path": "/products/deployment",
+          "external": false
+        }
+      ]
+    },
+    {
+      "label": "How It Works",
+      "path": "/how-it-works"
+    },
+    {
+      "label": "Partners",
+      "path": "/partners"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "footer": {
+    "products": [
+      {
+        "label": "MyxoFill",
+        "path": "/products/myxofill"
+      },
+      {
+        "label": "MyxoMake",
+        "path": "/products/myxomake"
+      },
+      {
+        "label": "StitchFlow",
+        "path": "/products/stitchflow"
+      },
+      {
+        "label": "MyxoDate",
+        "path": "/products/myxodate"
+      },
+      {
+        "label": "KitchenOS",
+        "path": "/products/kitchenos"
+      },
+      {
+        "label": "Timid Browser",
+        "path": "/products/timid"
+      }
+    ],
+    "company": [
+      {
+        "label": "About Us",
+        "path": "/about"
+      },
+      {
+        "label": "How It Works",
+        "path": "/how-it-works"
+      },
+      {
+        "label": "Partners",
+        "path": "/partners"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "resources": [
+      {
+        "label": "FAQ",
+        "path": "/faq"
+      },
+      {
+        "label": "Support",
+        "path": "/contact",
+        "external": false
+      },
+      {
+        "label": "Documentation",
+        "path": "/docs",
+        "external": false
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "path": "/privacy"
+      },
+      {
+        "label": "Terms of Service",
+        "path": "/terms"
+      },
+      {
+        "label": "Cookie Policy",
+        "path": "/cookies"
+      }
+    ]
+  }
+}
+{
+  "key": "cheddar",
+  "name": "Cheddar",
+  "title": "Members-Only Dating with Dynamic Pricing",
+  "tagline": "Verified Connections. Real Results.",
+  "background": {
+    "headline": "The Dating Quality Challenge",
+    "summary": "Traditional dating apps rely on opaque algorithms and flood users with low-quality profiles, bots, and data-mining schemes. Many serious daters give up after swiping through hundreds of inactive or unserious accounts.",
+    "insight": "Cheddar flips the model: use market dynamics to maintain a balanced pool of verified users who genuinely want to connect. Pricing throttles new sign-ups to prevent overcrowding and time-wasting."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Algorithmic matching hides true availability and biases engagement metrics",
+      "Unverified profiles and bots undermine trust and safety",
+      "Oversupply on one side of the market leads to poor match rates",
+      "Data-selling business models erode user privacy",
+      "High churn as users abandon apps after low-quality experiences",
+      "Complex feature sets inflate development and hosting costs"
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Daters crave authenticity, transparency, and safety. By prioritizing verification and capacity balance, Cheddar delivers a superior experience with lower operational costs.",
+    "dataPoints": [
+      "ID and selfie verification reduces catfishing by over 70%",
+      "Dynamic pricing models are proven in ride-share and ticketing industries",
+      "Dating-app churn rates exceed 50% monthly on average",
+      "Users willing to pay for safety and quality: 60% open to subscription fees",
+      "Algorithm fatigue: 45% of users distrust recommendation engines"
+    ]
+  },
+  "solution": {
+    "headline": "Cheddar: Market-Driven Membership",
+    "description": "Cheddar uses dynamic membership pricing and strict verification to keep its community serious and balanced. No hidden algorithms—just a transparent pool of verified singles who value real connections.",
+    "coreFeatures": [
+      {
+        "title": "Dynamic Capacity Management",
+        "text": "Membership fees adjust based on real-time demand to maintain gender and engagement balance."
+      },
+      {
+        "title": "ID & Liveness Verification",
+        "text": "Government ID check plus in-app camera-only liveness capture ensures every profile is authentic."
+      },
+      {
+        "title": "Transparent Discovery Tools",
+        "text": "Age, location, and preference filters; proximity sorting; recent activity indicators—all user-driven."
+      },
+      {
+        "title": "Referral-Driven Growth",
+        "text": "Members earn credits by referring friends, fueling sustainable community expansion."
+      },
+      {
+        "title": "Results-Oriented Design",
+        "text": "No swipes, no hidden ranking—members see the full pool and connect by choice, not algorithm."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditional Apps vs Cheddar",
+    "items": [
+      {
+        "aspect": "Match Discovery",
+        "traditional": "Algorithmic recommendations based on opaque scoring",
+        "cheddar": "Full pool visibility with user-controlled filters"
+      },
+      {
+        "aspect": "Verification",
+        "traditional": "Optional or no verification; heavy bot presence",
+        "cheddar": "Mandatory ID + selfie liveness for all members"
+      },
+      {
+        "aspect": "Supply Control",
+        "traditional": "Unlimited signups leading to overcrowded pools",
+        "cheddar": "Dynamic pricing throttles sign-ups to maintain balance"
+      },
+      {
+        "aspect": "Privacy",
+        "traditional": "Data-selling and third-party tracking",
+        "cheddar": "No data selling; minimal collection; clear retention policies"
+      },
+      {
+        "aspect": "Cost Structure",
+        "traditional": "Free with premium tiers or ad-funded",
+        "cheddar": "Transparent subscription with market-driven rate"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Empowering Intentional Daters",
+    "principles": [
+      {
+        "title": "Transparency Over Tactics",
+        "description": "Open pricing and discovery tools build trust and user control."
+      },
+      {
+        "title": "Verification Over Guesswork",
+        "description": "Rigorous identity checks eliminate bots and fake profiles."
+      },
+      {
+        "title": "Sustainability Over Scale",
+        "description": "Balanced capacity ensures meaningful interactions, not endless swiping."
+      },
+      {
+        "title": "Privacy Over Profit",
+        "description": "No data-selling; user data is protected and purged on schedule."
+      }
+    ],
+    "summary": "Cheddar is reshaping online dating by focusing on market dynamics, safety, and user empowerment rather than engagement algorithms."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "70% reduction in bots and fake profiles after verification",
+      "50%+ lower churn due to balanced user pools",
+      "30% faster connections as quality increases",
+      "High willingness to pay: 60% positive trial conversion",
+      "Operational costs cut by 50% versus algorithmic platforms"
+    ]
+  },
+  "useCases": {
+    "title": "Ideal for Serious Daters",
+    "scenarios": [
+      {
+        "type": "Professionals Seeking Efficiency",
+        "description": "Busy individuals who want a verified pool and transparent tools to quickly find compatible partners."
+      },
+      {
+        "type": "Privacy-Conscious Users",
+        "description": "Those who refuse to trade personal data for matching and demand strict retention policies."
+      },
+      {
+        "type": "Disillusioned Swipers",
+        "description": "Users tired of endless swiping and algorithm fatigue, seeking a streamlined experience."
+      },
+      {
+        "type": "Community Builders",
+        "description": "Early adopters who refer friends and help maintain a high-quality, engaged community."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why Cheddar Works",
+    "items": [
+      {
+        "benefit": "Balanced Pools",
+        "description": "Dynamic pricing ensures neither side is overwhelmed, improving match rates."
+      },
+      {
+        "benefit": "Genuine Profiles",
+        "description": "Mandatory verification builds trust and safety across the community."
+      },
+      {
+        "benefit": "User Control",
+        "description": "Transparent tools let members drive their own discovery."
+      },
+      {
+        "benefit": "Privacy Assurance",
+        "description": "No data selling and strict retention keep personal information safe."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Cheddar’s Competitive Edge",
+    "points": [
+      {
+        "title": "Market-Based Pricing",
+        "description": "Real-time fee adjustments maintain optimal engagement ratios."
+      },
+      {
+        "title": "Verification Focus",
+        "description": "All members pass ID and liveness checks—industry best practice."
+      },
+      {
+        "title": "Lean Architecture",
+        "description": "No AI/ML servers means lower hosting costs and faster development cycles."
+      },
+      {
+        "title": "Referral Economics",
+        "description": "Members drive growth through referrals, reducing CAC."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "4 Steps to Membership",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Apply",
+        "description": "Submit basic profile and choose your membership option."
+      },
+      {
+        "number": "02",
+        "title": "Verify",
+        "description": "Complete ID + camera-only liveness capture for instant approval."
+      },
+      {
+        "number": "03",
+        "title": "Join Pool",
+        "description": "Gain access to the active member roster; engage via transparent discovery."
+      },
+      {
+        "number": "04",
+        "title": "Connect & Exit",
+        "description": "Message directly, form connections, and exit with referral credits for friends."
+      }
+    ]
+  },
+  "whyNow": [
+    "Users demand authenticity amid algorithm fatigue",
+    "Verification tech is mature and cost-effective",
+    "Subscription models have widespread acceptance",
+    "Privacy regulations favor minimal data collection",
+    "Referral-driven growth reduces acquisition costs"
+  ],
+  "conclusion": "Cheddar redefines online dating by blending market-driven membership, rigorous verification, and transparent discovery. It offers a high-quality, privacy-first platform for intentional connections.",
+  "sources": []
+}
+{
+  "key": "kitchenos",
+  "name": "KitchenOS",
+  "title": "Smart Kitchen Operating System for Restaurants",
+  "tagline": "One unified platform. Every order channel. Total kitchen control.",
+  "background": {
+    "headline": "The Modern Restaurant Challenge",
+    "summary": "Modern restaurants face soaring labor costs (18.3% higher post-pandemic) and food costs (21.8% higher in the U.S.). Meanwhile, customers demand fast, accurate service: over 70% prefer self-ordering technology. The explosion of delivery and ghost kitchens adds complexity—the global virtual kitchen market grew from $65.3B (2023) to a projected $155.5B by 2030 (13% CAGR).",
+    "insight": "To thrive, restaurants must cut waste, reduce staff workload, and integrate multiple order channels—all with minimal overhead. KitchenOS solves this with unified automation and AI-driven intelligence."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Labor is expensive and scarce—turnover costs exceed 200% of salary",
+      "Restaurants juggle dine-in, takeout, delivery apps manually—error-prone",
+      "Inventory management is manual—leading to waste and stockouts",
+      "No unified view of sales, staffing, and supply needs",
+      "Phone ordering ties up staff; self-ordering tech adoption is uneven",
+      "Multi-site chains struggle with consistency and compliance"
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Restaurants need automation to survive thin margins. Labor and costs are up, delivery is exploding, and customers want digital convenience. KitchenOS addresses all three with proven ROI.",
+    "dataPoints": [
+      "70%+ of diners prefer self-ordering over human servers",
+      "Virtual kitchen market: $65.3B (2023) → $155.5B (2030), 13% CAGR",
+      "QSR chains represent 38% of restaurant tech spending",
+      "Automating inventory can yield 10× ROI ($100/mo subscription = $1,000 savings)",
+      "Labor turnover costs 200%+ of worker salary—automation improves retention"
+    ]
+  },
+  "solution": {
+    "headline": "KitchenOS: Your Restaurant Command Center",
+    "description": "KitchenOS connects to your existing POS, kitchen displays, scheduling tools, and delivery platforms. It overlays AI-driven intelligence to create a unified command center for any restaurant kitchen.",
+    "coreFeatures": [
+      {
+        "title": "Omnichannel Order Management",
+        "text": "All orders—dine-in, mobile apps, web, third-party delivery—flow into one cloud-based dashboard. Staff view and manage orders from every source in real time."
+      },
+      {
+        "title": "Real-Time Kitchen Display (KDS)",
+        "text": "Orders instantly route to digital kitchen displays. Staff see prep timers, item details, and priority rules—eliminating paper tickets and manual coordination."
+      },
+      {
+        "title": "Automated Inventory & Procurement",
+        "text": "Track ingredient stock and forecast needs. When levels run low, KitchenOS auto-generates orders or supplier alerts—slashing food waste and stockouts."
+      },
+      {
+        "title": "AI-Driven Forecasting & Analytics",
+        "text": "Dynamic dashboards display sales trends, peak hours, and profitability. Machine learning suggests menu mix changes, demand forecasting, and staffing adjustments."
+      },
+      {
+        "title": "Staff Scheduling & Payroll",
+        "text": "Auto-generate shift plans from past POS activity. Push payroll hours directly from the system—reducing overtime and freeing managers to focus on service."
+      },
+      {
+        "title": "Self-Service Ordering & Voice Bots",
+        "text": "Connect to tablet kiosks, mobile apps, or voice assistants. Orders feed directly into KitchenOS—improving accuracy and collecting valuable order data."
+      },
+      {
+        "title": "Customer Engagement & Loyalty",
+        "text": "Track guest preferences, launch targeted promotions, and integrate digital loyalty programs to boost repeat business and higher check averages."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditional Operations vs KitchenOS",
+    "items": [
+      {
+        "aspect": "Order Management",
+        "traditional": "Manual entry across multiple systems; high error rate",
+        "myxofill": "Unified cloud dashboard for all channels; automated routing"
+      },
+      {
+        "aspect": "Kitchen Workflow",
+        "traditional": "Paper tickets, manual coordination, unclear priorities",
+        "myxofill": "Real-time digital KDS with smart prioritization and timers"
+      },
+      {
+        "aspect": "Inventory Tracking",
+        "traditional": "Manual counts, spreadsheets, frequent stockouts",
+        "myxofill": "Automated real-time tracking with AI forecasting and auto-reorder"
+      },
+      {
+        "aspect": "Staff Scheduling",
+        "traditional": "Manual schedule creation, reactive staffing",
+        "myxofill": "AI-generated schedules based on sales data; integrated payroll"
+      },
+      {
+        "aspect": "Analytics",
+        "traditional": "End-of-day manual reports; no predictive insights",
+        "myxofill": "Live dashboards with AI-powered forecasting and recommendations"
+      },
+      {
+        "aspect": "Customer Ordering",
+        "traditional": "Phone orders tie up staff; manual entry errors",
+        "myxofill": "Self-service kiosks, mobile apps, voice bots—direct to kitchen"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Empowering Kitchen Teams",
+    "principles": [
+      {
+        "title": "Automation over Manual Labor",
+        "description": "Free staff from repetitive tasks so they can focus on cooking and service—not paperwork and phone calls."
+      },
+      {
+        "title": "Intelligence over Guesswork",
+        "description": "AI-driven insights help owners optimize menus, staffing, and inventory in real time—not weeks later."
+      },
+      {
+        "title": "Integration over Fragmentation",
+        "description": "One platform connects all systems—POS, delivery apps, suppliers, staff—eliminating data silos and errors."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "KitchenOS learns from every shift, suggesting optimizations that compound over time for sustained profitability."
+      }
+    ],
+    "summary": "KitchenOS isn't just software—it's a partner that makes your kitchen smarter, leaner, and more profitable every day."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Cut labor costs by automating routine tasks—save at least one server per shift",
+      "Reduce food waste by 5-10% through precise demand forecasting",
+      "Increase throughput with faster, more accurate order handling",
+      "Boost staff productivity and retention by removing tedious tasks",
+      "Achieve 8%+ profit increase through operational optimization",
+      "ROI within months: $100/mo tech fee can return $1,000/mo in savings"
+    ]
+  },
+  "useCases": {
+    "title": "Perfect For Every Kitchen Type",
+    "scenarios": [
+      {
+        "type": "Fine-Dining & Full-Service Restaurants",
+        "description": "Coordinate complex multi-course service with minimal mistakes. Front and back-of-house sync seamlessly—tableside orders push to kitchen in real time, inventory auto-updates, and managers view all locations' performance."
+      },
+      {
+        "type": "Ghost & Cloud Kitchens",
+        "description": "Manage multiple virtual brands from one kitchen. KitchenOS treats each brand as a separate menu within the same platform, routing orders from all delivery apps with real-time tracking."
+      },
+      {
+        "type": "Tech-Savvy Chains & QSRs",
+        "description": "Standardize operations across outlets. Cloud-based system enforces uniform recipes, pricing, and compliance. Open APIs integrate with existing POS or loyalty systems for a unified tech stack."
+      },
+      {
+        "type": "Independent & Casual Eateries",
+        "description": "Affordable automation for small restaurants. QR-code ordering, simple tablet kiosks, and automated tasks that used to require dedicated staff—save labor and boost efficiency."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Tangible ROI: Real Savings, Real Growth",
+    "items": [
+      {
+        "benefit": "Cut Labor Costs",
+        "description": "Automate routine tasks—phone orders, scheduling, inventory—so you need fewer staff. Operators report $1,000/mo savings from $100/mo tech investment."
+      },
+      {
+        "benefit": "Reduce Food Waste",
+        "description": "Precise demand forecasting and inventory alerts cut spoilage. Even a few percent reduction in waste is pure profit for thin-margin restaurants."
+      },
+      {
+        "benefit": "Increase Throughput",
+        "description": "Faster, more accurate order handling means more covers per night. Customer satisfaction rises with quicker service and fewer errors."
+      },
+      {
+        "benefit": "Improve Staff Productivity",
+        "description": "Automation removes tedious tasks, boosting morale and retention. Managers focus on guests, not paperwork."
+      },
+      {
+        "benefit": "Data-Driven Growth",
+        "description": "Real-time dashboards spot top-selling items, optimize menu pricing, and quickly replicate successes across locations."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Why Choose KitchenOS?",
+    "points": [
+      {
+        "title": "Industry Focus",
+        "description": "Deep expertise in kitchen workflows means features that exactly match restaurant needs—from expeditor timers to prep-chart analytics."
+      },
+      {
+        "title": "Ease of Integration",
+        "description": "Cloud-native with open APIs. Plug into existing POS hardware, payment gateways, and delivery apps without replacing everything."
+      },
+      {
+        "title": "Practical ROI",
+        "description": "Prioritizes revenue-generating features over complex BI. The system pays for itself through labor savings and higher sales—often within months."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "AI-powered recommendations (menu tweaks, staffing alerts) so restaurants keep getting smarter over time. Not a static tool—it adapts to your business."
+      },
+      {
+        "title": "MyxoFlow Pedigree",
+        "description": "Built by industry veterans with proven track record (StichFlow, MyxoFill). Not a one-size-fits-all POS—tailored to restaurant operations."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Implementation in 4 Simple Steps",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Setup",
+        "description": "Connect KitchenOS to your POS, kitchen displays, and supplier accounts. Enter your menu, recipes, and business rules. Training and onboarding support included."
+      },
+      {
+        "number": "02",
+        "title": "Real-Time Operation",
+        "description": "During service, orders from all channels flow into KitchenOS. Chefs and servers use KDS and mobile tablets to track order progress. Inventory updates automatically."
+      },
+      {
+        "number": "03",
+        "title": "Analysis & Alerts",
+        "description": "After each shift, managers review dashboards. KitchenOS highlights trends and sends alerts (e.g., 'dish X selling fast, reorder ingredient Y')."
+      },
+      {
+        "number": "04",
+        "title": "Optimization",
+        "description": "Based on insights, adjust staffing plans or menu pricing. AI engine suggests optimizations. Repeat the cycle with continuous data feedback."
+      }
+    ]
+  },
+  "whyNow": [
+    "Labor costs up 18.3%, food costs up 21.8% post-pandemic—automation is essential",
+    "70%+ of diners prefer self-ordering—tech adoption is now table stakes",
+    "Virtual kitchen market growing 13% annually to $155.5B by 2030",
+    "QSR chains spending 38% of tech budgets on kitchen automation",
+    "Proven ROI: $100/mo investment returns $1,000/mo in savings",
+    "Labor turnover costs 200%+ of salary—automation improves retention"
+  ],
+  "conclusion": "KitchenOS by MyxoFlow is a proven, all-in-one kitchen operating system that makes restaurants more efficient, profitable, and easier to manage. It addresses current market pressures with practical automation and analytics. Operators can expect immediate gains in throughput and cost control, plus long-term benefits as the system continuously optimizes itself.",
+  "sources": [
+    "Oracle restaurant tech reports",
+    "Industry labor and food cost data (U.S. post-pandemic)",
+    "Virtual kitchen market projections (2023-2030)",
+    "QSR tech spending analysis",
+    "Restaurant automation case studies"
+  ]
+}
+{
+  "key": "myxofill",
+  "name": "MyxoFill",
+  "title": "Decentralized IT Field Technician Platform",
+  "tagline": "Eliminate middlemen. Empower technicians. Connect directly.",
+  "background": {
+    "headline": "Fragmented IT Field Service Ecosystem",
+    "summary": "The IT on-site support market is dominated by subcontracting layers that absorb 70–85% of client budgets while technicians earn a fraction. Communication bottlenecks, data leakage, and late payments plague efficiency.",
+    "insight": "MyxoFill reinvents this model by cutting out intermediaries and giving both sides what they need — direct access, verified credentials, and fair compensation."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Opaque subcontracting chains block transparency.",
+      "Technicians have no access to real contract value or client info.",
+      "Communication delays cascade through multi-layer handoffs.",
+      "Data passes through too many subcontractors, raising breach risk.",
+      "80% of freelancers face payment delays; agencies hold invoices hostage.",
+      "No merit-based skill scoring; unqualified labor undermines trust.",
+      "Agencies exploit dependency — contractors earn less with each renewal."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Businesses seek cost reduction and accountability. Technicians seek reliable payment and independence. MyxoFill builds a verified network linking both.",
+    "dataPoints": [
+      "47% of the global workforce will be freelance by 2025 (Worksme.com).",
+      "8 in 10 freelancers report late or partial pay (grey.co).",
+      "78% of CFOs are targeting cost efficiency under inflation (EPAM survey)."
+    ]
+  },
+  "solution": {
+    "headline": "Our Transparent Platform Solution",
+    "description": "MyxoFill introduces a field-service marketplace where verified freelancers meet clients directly through transparent contracts, secure communication, and automated payments.",
+    "coreFeatures": [
+      {
+        "title": "Mobile-Optimized Dashboard",
+        "text": "Technicians and clients manage jobs via mobile or desktop UI — no complex dispatch system required."
+      },
+      {
+        "title": "Location- & Skill-Based Job Posting",
+        "text": "Jobs broadcast automatically to nearby verified techs. The system splits large tasks into smaller, trackable assignments."
+      },
+      {
+        "title": "Transparent Bidding",
+        "text": "All bids are visible; clients choose based on skill, not intermediaries. The system flags unfairly low offers to prevent race-to-bottom pricing."
+      },
+      {
+        "title": "Skill Validation & Ratings",
+        "text": "Gamified skill quizzes, verified experience, and customer feedback form a visible merit profile."
+      },
+      {
+        "title": "Escrow Payments & Invoicing",
+        "text": "Funds are automatically released upon task completion verification — ending months-long invoice chains."
+      },
+      {
+        "title": "Secure Communication Channels",
+        "text": "All messages, photos, and project files are encrypted and stored within MyxoFlow's EU-based infrastructure."
+      },
+      {
+        "title": "Continuous Skills Growth",
+        "text": "Technicians earn recommendations for upskilling and gain higher match visibility through consistent success."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Before vs After: Traditional vs MyxoFill",
+    "items": [
+      {
+        "aspect": "Pricing",
+        "traditional": "Multiple vendors markup, opaque costs",
+        "myxofill": "Flat fee, open bidding, verified pay breakdown"
+      },
+      {
+        "aspect": "Hiring",
+        "traditional": "Manual dispatch and favoritism",
+        "myxofill": "Automated merit-based AI matching"
+      },
+      {
+        "aspect": "Payments",
+        "traditional": "30–90 day invoice cycles",
+        "myxofill": "Instant escrow release upon completion"
+      },
+      {
+        "aspect": "Data Handling",
+        "traditional": "Leaky multi-party access",
+        "myxofill": "Single encrypted environment, clear audit log"
+      },
+      {
+        "aspect": "Accountability",
+        "traditional": "Diffused across subcontractors",
+        "myxofill": "Direct one-to-one contracts with milestone tracking"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Restoring Real Market Efficiency",
+    "principles": [
+      {
+        "title": "Merit over Bureaucracy",
+        "description": "Technicians climb ranks based on verified competence, not connections."
+      },
+      {
+        "title": "Transparency over Secrecy",
+        "description": "All tasks, rates, and feedback are open and traceable — no hidden terms."
+      },
+      {
+        "title": "Efficiency over Redundancy",
+        "description": "Process automation reduces administrative drag and liberates profit for real specialists."
+      },
+      {
+        "title": "Skill Development",
+        "description": "Every completed task contributes to a personal growth profile and next-level opportunities."
+      }
+    ],
+    "summary": "MyxoFill embodies fair capitalism — redistributing value from bureaucracy to contribution."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Technician earnings increase by 80% on average.",
+      "Corporate service costs reduced by 50–70%.",
+      "Invoice payment time cut from 45 days to 0 via escrow.",
+      "Task assignment time reduced from hours to seconds through automation."
+    ]
+  },
+  "whyNow": [
+    "Inflation pushes enterprises to trim costs.",
+    "Huge surge in global freelance IT experts post-2023.",
+    "EU regulatory frameworks now protect platform workers.",
+    "Escrow, ID verification, and AI matching are mainstream technologies."
+  ],
+  "sources": [
+    "fieldez.com",
+    "worksome.com",
+    "grey.co",
+    "fisherphillips.com",
+    "identitymanagementinstitute.org"
+  ]
+}
+{
+  "products": [
+    {
+      "key": "myxofill",
+      "name": "MyxoFill",
+      "tagline": "Transparent Workforce Backfill Platform",
+      "description": "Europe-wide marketplace connecting businesses directly with verified IT technicians. Eliminates subcontracting layers, ensures fair pay, fast deployment, and real-time matching.",
+      "overview": "MyxoFill optimizes the IT field service industry by connecting clients and qualified technicians directly. The platform automates matching, escrows payments, and provides verified ratings — transforming a traditionally opaque ecosystem into a transparent, merit-based system.",
+      "features": [
+        "Direct hiring – no agencies or markups",
+        "Verified technicians with ratings & skill tests",
+        "Mobile-ready task dashboard & live updates",
+        "Automated escrow payments",
+        "Data-secure messaging & contracts",
+        "AI-driven job matching by location & skill"
+      ],
+      "useCases": [
+        "POS & network equipment deployment",
+        "Retail IT setup and maintenance",
+        "Telecom and ISP installation",
+        "Multi-location hardware rollouts",
+        "Emergency IT on-site coverage"
+      ],
+      "pricing": {
+        "model": "Service-based transparent platform fee",
+        "tiers": [
+          {
+            "name": "Single Task",
+            "price": "From €180/day",
+            "billingPeriod": "per task",
+            "description": "For one-off technician deployment",
+            "features": [
+              "€150/day minimum freelancer pay",
+              "Transparent rates — no intermediaries",
+              "Instant escrow-based payment",
+              "Europe-wide coverage"
+            ],
+            "cta": "Request Technician"
+          },
+          {
+            "name": "Enterprise Contract",
+            "price": "Custom pricing",
+            "billingPeriod": "monthly or yearly",
+            "description": "Manage multi-site or recurring deployments",
+            "features": [
+              "Assigned freelancer pool",
+              "Priority dispatch & support",
+              "Workforce analytics dashboard",
+              "Custom API integration"
+            ],
+            "cta": "Get Enterprise Quote",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "freelance",
+        "it-field-service",
+        "platform",
+        "escrow",
+        "ai-matching"
+      ],
+      "featured": true,
+      "geography": "Europe-first deployment, globally scalable"
+    },
+    {
+      "key": "myxomake",
+      "name": "MyxoMake",
+      "tagline": "Custom Product Production",
+      "description": "Branded merchandise and promotional items via global suppliers. Flexible quality optimization for cost efficiency.",
+      "overview": "MyxoMake leverages our global supplier network to produce custom products with optimal cost-quality balance. No unnecessary quality checks — just efficient production at fair prices.",
+      "features": [
+        "Global supplier network",
+        "Branded merchandise production",
+        "Promotional items",
+        "Flexible quality tiers",
+        "Cost optimization",
+        "Fast turnaround times"
+      ],
+      "useCases": [
+        "Company merchandise",
+        "Event promotional items",
+        "Custom branded products",
+        "Marketing materials",
+        "Bulk product orders"
+      ],
+      "pricing": {
+        "model": "Micro-margins per product",
+        "tiers": [
+          {
+            "name": "Standard Production",
+            "price": "Quote-based",
+            "billingPeriod": "per order",
+            "description": "Custom pricing per product",
+            "features": [
+              "Global supplier access",
+              "Flexible quality options",
+              "Transparent pricing",
+              "Bulk discounts"
+            ],
+            "cta": "Get Quote"
+          }
+        ]
+      },
+      "tags": ["manufacturing", "merchandise", "global"],
+      "featured": false,
+      "geography": "Global production, Europe delivery"
+    },
+    {
+      "key": "stitchflow",
+      "name": "StitchFlow",
+      "tagline": "Garment Manufacturing",
+      "description": "Apparel manufacturing via global supplier network. Design, production, and delivery pipeline optimization.",
+      "overview": "StitchFlow integrates design, production, and delivery for garment manufacturing. Our global network ensures competitive pricing without compromising on essential quality standards.",
+      "features": [
+        "Full garment production pipeline",
+        "Design integration",
+        "Global manufacturing network",
+        "Quality-cost optimization",
+        "Delivery coordination",
+        "Neo4j supply chain tracking"
+      ],
+      "useCases": [
+        "Custom apparel lines",
+        "Corporate uniforms",
+        "Fashion brand production",
+        "Promotional clothing",
+        "Bulk garment orders"
+      ],
+      "pricing": {
+        "model": "Service fees + micro-margins",
+        "tiers": [
+          {
+            "name": "Garment Production",
+            "price": "Quote-based",
+            "billingPeriod": "per order",
+            "description": "Custom garment manufacturing",
+            "features": [
+              "Design support",
+              "Global production",
+              "Supply chain optimization",
+              "Quality assurance"
+            ],
+            "cta": "Get Quote"
+          }
+        ]
+      },
+      "tags": ["garments", "manufacturing", "fashion"],
+      "featured": true,
+      "geography": "Global production"
+    },
+
+    {
+      "key": "cheddar",
+      "name": "Cheddar",
+      "tagline": "Verified Connections. Real Results.",
+      "description": "A members-only dating platform that uses dynamic capacity management and rigorous verification to ensure quality connections without hidden algorithms or data selling.",
+      "overview": "Cheddar maintains optimal platform balance through proprietary dynamic capacity management and ID + live-photo verification. No black-box matching—just transparent discovery tools, verified profiles, and a results-oriented experience.",
+      "features": [
+        "Dynamic capacity management for balanced gender ratios",
+        "ID verification via Stripe Identity or Onfido",
+        "Camera-only photo capture with liveness detection",
+        "Transparent filters and proximity sorting (no hidden algorithms)",
+        "Non-recurring 30-day memberships with manual renewal",
+        "Automated pause & pro-rated refunds when capacity triggers"
+      ],
+      "useCases": [
+        "Serious daters seeking verified, high-quality matches",
+        "Users valuing privacy and no data-selling business model",
+        "Members wanting a streamlined experience without time-wasters",
+        "People preferring transparent discovery tools over opaque algorithms",
+        "Referral-driven community growth and quality control"
+      ],
+      "pricing": {
+        "model": "Dynamic membership pricing with capacity-based adjustments",
+        "tiers": [
+          {
+            "name": "Founding Member (Women)",
+            "price": "Free",
+            "billingPeriod": "90-day complimentary membership, auto-renewable",
+            "description": "Complimentary access, subject to capacity management",
+            "features": [
+              "Full verification & discovery tools",
+              "Auto-renewable every 90 days",
+              "Voluntary pause options"
+            ],
+            "cta": "Join as Founding Member"
+          },
+          {
+            "name": "Standard Membership (Men)",
+            "price": "€100",
+            "billingPeriod": "30 days, non-recurring by default",
+            "description": "30-day membership with manual renewal option",
+            "features": [
+              "Full verification & discovery tools",
+              "Priority waitlist with pro-rated refunds if paused",
+              "Referral credits & re-entry price lock"
+            ],
+            "cta": "Apply for Membership"
+          }
+        ]
+      },
+      "tags": ["dating", "verification", "capacity-management", "privacy"],
+      "featured": true
+    },
+
+    {
+      "key": "kitchenos",
+      "name": "KitchenOS",
+      "tagline": "Smart Kitchen Operating System for Restaurants",
+      "description": "Cloud-based restaurant management platform unifying order processing, kitchen workflow, inventory, and staff management into a single intelligent system.",
+      "overview": "KitchenOS is an end-to-end kitchen operating system that connects to your POS, kitchen displays, scheduling tools, and delivery platforms. Overlay AI-driven intelligence to create a command center for any restaurant kitchen—streamlining operations and boosting profitability.",
+      "features": [
+        "Omnichannel order management (dine-in, mobile, delivery apps)",
+        "Real-time Kitchen Display System with smart prioritization",
+        "Automated inventory tracking & procurement",
+        "AI-powered forecasting & analytics dashboards",
+        "Staff scheduling integrated with payroll",
+        "Self-service ordering & voice bot integration",
+        "Customer loyalty/CRM and marketing tools",
+        "Mobile alerts for KPIs (low stock, delayed orders)"
+      ],
+      "useCases": [
+        "Fine-dining & full-service restaurants",
+        "Ghost & cloud kitchens (multi-brand management)",
+        "Tech-savvy chains & quick-service restaurants (QSRs)",
+        "Independent & casual eateries with QR ordering"
+      ],
+      "pricing": {
+        "model": "Subscription per location",
+        "tiers": [
+          {
+            "name": "Single Location",
+            "price": "$299",
+            "billingPeriod": "per month",
+            "description": "Complete kitchen operating system",
+            "features": [
+              "Cloud-based POS & order hub",
+              "Digital kitchen display (KDS)",
+              "Automated inventory & reordering",
+              "Staff scheduling & payroll",
+              "AI analytics dashboard",
+              "24/7 support & cloud hosting"
+            ],
+            "cta": "Start Free Trial"
+          },
+          {
+            "name": "Multi-Location Enterprise",
+            "price": "Custom pricing",
+            "billingPeriod": "per location",
+            "description": "For restaurant chains & franchises",
+            "features": [
+              "Centralized multi-site management",
+              "Standardized recipes & compliance",
+              "Open API integration",
+              "Advanced analytics & forecasting",
+              "Dedicated account manager",
+              "Custom deployment & training"
+            ],
+            "cta": "Contact Sales",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "restaurant",
+        "automation",
+        "hospitality",
+        "cloud-pos",
+        "ai-forecasting"
+      ],
+      "featured": true,
+      "geography": "Global deployment, cloud-based"
+    },
+    {
+      "key": "timid",
+      "name": "Timid",
+      "tagline": "Privacy-First Browser",
+      "description": "Open-source fork of Brave, stripped of ad/revenue distractions. Pure privacy and user control.",
+      "overview": "Timid is a minimalist, privacy-focused browser based on Brave but without ad systems or revenue tracking. Complete user control, open-source transparency, and zero distractions.",
+      "features": [
+        "Open-source (Brave fork)",
+        "No ads or tracking",
+        "Complete privacy focus",
+        "Minimal design",
+        "GitHub-managed updates",
+        "Full user control"
+      ],
+      "useCases": [
+        "Privacy-conscious browsing",
+        "Corporate deployments",
+        "Security-focused organizations",
+        "Educational institutions",
+        "Personal use"
+      ],
+      "pricing": {
+        "model": "Free + optional support fees",
+        "tiers": [
+          {
+            "name": "Free Download",
+            "price": "€0",
+            "billingPeriod": "forever",
+            "description": "Open-source browser",
+            "features": [
+              "Full privacy features",
+              "Regular updates",
+              "Community support",
+              "GitHub access"
+            ],
+            "cta": "Download Free"
+          },
+          {
+            "name": "Enterprise Support",
+            "price": "€50",
+            "billingPeriod": "per user/year",
+            "description": "For organizations",
+            "features": [
+              "Installation support",
+              "Custom configurations",
+              "Priority updates",
+              "Technical support"
+            ],
+            "cta": "Contact Us"
+          }
+        ]
+      },
+      "tags": ["browser", "privacy", "open-source"],
+      "featured": false
+    },
+    {
+      "key": "deployment",
+      "name": "Software & System Deployment",
+      "tagline": "Custom Solutions in 30 Days",
+      "description": "Custom dashboards, automation tools, and software deployed within 30 days. Cloud or on-premise with optional recurring support.",
+      "overview": "We deploy custom software solutions, dashboards, and automation systems within 30 days. Cloud or GitHub pipelines for software; hardware handled by freelancers or our team. Optional IaaS support.",
+      "features": [
+        "30-day deployment guarantee",
+        "Custom dashboards (Neo4j-based)",
+        "Automation tools",
+        "Cloud or on-premise",
+        "Hardware installation via freelancers",
+        "Optional IaaS/cloud support"
+      ],
+      "useCases": [
+        "Custom business dashboards",
+        "Automation implementations",
+        "System integrations",
+        "Infrastructure deployments",
+        "Legacy system modernization"
+      ],
+      "pricing": {
+        "model": "Deployment fees + optional cloud support",
+        "tiers": [
+          {
+            "name": "Software Deployment",
+            "price": "From €2,500",
+            "billingPeriod": "per project",
+            "description": "Complete system deployment",
+            "features": [
+              "30-day delivery",
+              "Custom development",
+              "Testing & deployment",
+              "Documentation",
+              "Training included"
+            ],
+            "cta": "Get Quote",
+            "popular": true
+          },
+          {
+            "name": "Cloud Support",
+            "price": "From €199",
+            "billingPeriod": "per month",
+            "description": "Ongoing IaaS support",
+            "features": [
+              "Cloud hosting",
+              "Monitoring & updates",
+              "Security patches",
+              "Technical support",
+              "Backup & recovery"
+            ],
+            "cta": "Add Support"
+          }
+        ]
+      },
+      "tags": ["deployment", "software", "custom"],
+      "featured": true
+    }
+  ]
+}
