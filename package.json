@@ -30,7 +30,6 @@
     "@quasar/app-vite": "^2.1.0",
     "@types/d3": "^7.4.3",
     "@types/node": "^20.5.9",
-    "@vitejs/plugin-vue": "^6.0.0",
     "@vue/devtools": "^8.0.3",
     "@vue/devtools-api": "^8.0.3",
     "@vue/eslint-config-prettier": "^10.1.0",
