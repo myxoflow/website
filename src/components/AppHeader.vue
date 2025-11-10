@@ -1,19 +1,19 @@
 <template>
   <q-header>
-    <q-toolbar class="row items-center q-px-lg" style="min-height: 64px">
+    <q-toolbar class="row items-center q-px-lg q-bg-color" style="min-height: 64px">
       <div class="column items-center no-wrap cursor-pointer" @click="goHome" style="max-width: 200px; flex-shrink: 0; gap: 4px">
         <q-avatar square size="50px">
           <img src="../assets/icons/main/myxoflow.svg" alt="Logo" />
         </q-avatar>
-        <div class="text-weight-bold text-subtitle1">MyxoFlow</div>
+        <div class="company-name">MyxoFlow</div>
       </div>
-      <div class="row items-center justify-evenly q-gutter-md desktop-menu" style="flex-grow: 1; margin-left: 32px">
+      <div class="nav-bar row items-center justify-evenly q-gutter-md desktop-menu" style="flex-grow: 1; margin-left: 32px">
         <q-btn v-for="item in simpleNavItems" :key="item.path" dense rounded bordered no-caps :label="item.label" @click="navigate(item.path, item.external)" />
         <div v-for="item in dropdownNavItems" :key="item.path" class="relative-position" @mouseenter="handleMouseEnter(item.path)" @mouseleave="handleMouseLeave">
           <q-btn rounded bordered dense no-caps :label="item.label" @click="navigate(item.path, item.external)" />
           <q-menu :model-value="openDropdown === item.path" @update:model-value="val => openDropdown = val ? item.path : null" anchor="bottom left" self="top left" transition-show="fade" transition-hide="fade" :class="{'show': openDropdown === item.path}">
             <q-list>
-              <q-item v-for="child in item.children" :key="child.path" clickable @click="navigate(child.path, child.external)">
+              <q-item v-for="child in item.children" :key="child.path" rounded clickable @click="navigate(child.path, child.external)">
                 <q-item-section>{{ child.label }}</q-item-section>
               </q-item>
             </q-list>
@@ -84,5 +84,20 @@ async function goHome(): Promise<void> {
 </script>
 
 <style scoped>
+.q-toolbar {
+  background-color: var(--q-bg-color);
+}
+.q-item {
+background-color: var(--q-bg-color);
+}
+.company-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--q-text-color);
+}
+.nav-bar {
+  color: var(--q-text-color);
+}
+
 
 </style>

@@ -2,7 +2,7 @@
   <q-layout view="hHh lpR fFf">
     <AppHeader :nav="nav" />
     <AppFooter />
-    <TubeLight class="tubelight-fixed" />
+    <TubeLight  />
     <q-page-container>
       <router-view />
     </q-page-container>

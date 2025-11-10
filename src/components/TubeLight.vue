@@ -8,17 +8,24 @@
         :style="{ animationDuration: animationDuration + 's' }"
         @animationend="onAnimationEnd"
       ></div>
-      <div class="slime-overlay" :style="{ backgroundColor: currentTheme!.color }"></div>
+
+      <div
+        class="slime-overlay"
+        :style="{ backgroundColor: currentTheme!.color }"
+      ></div>
     </div>
 
     <!-- Theme tubelight button -->
     <QBtn
-      flat round dense
+      flat
+      round
+      contain
       class="tubelight-btn"
       @click="cycleTheme"
       :aria-label="`Switch to ${nextTheme!.label} theme`"
     >
-      <q-img :src="currentTheme!.src" class="theme-icon"/>
+      <q-img :src="currentTheme!.src" class="theme-icon no-shadow" />
+      <div>{{ currentTheme!.label }}</div>
     </QBtn>
   </div>
 </template>
@@ -35,14 +42,15 @@ import forestIcon from "../assets/icons/sunLogo/forest.svg";
 import energyIcon from "../assets/icons/sunLogo/energy.svg";
 import slimeSvgRaw from "../assets/icons/background/slime.svg?raw";
 
-
-
-interface Theme { name: string; label: string; src: string; color: string; }
-
+interface Theme {
+  name: string;
+  label: string;
+  src: string;
+  color: string;
+}
 
 const slimeSvg = slimeSvgRaw;
 const animationDuration = 1.5; // total: 0.5 + 0.5 + 0.5
-
 
 const themes = [
   { name: "light", label: "Light", src: lightIcon, color: "#ffffff" },
@@ -57,7 +65,9 @@ const themeIndex = ref(0);
 const showSlime = ref(false);
 
 const currentTheme = computed(() => themes[themeIndex.value]) as Ref<Theme>;
-const nextTheme = computed(() => themes[(themeIndex.value + 1) % themes.length]) as Ref<Theme>;
+const nextTheme = computed(
+  () => themes[(themeIndex.value + 1) % themes.length]
+) as Ref<Theme>;
 
 function applyTheme(theme: Theme) {
   document.documentElement.className = `theme-${theme.name}`;
@@ -79,15 +89,13 @@ function onAnimationEnd() {
 
 onMounted(() => {
   const saved = localStorage.getItem("tubelight-theme");
-  const idx = themes.findIndex(t => t.name === saved);
+  const idx = themes.findIndex((t) => t.name === saved);
   themeIndex.value = idx >= 0 ? idx : 0;
   applyTheme(currentTheme.value);
 });
-
 </script>
 
 <style lang="scss">
-
 .slime-container {
   position: fixed;
   inset: 0;
@@ -117,28 +125,40 @@ onMounted(() => {
 
 /* Main Splash Animation */
 @keyframes slimeSplash {
-  0%   { transform: translate(-50%, -50%) scale(5) rotate(0deg); }
-  33%  { transform: translate(-50%, -50%) scale(1) rotate(0deg); }
-  66%  { transform: translate(-50%, -50%) scale(1) rotate(15deg); }
-  100% { transform: translate(-50%, -50%) scale(5) rotate(0deg); }
+  0% {
+    transform: translate(-50%, -50%) scale(5) rotate(0deg);
+  }
+  33% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  }
+  66% {
+    transform: translate(-50%, -50%) scale(1) rotate(15deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(5) rotate(0deg);
+  }
 }
 
 /* Overlay color fade */
 @keyframes overlayFlash {
-  0%,100% { opacity: 0; }
-  40%,60% { opacity: 0.45; }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  40%,
+  60% {
+    opacity: 0.45;
+  }
 }
-.tubelight-btn {
+.tubelight-btn 
+.q-btn__content {
   position: fixed;
   top: 50%;
   bottom: 50%;
   right: 50px;
-  z-index: 1100;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 11;
+  background: transparent !important;
+  box-shadow: none !important;
 
-  &:hover {
-    box-shadow: var(--q-box-shadow-8);
-  }
 }
-
 </style>

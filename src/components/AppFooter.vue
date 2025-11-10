@@ -1,5 +1,9 @@
 <template>
-  <q-footer bordered class="footer">
+  <q-footer
+    v-if="isAtBottom"
+    bordered
+    class="footer"
+  >
     <div class="row footer-nav">
       <div
         class="col footer-section"
@@ -31,8 +35,29 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from "vue";
 import navigationJson from "../data/navigation.json";
+
 const footer = navigationJson.footer;
+const isAtBottom = ref(false);
+
+const checkScroll = () => {
+  const scrollTop = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const fullHeight = document.documentElement.scrollHeight;
+
+  // Trigger when near bottom (500px tolerance)
+  isAtBottom.value = scrollTop + windowHeight >= fullHeight - 500;
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", checkScroll);
+  checkScroll(); // check initial state
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", checkScroll);
+});
 </script>
 
 <style scoped>
@@ -42,11 +67,16 @@ const footer = navigationJson.footer;
   border-top: 1px solid var(--q-border-color);
   padding: 20px 5px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-/* hide footer unless at the end of the last page */
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 
 .footer-nav {
@@ -66,5 +96,10 @@ const footer = navigationJson.footer;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 8px;
+}
+.footer-trademark {
+  margin-top: none;
+  font-size: 0.9em;
+  text-align: center;
 }
 </style>
