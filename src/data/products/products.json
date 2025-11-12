@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "key": "fill",
-      "name": "Fill",
+      "key": "myxofill",
+      "name": "MyxoFill",
       "tagline": "Transparent Workforce Backfill Platform",
       "description": "Europe-wide marketplace connecting businesses directly with verified IT technicians. Eliminates subcontracting layers, ensures fair pay, fast deployment, and real-time matching.",
       "overview": "MyxoFill optimizes the IT field service industry by connecting clients and qualified technicians directly. The platform automates matching, escrows payments, and provides verified ratings — transforming a traditionally opaque ecosystem into a transparent, merit-based system.",
@@ -107,8 +107,8 @@
       "geography": "Global production, Europe delivery"
     },
     {
-      "key": "flow",
-      "name": "Flow",
+      "key": "flowcraft",
+      "name": "FlowCraft",
       "tagline": "Garment Manufacturing",
       "description": "Apparel manufacturing via global supplier network. Design, production, and delivery pipeline optimization.",
       "overview": "Flow integrates design, production, and delivery for garment manufacturing. Our global network ensures competitive pricing without compromising on essential quality standards.",

@@ -1,0 +1,124 @@
+{
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Introduction",
+        "text": "At MyxoFlow, we respect your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and safeguard information."
+      },
+      {
+        "heading": "Data We Collect",
+        "text": "We collect personal information you provide, such as your name, email, phone number, and company details. We may also collect technical information through our platform usage, including IP address, browser type, and device identifiers."
+      },
+      {
+        "heading": "How We Use Data",
+        "text": "We use your data to deliver services, communicate with you, optimize platform performance, and comply with legal obligations. We never sell or lease your data to third parties."
+      },
+      {
+        "heading": "Data Retention",
+        "text": "Personal information is retained only as long as necessary for service delivery, legal compliance, or legitimate business purposes. Once no longer required, your data is securely deleted or anonymized."
+      },
+      {
+        "heading": "Your Rights",
+        "text": "You have the right to access, correct, or delete your data, and to withdraw consent at any time by contacting info@myxoflow.com."
+      },
+      {
+        "heading": "Contact",
+        "text": "For questions about this policy or data handling practices, reach us at info@myxoflow.com."
+      }
+    ]
+  },
+
+  "cookies": {
+    "title": "Cookies Policy",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "What Are Cookies?",
+        "text": "Cookies are small text files stored on your device that help us understand how you use our website and platform."
+      },
+      {
+        "heading": "How We Use Cookies",
+        "text": "We use cookies for authentication, analytics, and user experience improvements. This helps us identify returning visitors and optimize platform performance."
+      },
+      {
+        "heading": "Managing Cookies",
+        "text": "You can disable cookies via your browser settings, though this may impact certain site functions. Refer to your browser documentation for details."
+      },
+      {
+        "heading": "Third-Party Cookies",
+        "text": "Some cookies may come from third-party services (like analytics or payment gateways). These are subject to their respective privacy policies."
+      }
+    ]
+  },
+
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Introduction",
+        "text": "By using MyxoFlow services, you agree to these terms. Please review them carefully before engaging with our platform."
+      },
+      {
+        "heading": "Use of Services",
+        "text": "You agree to use our services lawfully and responsibly. Any misuse or attempt to disrupt operations may result in suspension or termination."
+      },
+      {
+        "heading": "Intellectual Property",
+        "text": "All platform content, code, and branding are the intellectual property of MyxoFlow. You may not reproduce or redistribute materials without express permission."
+      },
+      {
+        "heading": "Limitation of Liability",
+        "text": "MyxoFlow shall not be liable for indirect, incidental, or consequential damages arising from service use. Liability is limited to the fullest extent permitted by law."
+      },
+      {
+        "heading": "Changes to Terms",
+        "text": "We may modify these terms periodically. Continued use of our services implies acceptance of the updated version."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "title": "Disclaimer",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "General Disclaimer",
+        "text": "The information provided by MyxoFlow is for general informational purposes only. While we strive for accuracy, we make no guarantees about completeness or reliability."
+      },
+      {
+        "heading": "Professional Disclaimer",
+        "text": "MyxoFlow does not provide legal, financial, or business advice. Any reliance you place on information from our site is strictly at your own risk."
+      },
+      {
+        "heading": "External Links Disclaimer",
+        "text": "Our website may contain links to third-party sites. We are not responsible for the content or practices of those external websites."
+      }
+    ]
+  },
+
+  "dpa": {
+    "title": "Data Processing Agreement (DPA)",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Scope of Data Processing",
+        "text": "This DPA outlines responsibilities related to personal data processing between MyxoFlow and its clients in compliance with GDPR and other applicable laws."
+      },
+      {
+        "heading": "Roles and Responsibilities",
+        "text": "MyxoFlow acts as a data processor and follows all lawful instructions from the data controller. Both parties agree to maintain adequate security and confidentiality."
+      },
+      {
+        "heading": "Subprocessors",
+        "text": "We only engage trusted subprocessors who meet equivalent data protection standards and operate within approved jurisdictions."
+      },
+      {
+        "heading": "Data Breach Notification",
+        "text": "In the event of a data breach, MyxoFlow will notify affected controllers without undue delay and assist in any necessary mitigation efforts."
+      }
+    ]
+  }
+}

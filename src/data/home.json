@@ -14,10 +14,60 @@
       "secondary": "Become a Partner"
     }
   },
-  "philosophyPreview": {
-    "title": "Why Decentralized?",
-    "text": "Inspired by slime molds, our adaptive network finds optimal paths for business operations. No hierarchies, no waste."
+
+  "philosophy": {
+    "title": "Our Philosophy",
+    "subtitle": "We challenge traditional business models with transparency and efficiency",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralized & Adaptive",
+        "description": "No corporate hierarchy. We operate as a single adaptive system inspired by slime mold intelligence — finding optimal paths in real-time."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair & Transparent",
+        "description": "Companies overcharge assuming users are 'price stupid.' We flip the model: transparency, efficiency, and fair compensation for everyone."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast & Accountable",
+        "description": "From idea to execution in 30 days. No bureaucracy, no delays — just results delivered by a resilient, accountable network."
+      }
+    ]
   },
+
+  "operationalModel": {
+    "title": "How We Work",
+    "subtitle": "A simple, transparent, competitive process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Client Needs",
+        "description": "Define requirements for backfill, software deployment, or custom products. We clarify scope and timeline.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Competition Release",
+        "description": "Europe-based freelancers or partner companies bid on tasks. Fair competition ensures quality and efficiency.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Execution & Delivery",
+        "description": "Winners complete backfill coverage, deployments, or production. If no freelancer is available, our team handles it.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Payment & Results",
+        "description": "Freelancers receive guaranteed minimum pay (€150/day, fully insured). MyxoFlow earns via service fees and micro-margins.",
+        "icon": "payments"
+      }
+    ]
+  },
+
   "finalCTA": {
     "title": "Ready to Optimize Your Operations?",
     "subtitle": "Join the decentralized network. No corporate layers, no hidden markups — just real results.",

@@ -1,4 +1,3 @@
-// src/router/routes.ts
 import type { RouteRecordRaw } from "vue-router";
 
 const routes: RouteRecordRaw[] = [
@@ -9,13 +8,12 @@ const routes: RouteRecordRaw[] = [
       // Home
       { path: "", name: "home", component: () => import("pages/HomePage.vue") },
 
-      // Products listing
+      // Products listing + individual
       {
         path: "products",
         name: "products",
         component: () => import("pages/ProductsList.vue"),
       },
-      // Individual Product
       {
         path: "products/:key",
         name: "product",
@@ -23,16 +21,26 @@ const routes: RouteRecordRaw[] = [
         props: true,
       },
 
+      // Company + Subpages
       {
         path: "company",
         name: "company",
         component: () => import("pages/CompanyPage.vue"),
       },
-      // How It Works
       {
-        path: "how-it-works",
+        path: "company/about",
+        name: "about",
+        component: () => import("pages/AboutPage.vue"),
+      },
+      {
+        path: "company/how-it-works",
         name: "how-it-works",
         component: () => import("pages/HowItWorks.vue"),
+      },
+      {
+        path: "company/partners",
+        name: "partners",
+        component: () => import("pages/PartnersPage.vue"),
       },
 
       // Case Studies
@@ -40,20 +48,6 @@ const routes: RouteRecordRaw[] = [
         path: "case-studies",
         name: "case-studies",
         component: () => import("pages/CaseStudies.vue"),
-      },
-
-      // About
-      {
-        path: "about",
-        name: "about",
-        component: () => import("pages/AboutPage.vue"),
-      },
-
-      // Partners
-      {
-        path: "partners",
-        name: "partners",
-        component: () => import("pages/PartnersPage.vue"),
       },
 
       // FAQ
@@ -69,10 +63,37 @@ const routes: RouteRecordRaw[] = [
         name: "contact",
         component: () => import("pages/ContactPage.vue"),
       },
+
+      // Legal
+      {
+        path: "legal/privacy",
+        name: "privacy",
+        component: () => import("pages/LegalPage.vue"),
+      },
+      {
+        path: "legal/cookies",
+        name: "cookies",
+        component: () => import("pages/LegalPage.vue"),
+      },
+      {
+        path: "legal/terms",
+        name: "terms",
+        component: () => import("pages/LegalPage.vue"),
+      },
+      {
+        path: "legal/disclaimer",
+        name: "disclaimer",
+        component: () => import("pages/LegalPage.vue"),
+      },
+      {
+        path: "legal/dpa",
+        name: "dpa",
+        component: () => import("pages/LegalPage.vue"),
+      },
     ],
   },
 
-  // Always leave this as last one
+  // 404
   {
     path: "/:catchAll(.*)*",
     name: "not-found",

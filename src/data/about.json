@@ -4,21 +4,33 @@
     "deployment": {
       "title": "Deployment & Backfill",
       "scope": "Europe-Wide",
-      "description": "All installation and on-site services are delivered across Europe by vetted freelancers."
+      "description": "All installation, backfill, and on-site services are delivered across Europe by vetted freelancers and our core team."
     },
     "supply": {
       "title": "Suppliers & Manufacturing",
       "scope": "Global Network",
-      "description": "Supplier and factory network optimized for cost and efficiency, powered by Neo4j dashboards."
+      "description": "Our supplier and factory network spans the globe, optimized for cost efficiency without unnecessary quality checks. Real-time optimization via Neo4j dashboards."
     }
   },
+
+  "revenueModel": {
+    "title": "Revenue Model",
+    "streams": [
+      { "name": "Freelancer Competitions", "description": "Backfill gigs, installations, custom deployment tasks" },
+      { "name": "Service Fees", "description": "Software deployments, cloud support, installation services" },
+      { "name": "Micro-Margins", "description": "Merchandise, garments, custom product production" },
+      { "name": "Cloud/IaaS Subscriptions", "description": "Recurring support for deployed systems and dashboards" },
+      { "name": "Partner Equity", "description": "50% revenue share from partner-created solutions" }
+    ]
+  },
+
   "vision": {
     "title": "Forward-Looking Vision",
     "goals": [
       "Expand products with client-driven innovations",
-      "Launch market insight articles",
-      "Grow partner network with equity-sharing",
-      "Continuously optimize supply via Neo4j dashboards"
+      "Launch articles section showcasing market insights and use-cases",
+      "Grow partner network with equity-sharing opportunities",
+      "Continuously optimize global supply and European deployment via Neo4j-powered dashboards"
     ]
   }
 }

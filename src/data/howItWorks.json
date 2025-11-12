@@ -1,7 +1,8 @@
 {
-  "operationalModel": {
+  "howItWorks": {
     "title": "How We Work",
     "subtitle": "A simple, transparent, competitive process",
+    "overview": "Our workflow ensures fairness, speed, and accountability through a decentralized competition model — allowing experts to deliver value fast, without middlemen or bureaucracy.",
     "steps": [
       {
         "number": "01",
@@ -27,6 +28,10 @@
         "description": "Freelancers receive guaranteed pay (€150/day).",
         "icon": "payments"
       }
-    ]
+    ],
+    "cta": {
+      "text": "Join Our Network",
+      "link": "/partners"
+    }
   }
 }

@@ -36,17 +36,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import faqData from 'src/data/faq.json'
 
-const faq = ref<{ categories: Array<{ title: string; questions: Array<{ question: string; answer: string }> }> }>({
-  categories: []
-})
-
-onMounted(() => {
-  // Load static JSON
-  faq.value = faqData
-})
+const faq = ref(faqData)
 </script>
 
 <style scoped lang="scss">
@@ -87,7 +80,6 @@ onMounted(() => {
         .expansion {
           border: 1px solid var(--q-grey-4);
           border-radius: 8px;
-          padding: 0;
 
           .q-expansion-item__container {
             padding: 12px 16px;

@@ -1,0 +1,136 @@
+{
+  "key": "flowcraft",
+  "name": "FlowCraft",
+  "title": "Decentralized Garment Manufacturing Platform",
+  "tagline": "Optimize production. Empower factories. Deliver directly.",
+  "background": {
+    "headline": "Fragmented Apparel Manufacturing Ecosystem",
+    "summary": "Garment production often involves multiple disconnected suppliers, opaque pricing, and poor coordination. Brands face delays, cost overruns, and quality inconsistency, while factories compete blindly for orders with little visibility or fair compensation.",
+    "insight": "FlowCraft reinvents garment manufacturing by breaking orders into modular tasks, enabling factories to bid on what they do best, and orchestrating the supply chain end-to-end."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Global production chains are fragmented and inefficient.",
+      "Clients lack visibility into real production costs and timelines.",
+      "Multiple handoffs increase delays and reduce quality control.",
+      "Factories are underpaid or overextended due to opaque bidding.",
+      "No standardized merit scoring; unverified factories undermine trust.",
+      "Logistics coordination is manual and error-prone.",
+      "Traditional markups inflate prices without adding value."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Brands seek cost efficiency, faster delivery, and quality assurance. Factories want fair pay and clear task assignments. FlowCraft creates a transparent, competitive network connecting both sides.",
+    "dataPoints": [
+      "Global apparel manufacturing market exceeds $1.5 trillion annually.",
+      "60% of fashion brands report frequent delays and cost overruns (McKinsey 2024).",
+      "Factories often work at <70% profitability due to inefficient task allocation."
+    ]
+  },
+  "solution": {
+    "headline": "Our Transparent Production Platform",
+    "description": "FlowCraft splits complex garment orders into modular tasks. Factories bid for the tasks they excel at. The platform coordinates production, logistics, and payments, ensuring on-time delivery and fair compensation.",
+    "coreFeatures": [
+      {
+        "title": "Modular Task Dashboard",
+        "text": "Orders are broken into subtasks like stitching, printing, and shipping. Factories bid on what they can execute best."
+      },
+      {
+        "title": "Global Factory Network",
+        "text": "Connects brands to verified factories worldwide, optimizing for cost, quality, and speed."
+      },
+      {
+        "title": "Transparent Bidding",
+        "text": "Factories compete openly on each task. Clients see bids and can select based on skill, cost, and reputation."
+      },
+      {
+        "title": "Supply Chain Coordination",
+        "text": "FlowCraft ensures all tasks align and tracks progress across the entire production pipeline."
+      },
+      {
+        "title": "Automated Payments",
+        "text": "Clients pay FlowCraft; funds are distributed to factories after task verification, reducing disputes and delays."
+      },
+      {
+        "title": "Quality Assurance & SCM Tracking",
+        "text": "End-to-end visibility through Neo4j-powered supply chain tracking and verified factory ratings."
+      },
+      {
+        "title": "Performance-Based Factory Ratings",
+        "text": "Factories build a merit profile based on reliability, speed, and quality for better future opportunities."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Before vs After: Traditional vs FlowCraft",
+    "items": [
+      {
+        "aspect": "Pricing",
+        "traditional": "Opaque markups across multiple suppliers",
+        "flowcraft": "Transparent bidding per task, competitive and fair"
+      },
+      {
+        "aspect": "Order Management",
+        "traditional": "Manual coordination across vendors",
+        "flowcraft": "Automated task orchestration and dashboard tracking"
+      },
+      {
+        "aspect": "Payments",
+        "traditional": "Delayed multi-party invoices",
+        "flowcraft": "Escrow-style payments released upon verified completion"
+      },
+      {
+        "aspect": "Quality Control",
+        "traditional": "Inconsistent standards across factories",
+        "flowcraft": "Verified factories and supply chain visibility"
+      },
+      {
+        "aspect": "Accountability",
+        "traditional": "Diffused across intermediaries",
+        "flowcraft": "Direct task-to-factory contracts with performance tracking"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Streamlined, Fair Garment Production",
+    "principles": [
+      {
+        "title": "Merit over Legacy Relationships",
+        "description": "Factories earn opportunities based on verified skills and performance."
+      },
+      {
+        "title": "Transparency over Secrecy",
+        "description": "All tasks, bids, and payment flows are visible and auditable."
+      },
+      {
+        "title": "Efficiency over Redundancy",
+        "description": "Breaking tasks into modular units eliminates idle capacity and optimizes timelines."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "Factory performance builds a reputation profile that drives higher-value work."
+      }
+    ],
+    "summary": "FlowCraft redistributes value from opaque networks to skilled factories while providing brands cost-effective, high-quality manufacturing."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Production costs reduced by 20–40% via competitive task bidding.",
+      "Factory earnings increase by 30–50% due to fair task allocation.",
+      "Order fulfillment time reduced by 25–50% through automated coordination.",
+      "Payment disputes minimized via escrow and verification."
+    ]
+  },
+  "whyNow": [
+    "Global supply chains demand faster, more cost-effective coordination.",
+    "Factories are under pressure to maintain margins in competitive markets.",
+    "Digital dashboards, task bidding, and automated payments are now scalable.",
+    "Brands increasingly prioritize transparency and traceable quality."
+  ],
+  "sources": [
+    "McKinsey Fashion 2024",
+    "Global Apparel Market Reports",
+    "Supply Chain Quarterly",
+    "Industry Factory Surveys"
+  ]
+}

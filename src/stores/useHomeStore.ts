@@ -1,113 +1,113 @@
-// stores/HomeStore.ts
+// stores/useHomeStore.ts
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import contentData from '../data/content.json'
+
+import homeData from '../data/home.json'
+import companyData from '../data/company.json'
+import aboutData from '../data/about.json'
+import partnersData from '../data/partners.json'
+
 import productsData from '../data/products/products.json'
-
 import type { Product } from '../types/index'
-
-
 
 export const useHomeStore = defineStore('home', () => {
   // State
-  const content = ref(contentData)
+  const home = ref(homeData)
+  const company = ref(companyData)
+  const about = ref(aboutData)
+  const partners = ref(partnersData)
   const products = ref<Product[]>(productsData.products)
+
   const isLoading = ref(false)
   const error = ref<string | null>(null)
 
-  // Computed - Company & Hero
-  const heroSection = computed(() => content.value.hero)
-  const companyInfo = computed(() => content.value.company)
-  
-  // Computed - Philosophy
-  const philosophy = computed(() => content.value.philosophy)
-  
-  // Computed - Team
-  const team = computed(() => content.value.team)
-  
-  // Computed - Network
-  const network = computed(() => content.value.network)
-  
-  // Computed - Operational Model
-  const operationalModel = computed(() => content.value.operationalModel)
-  
-  // Computed - Partner Opportunities
-  const partnerOpportunities = computed(() => content.value.partnerOpportunities)
-  
-  // Computed - Revenue Model
-  const revenue = computed(() => content.value.revenue)
-  
-  // Computed - Vision
-  const vision = computed(() => content.value.vision)
-  
-  // Computed - Final CTA
-  const finalCTA = computed(() => content.value.finalCTA)
+  // --- HOMEPAGE ---
+  const heroSection = computed(() => home.value.hero)
+  const philosophy = computed(() => home.value.philosophy)
+  const operationalModel = computed(() => home.value.operationalModel)
+  const homePageCTA = computed(() => home.value.finalCTA)
 
-  // Computed - Products
-  const featuredProducts = computed(() => 
-    products.value.filter(p => p.featured)
-  )
-  
+  // --- COMPANY PAGE ---
+  const companyInfo = computed(() => company.value.company)
+  const companyPhilosophy = computed(() => company.value.philosophy)
+  const team = computed(() => company.value.team)
+
+  // --- ABOUT PAGE ---
+  const network = computed(() => about.value.network)
+  const revenueModel = computed(() => about.value.revenueModel)
+  const vision = computed(() => about.value.vision)
+
+  // --- PARTNERS PAGE ---
+  const partnerOpportunities = computed(() => partners.value.partnerOpportunities)
+  const idealPartner = computed(() => partners.value.partnerOpportunities.ideal)
+  const partnerCTA = computed(() => partners.value.partnerOpportunities)
+
+  // --- PRODUCTS ---
+  const featuredProducts = computed(() => products.value.filter(p => p.featured))
   const allProducts = computed(() => products.value)
-  
   const productsByTag = computed(() => (tag: string) =>
     products.value.filter(p => p.tags.includes(tag))
   )
 
-  // Actions
+  // --- Actions ---
   const scrollToSection = (sectionId: string, offset = 80) => {
     const element = document.getElementById(sectionId)
     if (element) {
-      const top = element.offsetTop - offset
-      window.scrollTo({
-        top,
-        behavior: 'smooth',
-      })
+      window.scrollTo({ top: element.offsetTop - offset, behavior: 'smooth' })
     }
   }
 
-  const getProductByKey = (key: string): Product | undefined => {
-    return products.value.find(p => p.key === key)
-  }
+  const getProductByKey = (key: string): Product | undefined =>
+    products.value.find(p => p.key === key)
 
-  const getFeaturedProductsCount = (): number => {
-    return products.value.filter(p => p.featured).length
-  }
+  const getFeaturedProductsCount = (): number =>
+    products.value.filter(p => p.featured).length
 
-  const getProductsByGeography = (geography: string): Product[] => {
-    return products.value.filter(p => 
+  const getProductsByGeography = (geography: string): Product[] =>
+    products.value.filter(p =>
       p.geography?.toLowerCase().includes(geography.toLowerCase())
     )
-  }
 
   return {
     // State
-    content,
+    home,
+    company,
+    about,
+    partners,
     products,
     isLoading,
     error,
-    
-    // Computed - Content Sections
+
+    // Home
     heroSection,
-    companyInfo,
     philosophy,
-    team,
-    network,
     operationalModel,
-    partnerOpportunities,
-    revenue,
+    homePageCTA,
+
+    // Company
+    companyInfo,
+    companyPhilosophy,
+    team,
+
+    // About
+    network,
+    revenueModel,
     vision,
-    finalCTA,
-    
-    // Computed - Products
+
+    // Partners
+    partnerOpportunities,
+    idealPartner,
+    partnerCTA,
+
+    // Products
     featuredProducts,
     allProducts,
     productsByTag,
-    
+
     // Actions
     scrollToSection,
     getProductByKey,
     getFeaturedProductsCount,
-    getProductsByGeography,
+    getProductsByGeography
   }
 })
