@@ -550,3 +550,52 @@ export interface ProductDetails {
   whyNow: string[]
   sources: string[]
 }
+export interface Badge {
+  icon: string
+  text: string
+}
+
+export interface CTA {
+  primary: string
+  secondary: string
+}
+
+export interface HeroSection {
+  type: 'hero'
+  data: {
+    badge: Badge
+    title: string
+    subtitle: string
+    highlights: string[]
+    cta: CTA
+  }
+}
+
+export interface PhilosophySection {
+  type: 'philosophy'
+  data: {
+    title: string
+    text: string
+  }
+}
+
+export interface CTASection {
+  type: 'cta'
+  data: {
+    title: string
+    subtitle: string
+    primary: string
+    secondary: string
+    guarantee: string
+  }
+}
+
+export type Section = HeroSection | PhilosophySection | CTASection
+
+export interface Product {
+  key: string
+  featured: boolean
+  tags: string[]
+  geography?: string
+  // Add other product properties
+}

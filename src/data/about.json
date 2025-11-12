@@ -1,0 +1,24 @@
+{
+  "network": {
+    "title": "Global Network, European Excellence",
+    "deployment": {
+      "title": "Deployment & Backfill",
+      "scope": "Europe-Wide",
+      "description": "All installation and on-site services are delivered across Europe by vetted freelancers."
+    },
+    "supply": {
+      "title": "Suppliers & Manufacturing",
+      "scope": "Global Network",
+      "description": "Supplier and factory network optimized for cost and efficiency, powered by Neo4j dashboards."
+    }
+  },
+  "vision": {
+    "title": "Forward-Looking Vision",
+    "goals": [
+      "Expand products with client-driven innovations",
+      "Launch market insight articles",
+      "Grow partner network with equity-sharing",
+      "Continuously optimize supply via Neo4j dashboards"
+    ]
+  }
+}

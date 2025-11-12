@@ -1,0 +1,32 @@
+{
+  "operationalModel": {
+    "title": "How We Work",
+    "subtitle": "A simple, transparent, competitive process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Client Needs",
+        "description": "Define requirements for backfill, software deployment, or custom products.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Competition Release",
+        "description": "Europe-based freelancers or partner companies bid on tasks.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Execution & Delivery",
+        "description": "Winners complete coverage or production.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Payment & Results",
+        "description": "Freelancers receive guaranteed pay (€150/day).",
+        "icon": "payments"
+      }
+    ]
+  }
+}

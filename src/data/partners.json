@@ -1,0 +1,24 @@
+{
+  "partnerOpportunities": {
+    "title": "Partner, Don't Apply",
+    "subtitle": "We don't hire employees — we create equity partnerships",
+    "benefits": [
+      {
+        "icon": "handshake",
+        "title": "50% Equity Share",
+        "description": "Build solutions on our platform and earn 50% equity."
+      },
+      {
+        "icon": "trending_up",
+        "title": "Market Opportunity",
+        "description": "Spot markets or workflows that benefit from decentralization."
+      },
+      {
+        "icon": "groups",
+        "title": "Autonomous Collaboration",
+        "description": "Work independently with full platform support."
+      }
+    ],
+    "ideal": "Ideal partners: Companies and professionals who see inefficiencies and want to solve them with decentralized intelligence."
+  }
+}

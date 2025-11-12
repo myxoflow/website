@@ -5,28 +5,35 @@
       "label": "Solutions",
       "path": "/products",
       "children": [
-        { "label": "Fill", "path": "/products/fill" },
-        { "label": "Kraft", "path": "/products/kraft" },
+        { "label": "MyxoFill", "path": "/products/myxofill" },
+        { "label": "Minerva", "path": "/products/minerva" },
         { "label": "Flow", "path": "/products/flow" },
         { "label": "Cheddar", "path": "/products/cheddar" },
         { "label": "KitchenOS", "path": "/products/kitchenos" },
+        { "label": "Date", "path": "/products/date" },
         { "label": "Timid", "path": "/products/timid" }
       ]
     },
-    { "label": "Company", "path": "/company", "children": [
+    { "label": "Contact Us", "path": "/contact" },
+
+    {
+      "label": "Company",
+      "path": "/company",
+      "children": [
         { "label": "About", "path": "/about" },
         { "label": "How It Works", "path": "/how-it-works" },
-        { "label": "Partners", "path": "/partners" },
-        { "label": "Contact", "path": "/contact" }
+        { "label": "Partners", "path": "/partners" }
       ]
-    }
+    },
+    { "label": "Blog", "path": "/blog", "external": false }
   ],
   "footer": {
     "products": [
-      { "label": "Fill", "path": "/products/fill" },
-      { "label": "Kraft", "path": "/products/kraft" },
+      { "label": "MyxoFill", "path": "/products/myxofill" },
+      { "label": "Minerva", "path": "/products/minerva" },
       { "label": "Flow", "path": "/products/flow" },
       { "label": "Date", "path": "/products/date" },
+      { "label": "Cheddar", "path": "/products/cheddar" },
       { "label": "KitchenOS", "path": "/products/kitchenos" },
       { "label": "Timid", "path": "/products/timid" }
     ],
@@ -34,7 +41,7 @@
       { "label": "About Us", "path": "/about" },
       { "label": "How It Works", "path": "/how-it-works" },
       { "label": "Partners", "path": "/partners" },
-      { "label": "Contact", "path": "/contact" }
+      { "label": "Contact Us", "path": "/contact" }
     ],
     "resources": [
       { "label": "FAQ", "path": "/faq" },

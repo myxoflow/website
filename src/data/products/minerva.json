@@ -1,0 +1,137 @@
+{
+  "key": "minerva",
+  "name": "Minerva",
+  "title": "Modular On-Demand Apparel Platform",
+  "tagline": "Design it. We make it. Delivered on demand.",
+  "background": {
+    "headline": "Fragmented and Inefficient Apparel Customization Market",
+    "summary": "The custom clothing market struggles with inventory bloat, slow turnaround, and limited personalization. Existing platforms offer few options and rely heavily on pre-made stock or expensive in-house production.",
+    "insight": "Minerva reimagines apparel manufacturing as a modular, digital-first process where customers dictate every variable while supply chains stay lean and responsive."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Limited SKU options in most print-on-demand platforms constrain creativity.",
+      "Excess inventory of niche fabrics or sizes ties up capital.",
+      "Factories lack standardization for custom multi-parameter orders.",
+      "Lead times increase when rare combinations are requested.",
+      "Quality control is inconsistent across decentralized suppliers.",
+      "Digital-to-physical workflows are manual, error-prone, or incompatible with multiple print methods.",
+      "Scaling personalization is operationally complex without a structured system."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Consumers increasingly demand highly personalized apparel. Brands and marketplaces want to offer customization without overstock or overhead. Minerva connects these needs through a modular production matrix.",
+    "dataPoints": [
+      "Custom clothing market projected to reach $10B by 2027 (MarketWatch).",
+      "Over 60% of consumers prefer personalized products (Epsilon Research).",
+      "Print-on-demand growth exceeds 20% YoY globally."
+    ]
+  },
+  "solution": {
+    "headline": "A Digital-First Modular Apparel System",
+    "description": "Minerva allows users to design clothes across multiple parameters—fabric type, quality, fiber thickness, size, and print method—while automatically generating standardized production commands sent to global supply chains.",
+    "coreFeatures": [
+      {
+        "title": "Interactive Design Matrix",
+        "text": "Customers pick fabric, quality, thickness, size, and decoration type, creating virtually unlimited product permutations."
+      },
+      {
+        "title": "Automated Production Tickets",
+        "text": "Each order translates to a clear SKU code + user design file + production instructions, eliminating factory guesswork."
+      },
+      {
+        "title": "On-Demand vs Pre-Made Strategy",
+        "text": "Popular combinations are stocked; rare or premium variants are manufactured only when ordered."
+      },
+      {
+        "title": "Multi-Method Print & Decoration",
+        "text": "Supports ink, embroidery, sublimation, DTF, and more, routed to facilities with compatible machinery."
+      },
+      {
+        "title": "Centralized Quality Control",
+        "text": "Photo verification and error tracking ensure consistent production standards across all suppliers."
+      },
+      {
+        "title": "Dynamic Supply Chain Routing",
+        "text": "Orders are sent to the nearest node with correct stock and equipment, optimizing cost and delivery time."
+      },
+      {
+        "title": "Scalable SKU Matrix",
+        "text": "The modular approach turns complexity into a competitive advantage, enabling thousands of unique product combinations without inefficiency."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditional Apparel vs Minerva",
+    "items": [
+      {
+        "aspect": "Product Variety",
+        "traditional": "Limited pre-made SKUs, low personalization",
+        "minerva": "Thousands of unique combinations via modular matrix"
+      },
+      {
+        "aspect": "Inventory",
+        "traditional": "Overstocked with slow-moving variants",
+        "minerva": "Popular blanks pre-stocked; rare variants on-demand"
+      },
+      {
+        "aspect": "Production Flow",
+        "traditional": "Manual file routing, high error rates",
+        "minerva": "Automated digital ticket system with exact instructions"
+      },
+      {
+        "aspect": "Customization",
+        "traditional": "Few options, fixed templates",
+        "minerva": "Full control over fabric, size, quality, and decoration method"
+      },
+      {
+        "aspect": "Lead Time",
+        "traditional": "Weeks to months for rare combinations",
+        "minerva": "Optimized routing enables fast delivery even for rare variants"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategic Vision: Personalized Apparel, Simplified",
+    "principles": [
+      {
+        "title": "Modularity as Advantage",
+        "description": "Structured SKU matrices convert complexity into operational efficiency and consumer choice."
+      },
+      {
+        "title": "Lean Supply Chains",
+        "description": "Pre-stock only popular blanks; fulfill rarities on demand to reduce waste and costs."
+      },
+      {
+        "title": "Digital-First Production",
+        "description": "Automated tickets, validation, and routing ensure error-free, scalable manufacturing."
+      },
+      {
+        "title": "Consumer Empowerment",
+        "description": "Users control every design variable without compromise on quality or speed."
+      }
+    ],
+    "summary": "Minerva transforms apparel customization from chaotic and slow into scalable, lean, and highly personalized."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "SKU management becomes systematic, reducing production errors by up to 50%.",
+      "Lead times for custom garments reduced by 40–60%.",
+      "Inventory carrying costs drop by 30–70%.",
+      "Customer satisfaction increases through expanded personalization options."
+    ]
+  },
+  "whyNow": [
+    "Rapid growth of online custom apparel and print-on-demand market.",
+    "Technologies for digital design, file validation, and automated routing are mature.",
+    "Global supply chains are ready to support modular fulfillment.",
+    "Consumer demand for personalization is peaking, creating a first-mover advantage."
+  ],
+  "sources": [
+    "marketwatch.com",
+    "epsilon.com",
+    "printondemandnews.com",
+    "statista.com",
+    "fashiontechinsights.org"
+  ]
+}

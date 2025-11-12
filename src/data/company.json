@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "MyxoFlow",
+    "tagline": "Decentralized Building, Real Results",
+    "description": "Inspired by nature's most efficient problem-solver, the slime mold...",
+    "contact": {
+      "email": "info@myxoflow.com",
+      "phone": "(+39) 3758327534",
+      "address": {
+        "street": "Innovation Hub",
+        "city": "Naples",
+        "state": "Campania",
+        "zip": "80100",
+        "country": "Italy"
+      },
+      "social": [
+        { "platform": "github", "url": "https://github.com/myxoflow" },
+        { "platform": "linkedin", "url": "https://linkedin.com/company/myxoflow" }
+      ]
+    }
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "subtitle": "We challenge traditional business models with transparency and efficiency",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralized & Adaptive",
+        "description": "No corporate hierarchy..."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair & Transparent",
+        "description": "Companies overcharge assuming users are 'price stupid.'..."
+      },
+      {
+        "icon": "speed",
+        "title": "Fast & Accountable",
+        "description": "From idea to execution in 30 days..."
+      }
+    ]
+  },
+  "team": {
+    "title": "The Core System",
+    "subtitle": "Two nodes, one adaptive intelligence",
+    "members": [
+      {
+        "name": "Bobby Seelam",
+        "role": "Founder & Product Lead",
+        "avatar": "/images/team/bobby.jpg",
+        "bio": "Brings complete capability from idea to execution..."
+      },
+      {
+        "name": "Saivinay Manda",
+        "role": "Full-Stack & AI Lead",
+        "avatar": "/images/team/saivinay.jpg",
+        "bio": "Builds intelligent systems that ensure real-time optimization..."
+      }
+    ]
+  }
+}

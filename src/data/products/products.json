@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "key": "myxofill",
-      "name": "MyxoFill",
+      "key": "fill",
+      "name": "Fill",
       "tagline": "Transparent Workforce Backfill Platform",
       "description": "Europe-wide marketplace connecting businesses directly with verified IT technicians. Eliminates subcontracting layers, ensures fair pay, fast deployment, and real-time matching.",
       "overview": "MyxoFill optimizes the IT field service industry by connecting clients and qualified technicians directly. The platform automates matching, escrows payments, and provides verified ratings — transforming a traditionally opaque ecosystem into a transparent, merit-based system.",
@@ -64,11 +64,11 @@
       "geography": "Europe-first deployment, globally scalable"
     },
     {
-      "key": "myxomake",
-      "name": "MyxoMake",
+      "key": "minerva",
+      "name": "Minerva",
       "tagline": "Custom Product Production",
       "description": "Branded merchandise and promotional items via global suppliers. Flexible quality optimization for cost efficiency.",
-      "overview": "MyxoMake leverages our global supplier network to produce custom products with optimal cost-quality balance. No unnecessary quality checks — just efficient production at fair prices.",
+      "overview": "Minerva leverages our global supplier network to produce custom products with optimal cost-quality balance. No unnecessary quality checks — just efficient production at fair prices.",
       "features": [
         "Global supplier network",
         "Branded merchandise production",
@@ -107,11 +107,11 @@
       "geography": "Global production, Europe delivery"
     },
     {
-      "key": "stitchflow",
-      "name": "StitchFlow",
+      "key": "flow",
+      "name": "Flow",
       "tagline": "Garment Manufacturing",
       "description": "Apparel manufacturing via global supplier network. Design, production, and delivery pipeline optimization.",
-      "overview": "StitchFlow integrates design, production, and delivery for garment manufacturing. Our global network ensures competitive pricing without compromising on essential quality standards.",
+      "overview": "Flow integrates design, production, and delivery for garment manufacturing. Our global network ensures competitive pricing without compromising on essential quality standards.",
       "features": [
         "Full garment production pipeline",
         "Design integration",
@@ -326,64 +326,6 @@
       },
       "tags": ["browser", "privacy", "open-source"],
       "featured": false
-    },
-    {
-      "key": "deployment",
-      "name": "Software & System Deployment",
-      "tagline": "Custom Solutions in 30 Days",
-      "description": "Custom dashboards, automation tools, and software deployed within 30 days. Cloud or on-premise with optional recurring support.",
-      "overview": "We deploy custom software solutions, dashboards, and automation systems within 30 days. Cloud or GitHub pipelines for software; hardware handled by freelancers or our team. Optional IaaS support.",
-      "features": [
-        "30-day deployment guarantee",
-        "Custom dashboards (Neo4j-based)",
-        "Automation tools",
-        "Cloud or on-premise",
-        "Hardware installation via freelancers",
-        "Optional IaaS/cloud support"
-      ],
-      "useCases": [
-        "Custom business dashboards",
-        "Automation implementations",
-        "System integrations",
-        "Infrastructure deployments",
-        "Legacy system modernization"
-      ],
-      "pricing": {
-        "model": "Deployment fees + optional cloud support",
-        "tiers": [
-          {
-            "name": "Software Deployment",
-            "price": "From €2,500",
-            "billingPeriod": "per project",
-            "description": "Complete system deployment",
-            "features": [
-              "30-day delivery",
-              "Custom development",
-              "Testing & deployment",
-              "Documentation",
-              "Training included"
-            ],
-            "cta": "Get Quote",
-            "popular": true
-          },
-          {
-            "name": "Cloud Support",
-            "price": "From €199",
-            "billingPeriod": "per month",
-            "description": "Ongoing IaaS support",
-            "features": [
-              "Cloud hosting",
-              "Monitoring & updates",
-              "Security patches",
-              "Technical support",
-              "Backup & recovery"
-            ],
-            "cta": "Add Support"
-          }
-        ]
-      },
-      "tags": ["deployment", "software", "custom"],
-      "featured": true
     }
   ]
 }

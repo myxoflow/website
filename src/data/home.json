@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "badge": { "icon": "🧬", "text": "Nature-Inspired Intelligence" },
+    "title": "Decentralized Intelligence, Real Results",
+    "subtitle": "Like a slime mold finding the fastest path, we optimize workflows, deployment, and resources across Europe — without corporate layers, hidden markups, or price-stupid assumptions.",
+    "highlights": [
+      "Decentralized Network",
+      "Fair Freelancer Pay",
+      "Global Supply Chain",
+      "30-Day Deployments"
+    ],
+    "cta": {
+      "primary": "Explore Solutions",
+      "secondary": "Become a Partner"
+    }
+  },
+  "philosophyPreview": {
+    "title": "Why Decentralized?",
+    "text": "Inspired by slime molds, our adaptive network finds optimal paths for business operations. No hierarchies, no waste."
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Operations?",
+    "subtitle": "Join the decentralized network. No corporate layers, no hidden markups — just real results.",
+    "primary": "Get Started",
+    "secondary": "Become a Partner",
+    "guarantee": "Freelancers guaranteed €150/day minimum, fully insured. 30-day deployment guarantee."
+  }
+}
