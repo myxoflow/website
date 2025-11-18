@@ -1,0 +1,137 @@
+{
+  "key": "myxofill",
+  "name": "MyxoFill",
+  "title": "Dezentrale IT-Field-Techniker-Plattform",
+  "tagline": "Eliminiere Mittelsmänner. Ermächtige Techniker. Direkte Verbindung.",
+  "background": {
+    "headline": "Zersplittertes IT-Servicenetz",
+    "summary": "Der Onsite-IT-Markt wird von Subunternehmerketten dominiert, die 70–85% des Kundenbudgets abschöpfen, während Techniker nur einen Bruchteil erhalten. Kommunikationsengpässe, Datenlecks und verspätete Zahlungen mindern die Effizienz.",
+    "insight": "MyxoFill bricht mit diesem Modell und gibt beiden Seiten, was sie brauchen: direkten Zugang, verifizierte Qualifikationen und faire Bezahlung."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Undurchsichtige Subunternehmerketten verhindern Transparenz.",
+      "Techniker sehen keinen echten Vertragswert oder Kundeninfos.",
+      "Kommunikationsverzögerungen vervielfachen sich über viele Ebenen.",
+      "Daten laufen durch viele Subunternehmer und erhöhen das Risiko von Datenpannen.",
+      "80% der Freelancer warten auf Zahlungen; Agenturen halten Rechnungen zurück.",
+      "Keine leistungsbasierte Bewertung, unqualifizierte Arbeit untergräbt Vertrauen.",
+      "Agenturen nutzen Abhängigkeit – bei jeder Verlängerung verdienen Auftragnehmer weniger."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Unternehmen streben nach Kostensenkung und Verantwortlichkeit. Techniker wollen verlässliche Bezahlung und Unabhängigkeit. MyxoFill vernetzt beide Seiten mit geprüften Profilen.",
+    "dataPoints": [
+      "Bis 2025 werden 47% der Arbeitskräfte weltweit Freelancer sein (Worksme.com).",
+      "8 von 10 Freelancern berichten über spät oder nur teilweis bezahlt (grey.co).",
+      "78% der CFOs wollen Kostenersparnisse erreichen (EPAM survey)."
+    ]
+  },
+  "solution": {
+    "headline": "Unsere transparente Plattform",
+    "description": "MyxoFill ist ein Marktplatz, auf dem geprüfte Freelancer und Kunden direkt per transparenter Verträge, gesicherter Kommunikation und automatisierter Bezahlung zusammenfinden.",
+    "coreFeatures": [
+      {
+        "title": "Mobiloptimiertes Dashboard",
+        "text": "Techniker & Kunden steuern Jobs via App oder Browser—ganz ohne komplizierte Dispositionssysteme."
+      },
+      {
+        "title": "Jobs nach Standort & Skill",
+        "text": "Jobs werden automatisch an geprüfte Techniker in der Nähe ausgestrahlt. Große Aufgaben werden in kleine, verfolgte Steps geteilt."
+      },
+      {
+        "title": "Transparente Vergabe",
+        "text": "Alle Angebote sind einsehbar; Kunden wählen nach Skills, nicht nach Mittelsmännern. Dumpingpreise werden automatisch markiert."
+      },
+      {
+        "title": "Skillvalidierung & Bewertung",
+        "text": "Gamifizierte Tests, geprüfte Erfahrung, Kundenfeedback ergeben ein sichtbarers Profi-Profil."
+      },
+      {
+        "title": "Treuhandzahlungen & Abrechnung",
+        "text": "Geld wird bei Taskabschluss automatisch ausgezahlt—Tagelanges Warten auf Rechnung entfällt."
+      },
+      {
+        "title": "Sichere Kommunikationskanäle",
+        "text": "Nachrichten, Fotos & Dateien sind verschlüsselt und werden in EU-Servern von MyxoFlow gespeichert."
+      },
+      {
+        "title": "Kontinuierliches Skill-Wachstum",
+        "text": "Techniker erhalten Empfehlungen für Weiterbildungen und profitieren bei anhaltendem Erfolg von größerer Sichtbarkeit."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Vorher vs Nachher: Traditionell vs MyxoFill",
+    "items": [
+      {
+        "aspect": "Preisgestaltung",
+        "traditional": "Mehrfache Vendor-Aufschläge, intransparente Kosten",
+        "myxofill": "Fester Anteil, offene Angebote, überprüfbarer Zahlungsplan"
+      },
+      {
+        "aspect": "Auftragsvergabe",
+        "traditional": "Manuelle Vergabe, Bevorzugung Einzelner",
+        "myxofill": "Automatisches AI-Matching nach Meritokratie"
+      },
+      {
+        "aspect": "Zahlungen",
+        "traditional": "30–90 Tage Zahlungsziel nach Rechnung",
+        "myxofill": "Sofortige Auszahlung via Escrow bei Abschluss"
+      },
+      {
+        "aspect": "Datenmanagement",
+        "traditional": "Datenzugriff durch Dritte, Lecks wahrscheinlich",
+        "myxofill": "Verschlüsseltes Einzelumfeld mit klaren Audit-Logs"
+      },
+      {
+        "aspect": "Verantwortlichkeit",
+        "traditional": "Verteilt auf Subunternehmer",
+        "myxofill": "Direkte Einzeltasks mit Meilenstein-Tracking"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategische Vision: Effizienz zurück ins System",
+    "principles": [
+      {
+        "title": "Leistung statt Bürokratie",
+        "description": "Techniker steigen durch verifiziertes Können auf, nicht Beziehungen."
+      },
+      {
+        "title": "Transparenz statt Geheimhaltung",
+        "description": "Alle Aufgaben, Tarife und Feedbacks sind offen & nachvollziehbar—keine versteckten Klauseln."
+      },
+      {
+        "title": "Effizienz statt Redundanz",
+        "description": "Prozessautomatisierung senkt Verwaltungsaufwand, mehr Profit für Spezialisten."
+      },
+      {
+        "title": "Weiterentwicklung der Skills",
+        "description": "Jeder Erfolg zahlt auf das persönliche Profil ein und eröffnet neue Chancen."
+      }
+    ],
+    "summary": "MyxoFill setzt auf fairen Kapitalismus—Wertschöpfung kommt den Leistungserbringern zugute, nicht der Verwaltung."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Techniker-Einkommen steigt im Schnitt um 80%.",
+      "Servicekosten für Unternehmen sinken um 50–70%.",
+      "Zahlungszeit von 45 Tagen auf 0 durch Escrow eliminiert.",
+      "Task-Vergabezeit schrumpft dank Automation auf Sekunden."
+    ]
+  },
+  "whyNow": [
+    "Unternehmen müssen wegen Inflation Kosten senken.",
+    "Großes Freelance-IT-Wachstum nach 2023.",
+    "EU-Richtlinien schützen jetzt Plattformarbeiter.",
+    "Escrow, ID-Check, AI-Matching sind Mainstream."
+  ],
+  "sources": [
+    "fieldez.com",
+    "worksome.com",
+    "grey.co",
+    "fisherphillips.com",
+    "identitymanagementinstitute.org"
+  ]
+}

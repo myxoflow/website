@@ -1,0 +1,24 @@
+{
+  "partnerOpportunities": {
+    "title": "Partner werden, nicht bewerben",
+    "subtitle": "Wir stellen keine Mitarbeiter ein – wir schaffen Beteiligungspartnerschaften",
+    "benefits": [
+      {
+        "icon": "handshake",
+        "title": "50% Umsatzbeteiligung",
+        "description": "Entwickle Lösungen auf unserer Plattform und erhalte 50% Beteiligung. Deine Innovation, unsere Infrastruktur."
+      },
+      {
+        "icon": "trending_up",
+        "title": "Marktchancen",
+        "description": "Erkenne Märkte oder Workflows, die von Dezentralisierung profitieren. Wir helfen dir zu optimieren und zu skalieren."
+      },
+      {
+        "icon": "groups",
+        "title": "Autonome Zusammenarbeit",
+        "description": "Arbeite eigenständig mit voller Plattformunterstützung. Keine Firmenstruktur, sondern echte Partnerschaft."
+      }
+    ],
+    "ideal": "Ideale Partner: Unternehmen und Fachleute, die Ineffizienzen erkennen und mit dezentraler Intelligenz lösen wollen."
+  }
+}

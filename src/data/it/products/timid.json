@@ -1,0 +1,130 @@
+{
+  "key": "timid",
+  "name": "Timid",
+  "title": "Browser web minimalista, privacy-first",
+  "tagline": "Niente pubblicità. Niente token. Solo privacy.",
+  "background": {
+    "headline": "Navigare il web non dovrebbe mercificarti",
+    "summary": "Oggi la maggior parte dei browser è anche piattaforma pubblicitaria, tracker o marketplace crypto—lasciando l’utente nell’incertezza tra privacy e business.",
+    "insight": "Timid ricostruisce la navigazione partendo dalla vera privacy: elimina tutte le logiche di monetizzazione, reward e raccolta dati. Si concentra su velocità, semplicità e privacy reale."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Quasi tutti i browser includono monetizzazione nascosta, codice pubblicitario o sistemi reward.",
+      "La raccolta dati è mascherata come 'telemetria' o 'analytics opt-in'.",
+      "Le impostazioni predefinite spesso lasciano tracce e identificano l’utente.",
+      "Le funzioni privacy sono sostituite da opt-out complicati invece che default corretti.",
+      "Gli utenti devono fidarsi di codice/server centralizzati e poco verificabili.",
+      "Il codice è open-source ma spesso manca trasparenza nella governance."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Privacy-first, open source e professionisti cercano browser che facciano solo il loro lavoro—senza tracking, rewards o altre distrazioni.",
+    "dataPoints": [
+      "Milioni di utenti cercano alternative ai browser 'ad-driven' ogni anno.",
+      "I browser open source crescono più rapidamente quando minimalismo e trasparenza sono reali.",
+      "Un fork di browser trasparente e community-led può attirare utenti rapidamente se elimina la logica business."
+    ]
+  },
+  "solution": {
+    "headline": "Navigazione trasparente e senza monetizzazione",
+    "description": "Timid nasce dal codice di browser open-source, privato da logiche di monetizzazione, rewards e tracking. Niente telemetria, crypto né engagement—solo sicurezza, velocità e privacy.",
+    "coreFeatures": [
+      {
+        "title": "Nessun codice monetizzazione",
+        "text": "Rimuove per default advertising, tracking e logiche di guadagno."
+      },
+      {
+        "title": "Privacy hard di default",
+        "text": "Protezione tracking, fingerprint resistant, HTTPS sempre attivo—no opt-in necessari."
+      },
+      {
+        "title": "Open source sempre",
+        "text": "Codice e build script trasparenti, documentazione chiara per ogni modifica/rimozione."
+      },
+      {
+        "title": "Aggiornamenti sicurezza upstream",
+        "text": "Patch di sicurezza rapide dalla base Chromium open-source."
+      },
+      {
+        "title": "UI minimalista",
+        "text": "Interfaccia pulita senza pop-up reward né analytics."
+      },
+      {
+        "title": "Governance della community",
+        "text": "Commit e changelog aperti, onboarding amichevole per contributors."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Prima e dopo: browser convenzionali vs Timid",
+    "items": [
+      {
+        "aspect": "Monetizzazione",
+        "traditional": "Pubblicità, tracciamenti e reward presenti di default.",
+        "timid": "Zero adv, token, tracker, reward in tutto il codice."
+      },
+      {
+        "aspect": "Privacy di default",
+        "traditional": "Richiede opt-out manuali e impostazioni oscure.",
+        "timid": "Privacy dura come default—tracking e fingerprint bloccati già all’installazione."
+      },
+      {
+        "aspect": "Telemetria",
+        "traditional": "Analytics nascoste inviate ai server vendor.",
+        "timid": "Zero telemetria o metriche anonime raccolte, mai."
+      },
+      {
+        "aspect": "Governance",
+        "traditional": "Decisioni business chiuse, open-source parziale.",
+        "timid": "Governance open—tutti i cambi critici sono documentati."
+      },
+      {
+        "aspect": "Fiducia comunità",
+        "traditional": "Percorsi codice opachi, incentivi poco trasparenti.",
+        "timid": "Codice e documentazione espliciti su cosa viene rimosso."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Visione: navigazione semplice e onesta",
+    "principles": [
+      {
+        "title": "Privacy by default",
+        "description": "La privacy non è opzionale o opt-in—è il punto di partenza e tutta documentata."
+      },
+      {
+        "title": "Minimalismo invece di monetizzazione",
+        "description": "Il browser deve puntare su velocità, sicurezza ed esperienza utente—non sullo sfruttamento dell’attenzione."
+      },
+      {
+        "title": "Trasparenza invece di hype",
+        "description": "Ogni feature e rimozione è documentata e verificabile."
+      },
+      {
+        "title": "Community prima del brand",
+        "description": "Etica open source e trasparenza guidano il contributo—non il marketing."
+      }
+    ],
+    "summary": "Timid offre una navigazione web onesta ed efficiente per chi è stanco di hype e secondi fini."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Nessuna revenue da adv, token o reward: solo user adoption e trasparenza.",
+      "Fino al 30% in più di velocità di caricamento senza adv e analytics.",
+      "Contributi diretti da professional & advocate privacy.",
+      "Patch sicurezza rapidissime grazie al sync upstream."
+    ]
+  },
+  "whyNow": [
+    "Cresce il rifiuto verso browser monetizzati e la sorveglianza.",
+    "Comunità e utenti chiedono strumenti onesti e aperti.",
+    "Il workflow open source consente oggi patch automation su larga scala.",
+    "Se la privacy è il prodotto, non deve essere venduta."
+  ],
+  "sources": [
+    "manifesto interno timid.txt",
+    "discussioni OSS privacy tools",
+    "audit utenti e ricerche sui browser"
+  ]
+}

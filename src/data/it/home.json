@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "badge": { "icon": "🧬", "text": "Intelligenza ispirata alla natura" },
+    "title": "Intelligenza decentralizzata, risultati reali",
+    "subtitle": "Come una muffa melmosa che trova il percorso più veloce, ottimizziamo flussi di lavoro, implementazione e risorse in tutta Europa — senza strati aziendali, sovrapprezzi nascosti o assunzioni errate sui prezzi.",
+    "highlights": [
+      "Rete decentralizzata",
+      "Paga equa per i freelancer",
+      "Filiera globale",
+      "Implementazioni in 30 giorni"
+    ],
+    "cta": {
+      "primary": "Scopri le soluzioni",
+      "secondary": "Diventa partner"
+    }
+  },
+
+  "philosophy": {
+    "title": "La nostra filosofia",
+    "subtitle": "Sfida ai modelli di business tradizionali con trasparenza ed efficienza",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralizzata e adattiva",
+        "description": "Nessuna gerarchia aziendale. Operiamo come un unico sistema adattivo ispirato all'intelligenza della muffa melmosa — trovando percorsi ottimali in tempo reale."
+      },
+      {
+        "icon": "balance",
+        "title": "Equa e trasparente",
+        "description": "Le aziende caricano troppo, presumendo che gli utenti siano 'ignoranti sui prezzi.' Noi ribaltiamo il modello: trasparenza, efficienza e compensi equi per tutti."
+      },
+      {
+        "icon": "speed",
+        "title": "Veloce e responsabile",
+        "description": "Dall’idea all’esecuzione in 30 giorni. Niente burocrazia, niente ritardi — solo risultati forniti da una rete resiliente e responsabile."
+      }
+    ]
+  },
+
+  "operationalModel": {
+    "title": "Come lavoriamo",
+    "subtitle": "Un processo semplice, trasparente e competitivo",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Bisogni del cliente",
+        "description": "Definisci i requisiti per backfill, deployment software o prodotti su misura. Chiariamo portata e tempistiche.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Lancio della competizione",
+        "description": "Freelancer o aziende partner in Europa fanno offerte sulle attività. La concorrenza assicura qualità ed efficienza.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Esecuzione e consegna",
+        "description": "I vincitori completano il backfill, le implementazioni o la produzione. Se nessun freelancer è disponibile, ci pensa il nostro team.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Pagamento e risultati",
+        "description": "I freelancer ricevono un minimo garantito di €150/giorno, completamente assicurato. MyxoFlow guadagna tramite commissioni di servizio e micro-margini.",
+        "icon": "payments"
+      }
+    ]
+  },
+
+  "finalCTA": {
+    "title": "Pronto a ottimizzare le tue operazioni?",
+    "subtitle": "Entra nella rete decentralizzata. Niente strati aziendali, nessun sovrapprezzo nascosto — solo risultati reali.",
+    "primary": "Inizia ora",
+    "secondary": "Diventa partner",
+    "guarantee": "Freelancer garantiti €150/giorno minimo, completamente assicurato. Garanzia di implementazione in 30 giorni."
+  }
+}

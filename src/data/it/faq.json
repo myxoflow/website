@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "title": "Azienda & Filosofia",
+      "questions": [
+        {
+          "question": "Cos'è MyxoFlow e come opera?",
+          "answer": "MyxoFlow è una rete decentralizzata ispirata all'intelligenza naturale, progettata per ottimizzare le operazioni in Europa senza strati aziendali inutili. Il nostro approccio adattivo garantisce equità, trasparenza e velocità.",
+          "tags": ["azienda", "filosofia"]
+        },
+        {
+          "question": "Chi c'è dietro MyxoFlow?",
+          "answer": "Il nostro team centrale è composto da due nodi: Bobby Seelam (Fondatore & Responsabile prodotto) e Saivinay Manda (Responsabile Full-Stack & AI). Supervisionano le operazioni, lo sviluppo prodotto e l’implementazione della rete.",
+          "tags": ["azienda", "team"]
+        },
+        {
+          "question": "Cosa rende MyxoFlow diverso dalle aziende tradizionali?",
+          "answer": "Eliminiamo le gerarchie e i sovrapprezzi nascosti, operiamo con decisioni decentralizzate e garantiamo compensi equi ai freelancer, assicurando efficienza e responsabilità.",
+          "tags": ["azienda", "filosofia"]
+        },
+        {
+          "question": "Come viene finanziato MyxoFlow?",
+          "answer": "I ricavi provengono da commissioni di servizio, micro-margini e condivisione dei ricavi con i partner. Evitiamo spese inutili, investendo direttamente in operatività e crescita.",
+          "tags": ["azienda", "finanziamenti"]
+        }
+      ]
+    },
+    {
+      "title": "Come Lavoriamo",
+      "questions": [
+        {
+          "question": "Qual è il processo operativo di MyxoFlow?",
+          "answer": "Il nostro flusso di lavoro segue un modello competitivo in 4 fasi: 1) Bisogni del cliente, 2) Lancio competizione, 3) Esecuzione & consegna, 4) Pagamento & risultati. Questo garantisce efficienza e responsabilità in tutti i progetti.",
+          "tags": ["come-lavoriamo", "modello-operativo"]
+        },
+        {
+          "question": "Quanto dura l’implementazione?",
+          "answer": "L’implementazione richiede solitamente 2-4 settimane a seconda della portata, ma le implementazioni semplici possono essere completate in meno di 48 ore grazie alla nostra rete adattiva di freelancer.",
+          "tags": ["come-lavoriamo", "tempi"]
+        },
+        {
+          "question": "Chi esegue il lavoro?",
+          "answer": "I compiti sono svolti da freelancer selezionati tramite competizioni trasparenti, o dal nostro team centrale se nessun freelancer è disponibile, per garantire qualità e rapidità.",
+          "tags": ["come-lavoriamo", "esecuzione"]
+        },
+        {
+          "question": "Come viene garantita la paga ai freelancer?",
+          "answer": "I freelancer ricevono un minimo garantito di €150/giorno, completamente assicurato, indipendentemente dai ritardi del cliente, assicurando affidabilità e responsabilità.",
+          "tags": ["come-lavoriamo", "freelancer"]
+        }
+      ]
+    },
+    {
+      "title": "Rete & Partner",
+      "questions": [
+        {
+          "question": "Come funziona il modello di partnership di MyxoFlow?",
+          "answer": "Creiamo partnership azionarie invece di assumere dipendenti. I partner mantengono autonomia, guadagnano quote ricavo e contribuiscono alla crescita della piattaforma sfruttando la nostra infrastruttura.",
+          "tags": ["partner", "equity"]
+        },
+        {
+          "question": "Chi è un partner ideale?",
+          "answer": "Aziende o professionisti che identificano inefficienze e desiderano risolverle con soluzioni decentralizzate e adattive. Creatività, affidabilità e mentalità di crescita sono fondamentali.",
+          "tags": ["partner", "profilo"]
+        },
+        {
+          "question": "Quali vantaggi ricevono i partner?",
+          "answer": "I partner ricevono il 50% delle quote sulle soluzioni, accesso alle opportunità di mercato e supporto per collaborazioni autonome senza vincoli corporate.",
+          "tags": ["partner", "vantaggi"]
+        }
+      ]
+    },
+    {
+      "title": "Prezzi & Piani",
+      "questions": [
+        {
+          "question": "Come viene determinato il prezzo?",
+          "answer": "Il prezzo è trasparente e dipende dal vostro settore, dalla portata del progetto e dagli obiettivi. Nessuna tariffa nascosta — pagate solo per il valore fornito.",
+          "tags": ["prezzi", "costi"]
+        },
+        {
+          "question": "Offrite una prova gratuita?",
+          "answer": "Non offriamo una prova gratuita, ma tutti i clienti ricevono accesso completo alla piattaforma, assistenza dedicata per la configurazione e supporto tecnico diretto per garantire il successo.",
+          "tags": ["prova", "gratuito"]
+        },
+        {
+          "question": "Ci sono contratti a lungo termine?",
+          "answer": "No. MyxoFlow offre collaborazioni flessibili con partner e clienti, permettendo di scalare i servizi in base alle esigenze senza vincoli contrattuali prolungati.",
+          "tags": ["prezzi", "contratti"]
+        }
+      ]
+    }
+  ]
+}

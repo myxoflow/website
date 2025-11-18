@@ -1,0 +1,36 @@
+{
+  "network": {
+    "title": "Rete Globale, Eccellenza Europea",
+    "deployment": {
+      "title": "Implementazione & Backfill",
+      "scope": "In tutta Europa",
+      "description": "Tutti i servizi di installazione, backfill e on-site sono forniti in Europa da freelance selezionati e dal nostro team centrale."
+    },
+    "supply": {
+      "title": "Fornitori & Produzione",
+      "scope": "Rete Globale",
+      "description": "La nostra rete di fornitori e fabbriche si estende a livello globale, ottimizzata per l'efficienza dei costi senza controlli di qualità superflui. Ottimizzazione in tempo reale tramite dashboard Neo4j."
+    }
+  },
+
+  "revenueModel": {
+    "title": "Modello di Entrate",
+    "streams": [
+      { "name": "Competizioni Freelancer", "description": "Backfill, installazioni, compiti personalizzati di implementazione" },
+      { "name": "Commissioni di Servizio", "description": "Implementazione software, supporto cloud, servizi di installazione" },
+      { "name": "Micro-margini", "description": "Merchandising, abbigliamento, produzione di prodotti personalizzati" },
+      { "name": "Abbonamenti Cloud/IaaS", "description": "Supporto ricorrente per sistemi implementati e dashboard" },
+      { "name": "Equity Partner", "description": "50% di condivisione delle entrate da soluzioni create dai partner" }
+    ]
+  },
+
+  "vision": {
+    "title": "Visione Proiettata al Futuro",
+    "goals": [
+      "Espandere i prodotti con innovazioni guidate dai clienti",
+      "Lanciare una sezione articoli che mostri approfondimenti e casi d'uso di mercato",
+      "Ampliare la rete di partner con opportunità di partecipazione azionaria",
+      "Ottimizzare continuamente la supply chain globale e il deployment europeo tramite dashboard Neo4j"
+    ]
+  }
+}

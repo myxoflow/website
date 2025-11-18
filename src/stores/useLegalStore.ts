@@ -1,9 +1,27 @@
+// src/stores/useLegalStore.ts
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
-import legalData from '../data/legal.json'
+import { ref, computed, watch } from 'vue'
+import { currentLang } from '../composables/useLang'
 
 export const useLegalStore = defineStore('legal', () => {
-  const content = ref(legalData)
+  const content = ref<any>({})
+
+  // Load legal.json based on current language
+  async function loadLegal() {
+    const lang = currentLang.value
+    try {
+      const imported = await import(`../data/${lang}/legal.json`)
+      content.value = imported.default
+    } catch (err) {
+      // Fallback to English
+      const fallback = await import('../data/en/legal.json')
+      content.value = fallback.default
+    }
+  }
+
+  // Initial load and watch for lang changes
+  loadLegal()
+  watch(currentLang, loadLegal)
 
   const privacyPolicy = computed(() => content.value.privacyPolicy)
   const cookiesPolicy = computed(() => content.value.cookies)

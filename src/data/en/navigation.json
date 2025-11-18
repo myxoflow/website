@@ -1,0 +1,56 @@
+{
+  "navigation": [
+    { "label": "Home", "path": "/", "external": false },
+    {
+      "label": "Solutions",
+      "path": "/products",
+      "children": [
+        { "label": "MyxoFill", "path": "/products/myxofill" },
+        { "label": "Minerva", "path": "/products/minerva" },
+        { "label": "Flow", "path": "/products/flow" },
+        { "label": "Cheddar", "path": "/products/cheddar" },
+        { "label": "KitchenOS", "path": "/products/kitchenos" },
+        { "label": "Timid", "path": "/products/timid" }
+      ]
+    },
+    {
+      "label": "Company",
+      "path": "/company",
+      "children": [
+        { "label": "About", "path": "/company/about" },
+        { "label": "How It Works", "path": "/company/how-it-works" },
+        { "label": "Partners", "path": "/company/partners" }
+      ]
+    },
+    { "label": "Blog", "path": "/blog", "external": false },
+    { "label": "Contact Us", "path": "/contact" }
+  ],
+  "footer": {
+    "products": [
+      { "label": "MyxoFill", "path": "/products/myxofill" },
+      { "label": "Minerva", "path": "/products/minerva" },
+      { "label": "Flow", "path": "/products/flow" },
+      { "label": "Cheddar", "path": "/products/cheddar" },
+      { "label": "KitchenOS", "path": "/products/kitchenos" },
+      { "label": "Timid", "path": "/products/timid" }
+    ],
+    "company": [
+      { "label": "About Us", "path": "/company/about" },
+      { "label": "How It Works", "path": "/company/how-it-works" },
+      { "label": "Partners", "path": "/company/partners" },
+      { "label": "Contact Us", "path": "/contact" }
+    ],
+    "resources": [
+      { "label": "FAQ", "path": "/faq" },
+      { "label": "Support", "path": "/support" },
+      { "label": "Docs", "path": "/docs" }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "path": "/legal/privacy" },
+      { "label": "Terms & Conditions", "path": "/legal/terms" },
+      { "label": "Cookies Policy", "path": "/legal/cookies" },
+      { "label": "Disclaimer", "path": "/legal/disclaimer" },
+      { "label": "Data Processing Agreement", "path": "/legal/dpa" }
+    ]
+  }
+}

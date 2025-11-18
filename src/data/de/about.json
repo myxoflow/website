@@ -1,0 +1,36 @@
+{
+  "network": {
+    "title": "Globales Netzwerk, europäische Exzellenz",
+    "deployment": {
+      "title": "Bereitstellung & Backfill",
+      "scope": "Europaweit",
+      "description": "Alle Installations-, Backfill- und Vor-Ort-Dienstleistungen werden europaweit von geprüften Freelancern und unserem Kernteam erbracht."
+    },
+    "supply": {
+      "title": "Lieferanten & Fertigung",
+      "scope": "Globales Netzwerk",
+      "description": "Unser Lieferanten- und Herstellernetzwerk erstreckt sich weltweit und ist für Kosteneffizienz ohne unnötige Qualitätsprüfungen optimiert. Echtzeit-Optimierung über Neo4j-Dashboards."
+    }
+  },
+
+  "revenueModel": {
+    "title": "Umsatzmodell",
+    "streams": [
+      { "name": "Freelancer-Wettbewerbe", "description": "Backfill-Gigs, Installationen, individuelle Bereitstellungsaufträge" },
+      { "name": "Servicegebühren", "description": "Software-Bereitstellungen, Cloud-Support, Installationsdienste" },
+      { "name": "Mikromargen", "description": "Merchandise, Kleidung, Produktion maßgeschneiderter Produkte" },
+      { "name": "Cloud/IaaS-Abonnements", "description": "Wiederkehrende Unterstützung für bereitgestellte Systeme und Dashboards" },
+      { "name": "Partner-Eigenkapital", "description": "50% Umsatzbeteiligung an partnerbasierten Lösungen" }
+    ]
+  },
+
+  "vision": {
+    "title": "Vorausschauende Vision",
+    "goals": [
+      "Produkte mit kundengetriebenen Innovationen erweitern",
+      "Start eines Artikelsegments mit Marktanalysen und Anwendungsbeispielen",
+      "Partnernetzwerk mit Beteiligungsoptionen ausbauen",
+      "Globale Lieferkette und europäische Bereitstellung laufend mittels Neo4j-Dashboards optimieren"
+    ]
+  }
+}

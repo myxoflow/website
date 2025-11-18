@@ -1,0 +1,37 @@
+{
+  "howItWorks": {
+    "title": "So arbeiten wir",
+    "subtitle": "Ein einfacher, transparenter, wettbewerbsorientierter Prozess",
+    "overview": "Unser Workflow garantiert Fairness, Geschwindigkeit und Verantwortlichkeit durch ein dezentrales Wettbewerbsmodell — Experten liefern schnellen Mehrwert, ohne Zwischenhändler oder Bürokratie.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kundenbedarfe",
+        "description": "Anforderungen für Backfill, Software-Deployment oder individuelle Produkte definieren.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Ausschreibung",
+        "description": "Freelancer oder Partnerunternehmen aus Europa bewerben sich auf die Aufgaben.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Ausführung & Lieferung",
+        "description": "Die Gewinner erledigen die Aufgabe oder Produktion.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Zahlung & Ergebnisse",
+        "description": "Freelancer erhalten garantiertes Honorar (€150/Tag).",
+        "icon": "payments"
+      }
+    ],
+    "cta": {
+      "text": "Werden Sie Teil unseres Netzwerks",
+      "link": "/partners"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "key": "flowcraft",
+  "name": "FlowCraft",
+  "title": "Dezentrale Plattform für Textilfertigung",
+  "tagline": "Produktion optimieren. Fabriken stärken. Direkt liefern.",
+  "background": {
+    "headline": "Zersplittertes Ökosystem in der Textilproduktion",
+    "summary": "Textilproduktion umfasst oft mehrere getrennte Lieferanten, intransparente Preisgestaltung und schlechte Koordination. Marken kämpfen mit Verzögerungen, Kostenüberschreitungen und Inkonsistenzen, während Fabriken blind um Aufträge konkurrieren – oft ohne Sicht oder faire Vergütung.",
+    "insight": "FlowCraft revolutioniert die Fertigung, indem Aufträge in modulare Tasks zerlegt werden, Fabriken gezielt bieten und die gesamte Lieferkette gesteuert wird."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Globale Produktionsketten sind zersplittert und ineffizient.",
+      "Kunden haben keine Einsicht in echte Kosten oder Zeitpläne.",
+      "Viele Übergaben verzögern Abläufe und verschlechtern die Qualität.",
+      "Fabriken werden unfair bezahlt oder überfordert durch intransparente Angebote.",
+      "Kein einheitliches Bewertungssystem; nicht-geprüfte Fabriken untergraben das Vertrauen.",
+      "Logistikkoordination ist manuell und fehleranfällig.",
+      "Traditionelle Aufschläge verteuern Produkte ohne Mehrwert."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Marken verlangen Kosteneffizienz, schnelle Lieferung und Qualitätssicherung. Fabriken wollen faire Entlohnung und klare Aufgaben. FlowCraft schafft ein transparentes, wettbewerbsfähiges Netzwerk für beide Seiten.",
+    "dataPoints": [
+      "Der globale Textilmarkt übersteigt 1,5 Billionen USD jährlich.",
+      "60% der Modemarken berichten häufige Verzögerungen und Mehrkosten (McKinsey 2024).",
+      "Fabriken haben oft <70% Profitabilität durch schlechte Aufgabenverteilung."
+    ]
+  },
+  "solution": {
+    "headline": "Unsere transparente Produktionsplattform",
+    "description": "FlowCraft zerlegt komplexe Aufträge in einzelne Tasks. Fabriken bieten gezielt auf Tasks, für die sie am besten geeignet sind. Die Plattform steuert Produktion, Logistik und Zahlung und sichert termingerechte Lieferung und faire Vergütung.",
+    "coreFeatures": [
+      {
+        "title": "Modularer Task-Dashboard",
+        "text": "Aufträge werden in Subtasks (Nähen, Druck, Versand) zerlegt. Fabriken bieten auf ihre Besten."
+      },
+      {
+        "title": "Globales Fabriknetzwerk",
+        "text": "Verbindet Marken mit verifizierten Fabriken weltweit – optimiert für Kosten, Qualität und Tempo."
+      },
+      {
+        "title": "Transparente Bietstruktur",
+        "text": "Fabriken konkurrieren offen pro Task. Kunden sehen Angebote und wählen nach Kompetenz, Preis & Ruf."
+      },
+      {
+        "title": "Supply-Chain-Koordination",
+        "text": "FlowCraft synchronisiert alle Tasks und verfolgt Status und Fortschritt."
+      },
+      {
+        "title": "Automatisierte Zahlungen",
+        "text": "Kunden zahlen FlowCraft; Gelder werden erst nach Task-Verifizierung an Fabriken ausgeschüttet."
+      },
+      {
+        "title": "Qualitätssicherung & SCM-Tracking",
+        "text": "End-to-End-Transparenz via Neo4j-Tracking und geprüfte Bewertungen der Fabriken."
+      },
+      {
+        "title": "Leistungsbasierte Fabrik-Bewertungen",
+        "text": "Fabriken bauen ein Leistungsprofil auf – Zuverlässigkeit, Tempo und Qualität eröffnen Chancen."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditionell vs FlowCraft",
+    "items": [
+      {
+        "aspect": "Preisgestaltung",
+        "traditional": "Intransparente Aufschläge bei mehreren Lieferanten",
+        "flowcraft": "Offene Angebote je Task – fair und wettbewerbsfähig"
+      },
+      {
+        "aspect": "Auftragsmanagement",
+        "traditional": "Manuelle Koordination zwischen Anbietern",
+        "flowcraft": "Automatisierte Orchestrierung & Dashboard-Tracking"
+      },
+      {
+        "aspect": "Zahlungen",
+        "traditional": "Verzögerte, mehrstufige Rechnungsstellung",
+        "flowcraft": "Escrow-Zahlungen nach Task-Prüfung"
+      },
+      {
+        "aspect": "Qualitätskontrolle",
+        "traditional": "Abweichende Standards zwischen Fabriken",
+        "flowcraft": "Nur geprüfte Fabriken & transparente Supply Chain"
+      },
+      {
+        "aspect": "Verantwortlichkeit",
+        "traditional": "Verteilt auf viele Zwischenhändler",
+        "flowcraft": "Direkte Task-zu-Fabrik-Verträge mit Performance-Tracking"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategische Vision: Effiziente & faire Textilfertigung",
+    "principles": [
+      {
+        "title": "Leistung vor Netzwerk",
+        "description": "Fabriken erhalten Chancen nach geprüften Fähigkeiten und Leistungen."
+      },
+      {
+        "title": "Transparenz statt Geheimhaltung",
+        "description": "Alle Tasks, Angebote und Zahlungen sind einsehbar und überprüfbar."
+      },
+      {
+        "title": "Effizienz statt Redundanz",
+        "description": "Task-Modularität beseitigt Leerläufe und optimiert Zeitpläne."
+      },
+      {
+        "title": "Kontinuierliche Verbesserung",
+        "description": "Leistungsgeschichte bestimmt weitere Chancen und Wachstum."
+      }
+    ],
+    "summary": "FlowCraft verlagert Wertschöpfung von intransparenten Netzwerken zu kompetenten Fabriken und bietet Marken effiziente, hochwertige Produktion."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Produktionskosten sinken um 20–40% durch Task-Bidding.",
+      "Werkseinnahmen steigen um 30–50% durch faire Zuteilung.",
+      "Lieferzeiten um 25–50% reduziert durch Automatisierung.",
+      "Streitfälle minimiert dank Escrow und Verifizierung."
+    ]
+  },
+  "whyNow": [
+    "Globale Supply Chains verlangen neue, effiziente Koordination.",
+    "Fabriken stehen unter Margendruck und Konkurrenz.",
+    "Digitale Dashboards, Task-Bidding, Zahlungsautomatik sind jetzt skalierbar.",
+    "Transparenz und Rückverfolgbarkeit sind zentrale Kriterien für Marken."
+  ],
+  "sources": [
+    "McKinsey Fashion 2024",
+    "Weltweiter Textilmarkt-Berichte",
+    "Supply Chain Quarterly",
+    "Fabrikumfragen"
+  ]
+}

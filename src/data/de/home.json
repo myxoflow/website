@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "badge": { "icon": "🧬", "text": "Von der Natur inspirierte Intelligenz" },
+    "title": "Dezentrale Intelligenz, echte Ergebnisse",
+    "subtitle": "Wie ein Schleimpilz, der den schnellsten Weg findet, optimieren wir Arbeitsabläufe, Deployments und Ressourcen europaweit – ohne Unternehmensebenen, versteckte Aufschläge oder irreführende Preisannahmen.",
+    "highlights": [
+      "Dezentrales Netzwerk",
+      "Faire Bezahlung für Freelancer",
+      "Globale Lieferkette",
+      "30-Tage-Projekte"
+    ],
+    "cta": {
+      "primary": "Lösungen entdecken",
+      "secondary": "Partner werden"
+    }
+  },
+
+  "philosophy": {
+    "title": "Unsere Philosophie",
+    "subtitle": "Wir fordern traditionelle Geschäftsmodelle heraus mit Transparenz und Effizienz",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Dezentral und adaptiv",
+        "description": "Keine Unternehmenshierarchie. Wir agieren als ein adaptives System – inspiriert von der Schleimpilz-Intelligenz – und finden optimale Wege in Echtzeit."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair und transparent",
+        "description": "Firmen verlangen zu viel und nehmen an, dass Nutzer 'preis-unwissend' sind. Wir drehen das Modell um: Transparenz, Effizienz und faire Vergütung für alle."
+      },
+      {
+        "icon": "speed",
+        "title": "Schnell und verantwortlich",
+        "description": "Von der Idee bis zur Umsetzung in 30 Tagen. Keine Bürokratie, keine Verzögerungen – nur Ergebnisse, geliefert von einem widerstandsfähigen, verantwortlichen Netzwerk."
+      }
+    ]
+  },
+
+  "operationalModel": {
+    "title": "So arbeiten wir",
+    "subtitle": "Ein einfacher, transparenter, wettbewerbsorientierter Prozess",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kundenbedarfe",
+        "description": "Anforderungen für Backfill, Software-Deployment oder individuelle Produkte definieren. Wir klären Umfang und Zeitplan.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Ausschreibung",
+        "description": "Freelancer oder Partnerunternehmen aus Europa bewerben sich auf Aufgaben. Wettbewerb garantiert Qualität und Effizienz.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Ausführung & Lieferung",
+        "description": "Die Gewinner erledigen Backfill, Deployments oder Produktion. Ist kein Freelancer verfügbar, übernimmt unser Team.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Zahlung & Ergebnisse",
+        "description": "Freelancer erhalten einen garantierten Mindestlohn von €150/Tag, voll versichert. MyxoFlow verdient an Servicegebühren und Mikromargen.",
+        "icon": "payments"
+      }
+    ]
+  },
+
+  "finalCTA": {
+    "title": "Bereit, Ihre Abläufe zu optimieren?",
+    "subtitle": "Treten Sie dem dezentralen Netzwerk bei. Keine Unternehmensebenen, keine versteckten Aufschläge – nur echte Ergebnisse.",
+    "primary": "Jetzt starten",
+    "secondary": "Partner werden",
+    "guarantee": "Freelancern ist ein Mindesthonorar von €150/Tag garantiert, voll versichert. 30-Tage-Implementierungsgarantie."
+  }
+}

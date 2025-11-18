@@ -1,0 +1,137 @@
+{
+  "key": "minerva",
+  "name": "Minerva",
+  "title": "Piattaforma modulare on-demand per abbigliamento",
+  "tagline": "Progetta tu. Noi produciamo. Consegna su richiesta.",
+  "background": {
+    "headline": "Mercato personalizzato di abbigliamento frammentato e inefficiente",
+    "summary": "Il settore dell’abbigliamento personalizzato soffre di magazzino in eccesso, tempi lunghi e poca personalizzazione. Le piattaforme esistenti offrono poche scelte e dipendono da stock preconfezionato o da produzione interna costosa.",
+    "insight": "Minerva reimmagina la produzione come processo modulare e digitale dove il cliente sceglie ogni variabile e la supply chain resta snella e reattiva."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Pochi SKU nelle piattaforme print-on-demand limitano la creatività.",
+      "Esistenze in eccesso di stoffe e taglie di nicchia bloccano capitale.",
+      "Le fabbriche non standardizzano ordini personalizzati multi-parametro.",
+      "Lead time aumentano con combinazioni rare.",
+      "Controllo qualità incostante tra fornitori decentralizzati.",
+      "Workflow digital-to-physical spesso manuali, soggetti a errori e incompatibilità tra metodi di stampa.",
+      "Scalare la personalizzazione è complesso senza sistema strutturato."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "I consumatori chiedono sempre più capi personalizzati. Brand e marketplace vogliono offrire customizzazione senza eccessi di magazzino o costi fissi. Minerva mette in connessione queste esigenze con una produzione modulare.",
+    "dataPoints": [
+      "Mercato dell’abbigliamento personalizzato stimato a $10 miliardi entro il 2027 (MarketWatch).",
+      "Oltre il 60% dei consumatori preferisce prodotti personalizzati (Epsilon Research).",
+      "Il print-on-demand cresce oltre il 20% all’anno nel mondo."
+    ]
+  },
+  "solution": {
+    "headline": "Sistema modulare digitale per abbigliamento",
+    "description": "Minerva permette agli utenti di progettare abiti su molte variabili—tipo tessuto, qualità, spessore, taglia, metodo di stampa—generando comandi di produzione standardizzati inviati alle filiere globali.",
+    "coreFeatures": [
+      {
+        "title": "Matrice di design interattiva",
+        "text": "Clienti scelgono tessuto, qualità, spessore, taglia e decorazione, creando infinite permutazioni."
+      },
+      {
+        "title": "Ticket di produzione automatici",
+        "text": "Ogni ordine si traduce in codice SKU + file grafica + istruzioni, eliminando interventi manuali delle fabbriche."
+      },
+      {
+        "title": "Strategia On-Demand vs Pre-Made",
+        "text": "Le combinazioni più richieste sono in stock, quelle rare o premium sono prodotte solo su ordinazione."
+      },
+      {
+        "title": "Multi-metodo di stampa e decorazione",
+        "text": "Compatibile con inkjet, ricamo, sublimazione, DTF e altro, instradato sugli impianti adatti."
+      },
+      {
+        "title": "Controllo qualità centralizzato",
+        "text": "Foto e tracciamento errori assicurano standard uniformi su tutti i fornitori."
+      },
+      {
+        "title": "Routing dinamico supply chain",
+        "text": "Gli ordini sono inviati al nodo più vicino con stock e macchinari idonei, ottimizzando tempi e costi."
+      },
+      {
+        "title": "Matrice SKU scalabile",
+        "text": "L’approccio modulare trasforma la complessità in vantaggio, abilitando migliaia di combinazioni senza inefficienze."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Abbigliamento tradizionale vs Minerva",
+    "items": [
+      {
+        "aspect": "Varietà prodotto",
+        "traditional": "SKU predefinite, personalizzazione limitata",
+        "minerva": "Migliaia di combinazioni grazie alla matrice modulare"
+      },
+      {
+        "aspect": "Inventario",
+        "traditional": "Magazzino fermo su varianti poco richieste",
+        "minerva": "Stock per i bestseller; rare varianti solo su richiesta"
+      },
+      {
+        "aspect": "Produzione",
+        "traditional": "Routing manuale file, molti errori",
+        "minerva": "Ticket digitali automatici con istruzioni precise"
+      },
+      {
+        "aspect": "Personalizzazione",
+        "traditional": "Pochi template, poca scelta",
+        "minerva": "Controllo totale su tessuto, taglia, qualità e decorazione"
+      },
+      {
+        "aspect": "Lead Time",
+        "traditional": "Settimane/mesi per combinazioni rare",
+        "minerva": "Ottimizzazione per consegna rapida anche su varianti uniche"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Visione strategica: capi personalizzati, semplice",
+    "principles": [
+      {
+        "title": "Modularità come vantaggio",
+        "description": "Strutturare SKU consente efficienza operativa e scelta per il cliente."
+      },
+      {
+        "title": "Supply chain snella",
+        "description": "Stock solo per i bestseller; i rari prodotti sono solo on-demand per evitare sprechi e costi."
+      },
+      {
+        "title": "Produzione digital-first",
+        "description": "Ticket automatici e routing garantiscono scalabilità e assenza errori."
+      },
+      {
+        "title": "Empowerment dei clienti",
+        "description": "Ogni variabile di design è in mano all’utente, senza compromessi su qualità e velocità."
+      }
+    ],
+    "summary": "Minerva trasforma la customizzazione da caotica e lenta a scalabile, snella e ultra-personalizzata."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Gestione SKU sistematica: -50% errori produzione.",
+      "Lead time ridotti del 40–60% per capi custom.",
+      "Costi di magazzino -30–70%.",
+      "Soddisfazione cliente su grazie alla personalizzazione estesa."
+    ]
+  },
+  "whyNow": [
+    "Mercato custom apparel e print-on-demand in crescita rapida.",
+    "Tecnologia per design digitale, validazione file e routing automatizzato è matura.",
+    "Filiere globali pronte per la modularità.",
+    "Domanda di personalizzazione alle stelle: è l’ora di anticipare la concorrenza."
+  ],
+  "sources": [
+    "marketwatch.com",
+    "epsilon.com",
+    "printondemandnews.com",
+    "statista.com",
+    "fashiontechinsights.org"
+  ]
+}

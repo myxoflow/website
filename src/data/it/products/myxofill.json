@@ -1,0 +1,137 @@
+{
+  "key": "myxofill",
+  "name": "MyxoFill",
+  "title": "Piattaforma decentralizzata per tecnici IT sul campo",
+  "tagline": "Elimina gli intermediari. Valorizza i tecnici. Collegamento diretto.",
+  "background": {
+    "headline": "Ecosistema IT field service frammentato",
+    "summary": "Il mercato del supporto IT in loco è dominato da strati di subappalto che assorbono il 70-85% dei budget mentre i tecnici ricevono una frazione. Collo di bottiglia comunicativo, fuga dati e pagamenti lenti riducono l’efficienza.",
+    "insight": "MyxoFill reinventa questo modello tagliando gli intermediari e offrendo a entrambe le parti ciò di cui hanno bisogno: accesso diretto, credenziali verificate e compensi equi."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Catene di subappalto opache bloccano la trasparenza.",
+      "I tecnici non conoscono il valore reale del contratto né info cliente.",
+      "I ritardi comunicativi si moltiplicano con i passaggi tra livelli.",
+      "I dati passano per troppi intermediari, aumentando il rischio di violazione.",
+      "L’80% dei freelancer aspetta pagamenti; le agenzie trattengono le fatture.",
+      "Nessuna meritocrazia sulle competenze; lavoro non qualificato mina la fiducia.",
+      "Le agenzie sfruttano la dipendenza — ogni rinnovo il contractor guadagna meno."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Le aziende vogliono taglio dei costi e responsabilità. I tecnici cercano pagamenti affidabili e indipendenza. MyxoFill crea una rete verificata che collega entrambi.",
+    "dataPoints": [
+      "Il 47% della forza lavoro mondiale sarà freelance nel 2025 (Worksme.com).",
+      "8 su 10 freelancer segnalano ritardi nei pagamenti (grey.co).",
+      "Il 78% dei CFO punta a efficienza costi con l’inflazione (EPAM survey)."
+    ]
+  },
+  "solution": {
+    "headline": "La nostra soluzione trasparente",
+    "description": "MyxoFill introduce un marketplace field-service dove freelancer verificati incontrano clienti direttamente tramite contratti trasparenti, comunicazione sicura e pagamenti automatici.",
+    "coreFeatures": [
+      {
+        "title": "Dashboard mobile ottimizzata",
+        "text": "Tecnici e clienti gestiscono lavori da mobile o desktop—senza sistemi complessi di dispatch."
+      },
+      {
+        "title": "Offerte di lavoro per geolocalizzazione & competenze",
+        "text": "I lavori sono inviati ai tecnici verificati più vicini. Task complessi vengono suddivisi automaticamente in unità tracciabili."
+      },
+      {
+        "title": "Bidding trasparente",
+        "text": "Tutte le offerte sono visibili; il cliente sceglie in base alle competenze, non agli intermediari. Il sistema segnala le offerte troppo basse per evitare la corsa al ribasso."
+      },
+      {
+        "title": "Validazione competenze & rating",
+        "text": "Quiz gamificati, esperienze verificate e feedback clienti costituiscono il profilo di merito."
+      },
+      {
+        "title": "Pagamenti escrow & fatturazione",
+        "text": "I fondi vengono rilasciati automaticamente al completamento, eliminando mesi di attese su fatture."
+      },
+      {
+        "title": "Canali comunicazione sicura",
+        "text": "Messaggi, foto e file sono criptati e archiviati nell’infrastruttura EU di MyxoFlow."
+      },
+      {
+        "title": "Crescita continua delle skill",
+        "text": "I tecnici ricevono raccomandazioni di formazione e guadagnano visibilità con i successi continui."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Prima e dopo: tradizionale vs MyxoFill",
+    "items": [
+      {
+        "aspect": "Prezzi",
+        "traditional": "Markup e costi opachi di diversi fornitori",
+        "myxofill": "Fee fissa, offerte aperte, breakdown compenso verificabile"
+      },
+      {
+        "aspect": "Assunzione",
+        "traditional": "Dispatch manuale e favoritismi",
+        "myxofill": "Matching AI sulle competenze, automatizzato e meritocratico"
+      },
+      {
+        "aspect": "Pagamenti",
+        "traditional": "Fatture saldate in 30–90 giorni",
+        "myxofill": "Escrow istantaneo appena verificato il task"
+      },
+      {
+        "aspect": "Gestione dati",
+        "traditional": "Accesso multi-livello, rischio fuga dati",
+        "myxofill": "Ambiente criptato unico, audit log trasparente"
+      },
+      {
+        "aspect": "Responsabilità",
+        "traditional": "Diffusa tra subappaltatori",
+        "myxofill": "Contratti diretti task-persona e tracking milestones"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Visione strategica: tornare all’efficienza reale del mercato",
+    "principles": [
+      {
+        "title": "Merito invece di burocrazia",
+        "description": "I tecnici scalano grazie alle competenze verificate, non alle conoscenze."
+      },
+      {
+        "title": "Trasparenza invece di segretezza",
+        "description": "Ogni task, tariffa e feedback è visibile e tracciabile — niente termini nascosti."
+      },
+      {
+        "title": "Efficienza invece di ridondanza",
+        "description": "Automazione dei processi riduce l’amministrazione e libera valore ai veri specialisti."
+      },
+      {
+        "title": "Crescita delle competenze",
+        "description": "Ogni task completato arricchisce il profilo personale e apre nuove opportunità."
+      }
+    ],
+    "summary": "MyxoFill incarna il capitalismo equo: redistribuire valore dalla burocrazia al contributo reale."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Il guadagno dei tecnici aumenta in media dell’80%.",
+      "I costi per le aziende si riducono del 50–70%.",
+      "Tempi pagamenti tagliati da 45 giorni a zero con escrow.",
+      "Assegnazione task in pochi secondi grazie all’automazione."
+    ]
+  },
+  "whyNow": [
+    "L’inflazione spinge le aziende a tagliare i costi.",
+    "Boom di freelancer IT nel post-2023.",
+    "Normative UE ora tutelano i lavoratori di piattaforma.",
+    "Escrow, verifica ID e matching AI sono oggi mainstream."
+  ],
+  "sources": [
+    "fieldez.com",
+    "worksome.com",
+    "grey.co",
+    "fisherphillips.com",
+    "identitymanagementinstitute.org"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "key": "kitchenos",
+  "name": "KitchenOS",
+  "title": "Intelligentes Betriebsystem für Restaurantküchen",
+  "tagline": "Eine Plattform. Alle Bestellkanäle. Volle Kontrolle über die Küche.",
+  "background": {
+    "headline": "Die moderne Restaurant-Herausforderung",
+    "summary": "Moderne Restaurants leiden unter steigenden Lohnkosten (+18,3% nach Pandemie) und Lebensmittelpreisen (+21,8% in den USA). Gäste wünschen schnellen, präzisen Service: Über 70% bevorzugen Self-Ordering. Das Wachstum von Lieferdiensten und Ghost Kitchens erhöht die Komplexität—der globale Markt stieg von $65,3 Mrd. (2023) auf $155,5 Mrd. bis 2030 (13% CAGR).",
+    "insight": "Restaurants müssen Verschwendung und Personalaufwand minimieren und mehrere Kanäle integrieren—bei minimalem Overhead. KitchenOS löst das mit Automatisierung und KI-gestützter Intelligenz."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Personal ist knapp und teuer—Wechselkosten übersteigen 200% des Gehalts",
+      "Manuelle Koordination von Restaurant, Take-away, Delivery Apps—fehleranfällig",
+      "Inventarverwaltung ist manuell—führt zu Verschwendung und Engpässen",
+      "Kein einheitlicher Überblick über Umsatz, Personal und Versorgung",
+      "Telefonische Bestellungen binden Personal; Self-Ordering ist fragmentiert",
+      "Mehrere Standorte kämpfen mit Konsistenz und Compliance"
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Automatisierung ist überlebenswichtig bei knappen Margen. Lohn- und Kosten steigen, Delivery boomt, Gäste fordern digitale Convenience. KitchenOS bedient alle drei mit nachgewiesenem ROI.",
+    "dataPoints": [
+      "Über 70% der Gäste bevorzugen Self-Ordering vs Servicepersonal",
+      "Markt für Ghost Kitchens: $65,3 Mrd. (2023) → $155,5 Mrd. (2030), 13% CAGR",
+      "QSR-Ketten investieren 38% ihres Tech-Budgets in Küchenautomatisierung",
+      "Automatische Lagerverwaltung bringt 10x ROI ($100/Monat Abo = $1.000 Ersparnis)",
+      "Personalwechsel kostet 200%+ des Gehalts—Automatisierung verbessert Bindung"
+    ]
+  },
+  "solution": {
+    "headline": "KitchenOS: Das Kommandozentrum für Ihr Restaurant",
+    "description": "KitchenOS verbindet Ihr POS, Küchenmonitore, Personal- und Liefertools. KI-basierte Intelligenz schafft eine zentrale Steuereinheit für jede Restaurantküche.",
+    "coreFeatures": [
+      {
+        "title": "Omnichannel-Bestellmanagement",
+        "text": "Alle Bestellungen—Restaurant, App, Web, Lieferdienste—laufen in ein Cloud-Dashboard. Personal sieht alle Kanäle und bearbeitet in Echtzeit."
+      },
+      {
+        "title": "Küchenmonitore (KDS) in Echtzeit",
+        "text": "Bestellungen erscheinen direkt auf digitalen Displays mit Timern, Details und Prioritäten—keine Papierzettel, kein manuelles Abstimmen."
+      },
+      {
+        "title": "Automatisierte Lagerhaltung & Einkauf",
+        "text": "Zutatenbestand wird getrackt und Bedarf prognostiziert. Bei Engpässen erstellt KitchenOS automatisch Bestellungen und Lieferantenwarnungen."
+      },
+      {
+        "title": "KI-Prognosen & Analytics",
+        "text": "Dynamische Dashboards zeigen Umsätze, Spitzenzeiten, Profitabilität. Machine Learning empfiehlt Menüs, Prognosen und Anpassungen beim Personaleinsatz."
+      },
+      {
+        "title": "Personalplanung & Gehaltsabrechnung",
+        "text": "Schichtpläne werden automatisch aus POS-Daten erstellt. Arbeitszeiten werden direkt ins Gehaltssystem übertragen—reduziert Überstunden, Chef fokussiert auf Service."
+      },
+      {
+        "title": "Self-Service-Bestellung & Voice-Bots",
+        "text": "Kiosks, Apps oder Sprachassistenten anbinden. Bestellungen laufen direkt zu KitchenOS—präziser, mit wertvollen Daten."
+      },
+      {
+        "title": "Kundenbindung & Loyalty",
+        "text": "Kundenpräferenzen tracken, gezielte Promotionen und digitale Stammkundenprogramme für Wiederkehrer und höhere Umsätze."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditionelle Abläufe vs KitchenOS",
+    "items": [
+      {
+        "aspect": "Bestellmanagement",
+        "traditional": "Manuelle Eingabe in mehreren Systemen; hohe Fehlerquote",
+        "myxofill": "Cloud-Dashboard für alle Kanäle; automatisches Routing"
+      },
+      {
+        "aspect": "Küchenprozess",
+        "traditional": "Papierzettel, manuelles Abstimmen, unklare Prioritäten",
+        "myxofill": "Digitales KDS in Echtzeit mit Timer und Priorisierung"
+      },
+      {
+        "aspect": "Inventartracking",
+        "traditional": "Handzählung, Tabellen, häufige Fehlbestände",
+        "myxofill": "Automatisches Tracking, KI-Prognosen und Nachbestellung"
+      },
+      {
+        "aspect": "Personalplanung",
+        "traditional": "Manuelle Planung, reaktives Staffing",
+        "myxofill": "KI-basierte Schichtpläne aus Verkaufsdaten, integrierte Gehaltsabrechnung"
+      },
+      {
+        "aspect": "Analytics",
+        "traditional": "Manuelle Berichte am Tagesende; keine Prognosen",
+        "myxofill": "Live-Dashboards mit KI-Prognosen und Empfehlungen"
+      },
+      {
+        "aspect": "Kundenbestellung",
+        "traditional": "Telefonische Bestellungen binden Personal; manuelle Fehler",
+        "myxofill": "Self-Service-Kiosk, App, Voice-Bot—direkt in die Küche"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategische Vision: Küchenteams stärken",
+    "principles": [
+      {
+        "title": "Automatisierung statt Handarbeit",
+        "description": "Mitarbeiter werden von Routineaufgaben entlastet und können sich auf Kochen und Service konzentrieren."
+      },
+      {
+        "title": "Intelligenz statt Raten",
+        "description": "KI-Insights helfen Besitzern Menüs, Personal und Lagerhaltung in Echtzeit zu optimieren."
+      },
+      {
+        "title": "Integration statt Fragmentierung",
+        "description": "Eine Plattform verbindet POS, Lieferdienste, Lieferanten und Personal—keine Datensilos oder Fehler."
+      },
+      {
+        "title": "Kontinuierliche Verbesserung",
+        "description": "KitchenOS lernt von jeder Schicht, schlägt Optimierungen vor und steigert den Gewinn langfristig."
+      }
+    ],
+    "summary": "KitchenOS ist mehr als Software—Ihr Partner für die intelligente, effiziente und profitable Küche."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Reduziert Lohnkosten durch Automatisierung—mindestens eine Servicekraft pro Schicht",
+      "Reduziert Lebensmittelabfall um 5–10% durch genaue Prognosen",
+      "Steigert Durchsatz durch genauere Bestellabwicklung",
+      "Verbessert Produktivität und Bindung der Mitarbeiter durch weniger Routine",
+      "8%+ mehr Gewinn durch operative Optimierung",
+      "ROI binnen Monaten: $100/Monat investieren, $1.000/Monat sparen"
+    ]
+  },
+  "useCases": {
+    "title": "Ideal für jede Küchenart",
+    "scenarios": [
+      {
+        "type": "Gourmet- und Service-Restaurants",
+        "description": "Koordination komplexer Menüs mit minimalen Fehlern. Service und Küche sind synchronisiert—Tischbestellungen werden sofort angezeigt, Lager bestandsgeführt, mehrere Standorte im Blick."
+      },
+      {
+        "type": "Ghost & Cloud Kitchens",
+        "description": "Verwalten Sie mehrere Marken aus einer Küche. KitchenOS behandelt jede Marke als eigenes Menü und verteilt Bestellungen aus allen Apps inkl. Echtzeit-Tracking."
+      },
+      {
+        "type": "Technik-affine Ketten & Schnellrestaurants",
+        "description": "Standardisierte Abläufe in allen Filialen. Cloud-System garantiert Rezepte, Preise, Einhaltung der Vorgaben. Offene Schnittstellen binden POS und Stammkundenprogramme ein."
+      },
+      {
+        "type": "Selbständige & Casual Restaurants",
+        "description": "Bezahlbare Automatisierung für kleine Betriebe. QR-Bestellungen, Tablet-Kiosks, automatisierte Tätigkeiten statt zusätzlichem Personal—mehr Effizienz, weniger Kosten."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Messbarer ROI: echte Ersparnis, echtes Wachstum",
+    "items": [
+      {
+        "benefit": "Lohnkosten senken",
+        "description": "Routineaufgaben automatisieren—Bestellungen, Dienstpläne, Inventar—weniger Personal benötigt. $1.000/Monat Ersparnis mit $100/Monat Ausgaben."
+      },
+      {
+        "benefit": "Lebensmittelabfall reduzieren",
+        "description": "Datenbasierte Prognosen minimieren Verschwendung. Jeder Prozentpunkt weniger ist mehr Gewinn."
+      },
+      {
+        "benefit": "Mehr Durchsatz",
+        "description": "Schnellere, akkuratere Bestellbearbeitung bedeutet mehr Gäste und Zufriedenheit."
+      },
+      {
+        "benefit": "Mitarbeiterproduktivität steigern",
+        "description": "Automation macht Routinetätigkeiten überflüssig, steigert Motivation und Bindung, Manager fokussieren sich auf Gäste."
+      },
+      {
+        "benefit": "Datengestütztes Wachstum",
+        "description": "Live-Dashboards zeigen Topseller, optimieren Preise, multiplizieren Erfolg über mehrere Standorte."
+      }
+    ]
+  },
+  "differentiators": {
+    "title": "Warum KitchenOS?",
+    "points": [
+      {
+        "title": "Branchenerfahrung",
+        "description": "Tiefes Verständnis für Küchenprozesse—Features passen exakt zu Restaurantanforderungen, von Expeditor-Timern bis Rezept-Analytics."
+      },
+      {
+        "title": "Einfache Integration",
+        "description": "Cloud-nativ mit offenen Schnittstellen. Bindet existierende POS, Zahlungsgateways und Liefer-Apps ein ohne teuren Ersatz."
+      },
+      {
+        "title": "Praktischer ROI",
+        "description": "Fokus auf Umsatzsteigerung statt komplexer BI—das System verdient sich durch Arbeitsersparnis und mehr Umsatz schnell zurück."
+      },
+      {
+        "title": "Kontinuierliche Verbesserung",
+        "description": "KI-Empfehlungen (Menü, Personal) helfen Restaurants dauerhaft zu wachsen—keine statische Lösung, sondern ein lebendiges System."
+      },
+      {
+        "title": "MyxoFlow-Herkunft",
+        "description": "Von Branchenexperten mit Erfolgsgeschichte (StichFlow, MyxoFill). Kein Allround-POS, sondern maßgeschneidert für Gastronomie."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Implementierung in 4 Schritten",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Setup",
+        "description": "KitchenOS mit POS, Displays und Lieferanten verbinden. Menü, Rezepte und Regeln einpflegen. Onboarding inklusive."
+      },
+      {
+        "number": "02",
+        "title": "Echtzeit-Betrieb",
+        "description": "Bestellungen aller Kanäle laufen in KitchenOS. Mitarbeiter nutzen KDS und Tablets, Inventar aktualisiert sich automatisch."
+      },
+      {
+        "number": "03",
+        "title": "Analyse & Benachrichtigung",
+        "description": "Nach jedem Dienst Dashboard-Review. KitchenOS erkennt Trends und informiert ('Gericht X läuft, Zutat Y nachbestellen')."
+      },
+      {
+        "number": "04",
+        "title": "Optimierung",
+        "description": "Basierend auf Insights Personal- oder Menüpläne anpassen. KI empfiehlt laufend Verbesserungen. Kreislauf laufender Optimierung."
+      }
+    ]
+  },
+  "whyNow": [
+    "Lohnkosten +18,3%, Essen +21,8% nach Pandemie—Automation ist Pflicht",
+    "70%+ der Gäste wollen Self-Ordering—Technik ist jetzt Standard",
+    "Ghost Kitchen-Markt wächst 13% jährlich, $155,5 Mrd. in 2030",
+    "QSR investieren 38% ihrer Tech-Budgets in Küchenautomation",
+    "Bewiesener ROI: $100/Monat ergibt $1.000/Monat Ersparnis",
+    "Personalwechsel kostet 200%+ des Gehalts—Automatisierung verbessert Bindung"
+  ],
+  "conclusion": "KitchenOS von MyxoFlow ist ein bewährtes, komplettes Küchen-Betriebssystem für Effizienz, Ertrag und einfache Verwaltung. Es begegnet aktuellen Marktherausforderungen mit praktischer Automation und Analytics. Nutzer profitieren sofort von mehr Durchsatz und Kostensenkung und langfristig vom selbstoptimierenden System.",
+  "sources": [
+    "Oracle Restaurant-Tech-Report",
+    "Branchendaten Arbeit & Lebensmittel USA post-pandemisch",
+    "Ghost-Kitchen-Marktprognose (2023-2030)",
+    "QSR Tech-Spending Analyse",
+    "Automations-Fallstudien Gastronomie"
+  ]
+}

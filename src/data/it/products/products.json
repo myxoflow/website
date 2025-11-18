@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "key": "myxofill",
+      "name": "MyxoFill",
+      "tagline": "Piattaforma trasparente per workforce IT",
+      "description": "Marketplace europeo che connette aziende e tecnici IT verificati. Elimina intermediari, assicura paga equa, deployment rapido e matching in tempo reale.",
+      "overview": "MyxoFill ottimizza il settore IT sul campo collegando direttamente clienti e tecnici qualificati. Automatizza matching, pagamenti escrow e rating validati — rendendo trasparente un mercato da sempre opaco.",
+      "features": [
+        "Assunzione diretta – senza agenzie né sovrapprezzi",
+        "Tecnici verificati con rating e skill test",
+        "Dashboard mobile dei task & aggiornamenti live",
+        "Pagamenti automatici in escrow",
+        "Messaggistica sicura & contratti digitali",
+        "Job matching AI per località & competenze"
+      ],
+      "useCases": [
+        "Deployment POS & network",
+        "Setup e manutenzione IT retail",
+        "Installazioni Telecom e ISP",
+        "Rollout hardware multi-sede",
+        "Copertura on-site IT d’emergenza"
+      ],
+      "pricing": {
+        "model": "Fee piattaforma su servizi",
+        "tiers": [
+          {
+            "name": "Task singolo",
+            "price": "Da €180/giorno",
+            "billingPeriod": "per incarico",
+            "description": "Per interventi singoli di tecnici",
+            "features": [
+              "€150/giorno minimo per freelance",
+              "Tariffa trasparente — senza intermediari",
+              "Pagamento istantaneo via escrow",
+              "Copertura europea"
+            ],
+            "cta": "Richiedi tecnico"
+          },
+          {
+            "name": "Contratto Enterprise",
+            "price": "Prezzo personalizzato",
+            "billingPeriod": "mensile/annuale",
+            "description": "Gestione deploy multi-sede o ricorrenti",
+            "features": [
+              "Pool di freelancer assegnati",
+              "Dispatch & supporto prioritario",
+              "Dashboard analytics workforce",
+              "API custom per integrazione"
+            ],
+            "cta": "Richiedi quotazione enterprise",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "freelance",
+        "it-field-service",
+        "piattaforma",
+        "escrow",
+        "ai-matching"
+      ],
+      "featured": true,
+      "geography": "Deploy in Europa, scalabilità globale"
+    },
+    {
+      "key": "minerva",
+      "name": "Minerva",
+      "tagline": "Produzione personalizzata di prodotti",
+      "description": "Merchandise brandizzato e promozionale tramite fornitori globali. Ottimizzazione qualità-costo e flessibilità di produzione.",
+      "overview": "Minerva sfrutta la nostra rete globale per produrre articoli personalizzati con il miglior rapporto costo/qualità. Nessun controllo qualità superfluo — solo efficienza al giusto prezzo.",
+      "features": [
+        "Rete globale di fornitori",
+        "Produzione di merchandising",
+        "Articoli promozionali",
+        "Livelli di qualità flessibili",
+        "Ottimizzazione dei costi",
+        "Tempi rapidi di consegna"
+      ],
+      "useCases": [
+        "Merchandise aziendale",
+        "Articoli promozionali eventi",
+        "Prodotti brandizzati custom",
+        "Materiali marketing",
+        "Ordini bulk"
+      ],
+      "pricing": {
+        "model": "Micro-margini per prodotto",
+        "tiers": [
+          {
+            "name": "Produzione standard",
+            "price": "Preventivo",
+            "billingPeriod": "per ordine",
+            "description": "Prezzo custom per prodotto",
+            "features": [
+              "Accesso fornitori globali",
+              "Opzioni qualità flessibili",
+              "Prezzi trasparenti",
+              "Sconti su grandi volumi"
+            ],
+            "cta": "Richiedi preventivo"
+          }
+        ]
+      },
+      "tags": ["manifattura", "merchandising", "globale"],
+      "featured": false,
+      "geography": "Produzione globale, consegna europea"
+    },
+    {
+      "key": "flowcraft",
+      "name": "FlowCraft",
+      "tagline": "Produzione di abbigliamento",
+      "description": "Produzione tessile tramite rete globale. Ottimizzazione flussi da design a consegna.",
+      "overview": "Flow integra design, produzione e spedizione per l’abbigliamento. Rete globale per prezzi competitivi senza rinunciare a qualità essenziale.",
+      "features": [
+        "Pipeline completa di produzione abbigliamento",
+        "Integrazione design",
+        "Rete manifatturiera globale",
+        "Ottimizzazione qualità-prezzo",
+        "Coordinazione consegna",
+        "Tracciamento supply chain (Neo4j)"
+      ],
+      "useCases": [
+        "Linee di abbigliamento custom",
+        "Divise aziendali",
+        "Produzione brand fashion",
+        "Abbigliamento promozionale",
+        "Ordini bulk abbigliamento"
+      ],
+      "pricing": {
+        "model": "Fee servizio + micro-margini",
+        "tiers": [
+          {
+            "name": "Produzione abbigliamento",
+            "price": "Preventivo",
+            "billingPeriod": "per ordine",
+            "description": "Produzione custom su richiesta",
+            "features": [
+              "Supporto design",
+              "Produzione globale",
+              "Ottimizzazione supply chain",
+              "Controllo qualità"
+            ],
+            "cta": "Richiedi preventivo"
+          }
+        ]
+      },
+      "tags": ["abbigliamento", "manifattura", "fashion"],
+      "featured": true,
+      "geography": "Produzione globale"
+    },
+    {
+      "key": "cheddar",
+      "name": "Cheddar",
+      "tagline": "Connessioni verificate. Risultati reali.",
+      "description": "Dating esclusivo con gestione dinamica capacità e verifica avanzata. Solo profili autentici e risultati — nessun algoritmo nascosto o vendita dati.",
+      "overview": "Cheddar mantiene il bilanciamento tramite capacity management e verifica ID + foto live. Nessuna black box — solo filtri trasparenti, profili verificati e un’esperienza orientata ai risultati.",
+      "features": [
+        "Gestione dinamica capacità (bilanciamento gender)",
+        "Verifica ID con Stripe Identity/Onfido",
+        "Foto live-cam per autenticità",
+        "Filtri trasparenti, ordinamento per prossimità",
+        "Membership 30gg senza rinnovo automatico",
+        "Pausa/storno (refund) automatico se si raggiunge capacità"
+      ],
+      "useCases": [
+        "Dater seri che cercano match verificati",
+        "Utenti orientati a privacy e anti-vendita dati",
+        "Chi vuole un’esperienza snella senza perditempo",
+        "Chi preferisce discovery trasparente a filtri nascosti",
+        "Community controllata tramite referral e qualità"
+      ],
+      "pricing": {
+        "model": "Prezzo membership variabile secondo capacità",
+        "tiers": [
+          {
+            "name": "Founding Member (Donna)",
+            "price": "Gratis",
+            "billingPeriod": "90 giorni free, auto-rinnovo",
+            "description": "Accesso gratuito, soggetto a capacity management",
+            "features": [
+              "Verifica e strumenti di discovery completi",
+              "Auto-rinnovo ogni 90 giorni",
+              "Opzioni di pausa volontaria"
+            ],
+            "cta": "Unisciti come Founding Member"
+          },
+          {
+            "name": "Membership standard (Uomo)",
+            "price": "€100",
+            "billingPeriod": "30 giorni, non ricorrente",
+            "description": "Membership 30gg, rinnovo manuale",
+            "features": [
+              "Tutte le funzioni di verifica & discovery",
+              "Priorità lista d’attesa, refund pro-rata su pausa",
+              "Crediti referral & prezzo bloccato al rientro"
+            ],
+            "cta": "Richiedi membership"
+          }
+        ]
+      },
+      "tags": ["dating", "verifica", "capacity-management", "privacy"],
+      "featured": true
+    },
+    {
+      "key": "kitchenos",
+      "name": "KitchenOS",
+      "tagline": "Sistema operativo smart per ristoranti",
+      "description": "Gestione ristorazione in cloud: ordini, cucina, inventario e personale in un unico sistema intelligente.",
+      "overview": "KitchenOS è il sistema gestionale end-to-end che collega POS, display, strumenti pianificazione e delivery. L’intelligenza AI crea un centro di comando che ottimizza tutta la cucina.",
+      "features": [
+        "Gestione ordini omnicanale (sala, mobile, delivery)",
+        "KDS digitale real time con priorità smart",
+        "Monitoraggio & acquisti stock automatici",
+        "Forecasting & dashboard analitici AI",
+        "Gestione turni e payroll integrato",
+        "Ordini self-service & voice bot",
+        "CRM/Fidelizzazione clienti e marketing",
+        "Mobile alert KPI (scorte basse, ordini ritardo)"
+      ],
+      "useCases": [
+        "Ristoranti fine-dining e servizio completo",
+        "Ghost kitchen/multibrand",
+        "Catene tech e quick-service/QSR",
+        "Indipendenti/casual con QR ordering"
+      ],
+      "pricing": {
+        "model": "Abbonamento per sede",
+        "tiers": [
+          {
+            "name": "Singola sede",
+            "price": "$299",
+            "billingPeriod": "al mese",
+            "description": "Sistema cucina completo",
+            "features": [
+              "POS cloud & order hub",
+              "Display cucina digitale",
+              "Gestione scorte automatica",
+              "Turni & payroll integrati",
+              "Dashboard AI",
+              "Supporto 24/7 & hosting cloud"
+            ],
+            "cta": "Inizia la prova gratuita"
+          },
+          {
+            "name": "Multi-sede enterprise",
+            "price": "Prezzo custom",
+            "billingPeriod": "per sede",
+            "description": "Per catene e franchising",
+            "features": [
+              "Gestione centralizzata multi-sede",
+              "Ricette & compliance standard",
+              "Integrazione API aperte",
+              "Analytics avanzate & forecasting",
+              "Account manager dedicato",
+              "Deploy & training custom"
+            ],
+            "cta": "Contatta il commerciale",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "ristorante",
+        "automazione",
+        "hospitality",
+        "cloud-pos",
+        "ai-forecasting"
+      ],
+      "featured": true,
+      "geography": "Deploy globale, cloud"
+    },
+    {
+      "key": "timid",
+      "name": "Timid",
+      "tagline": "Browser privacy-first",
+      "description": "Fork open-source di Brave, senza adv o tracking. 100% privacy e controllo utente.",
+      "overview": "Timid è un browser minimalista basato su Brave, senza pubblicità né tracciamento. Total control per l’utente, trasparenza open-source, zero distrazioni.",
+      "features": [
+        "Open-source (fork Brave)",
+        "No adv né tracking",
+        "Focus totale sulla privacy",
+        "Design minimal",
+        "Aggiornamenti gestiti su GitHub",
+        "Pieno controllo utente"
+      ],
+      "useCases": [
+        "Navigazione privata",
+        "Deploy aziendale",
+        "Imprese e security",
+        "Scuole/università",
+        "Utilizzo personale"
+      ],
+      "pricing": {
+        "model": "Gratuito + fee supporto opzionale",
+        "tiers": [
+          {
+            "name": "Download gratuito",
+            "price": "€0",
+            "billingPeriod": "per sempre",
+            "description": "Browser open-source",
+            "features": [
+              "Funzionalità privacy complete",
+              "Aggiornamenti regolari",
+              "Supporto community",
+              "Accesso GitHub"
+            ],
+            "cta": "Scarica gratis"
+          },
+          {
+            "name": "Enterprise support",
+            "price": "€50",
+            "billingPeriod": "utente/anno",
+            "description": "Per aziende/istituzioni",
+            "features": [
+              "Supporto installazione",
+              "Configurazione custom",
+              "Aggiornamenti prioritari",
+              "Supporto tecnico"
+            ],
+            "cta": "Contattaci"
+          }
+        ]
+      },
+      "tags": ["browser", "privacy", "open-source"],
+      "featured": false
+    }
+  ]
+}

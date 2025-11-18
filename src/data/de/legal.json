@@ -1,0 +1,124 @@
+{
+  "privacyPolicy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Einleitung",
+        "text": "Bei MyxoFlow respektieren wir Ihre Privatsphäre und verpflichten uns zum Schutz Ihrer persönlichen Daten. Diese Richtlinie erklärt, wie wir Informationen sammeln, verwenden und schützen."
+      },
+      {
+        "heading": "Welche Daten erheben wir?",
+        "text": "Wir sammeln persönliche Informationen, die Sie bereitstellen, wie Name, E-Mail, Telefonnummer und Firmendaten. Zudem können wir technische Informationen erfassen, z.B. IP-Adresse, Browsertyp und Gerätekennungen."
+      },
+      {
+        "heading": "Wie nutzen wir die Daten?",
+        "text": "Wir verwenden Ihre Daten zur Bereitstellung von Diensten, Kommunikation, Optimierung der Plattform und zur Erfüllung gesetzlicher Verpflichtungen. Wir verkaufen oder vermieten Ihre Daten niemals an Dritte."
+      },
+      {
+        "heading": "Datenspeicherung",
+        "text": "Personenbezogene Daten werden nur so lange gespeichert, wie dies für die Bereitstellung von Leistungen, gesetzliche Anforderungen oder legitime Geschäftsinteressen nötig ist. Danach werden Ihre Daten sicher gelöscht oder anonymisiert."
+      },
+      {
+        "heading": "Ihre Rechte",
+        "text": "Sie haben das Recht auf Zugriff, Berichtigung oder Löschung Ihrer Daten und können Ihre Einwilligung jederzeit durch Kontaktaufnahme mit [info@myxoflow.com](mailto:info@myxoflow.com) widerrufen."
+      },
+      {
+        "heading": "Kontakt",
+        "text": "Bei Fragen zur Richtlinie oder zum Umgang mit Daten kontaktieren Sie uns unter [info@myxoflow.com](mailto:info@myxoflow.com)."
+      }
+    ]
+  },
+
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Was sind Cookies?",
+        "text": "Cookies sind kleine Textdateien auf Ihrem Gerät, die uns helfen zu verstehen, wie Sie unsere Website und Plattform nutzen."
+      },
+      {
+        "heading": "Wie verwenden wir Cookies?",
+        "text": "Wir nutzen Cookies für Authentifizierung, Analyse und zur Verbesserung der Nutzererfahrung. So können wir wiederkehrende Besucher erkennen und die Plattformleistung optimieren."
+      },
+      {
+        "heading": "Cookie-Verwaltung",
+        "text": "Sie können Cookies über Ihre Browsereinstellungen deaktivieren, was jedoch bestimmte Funktionen beeinträchtigen kann. Weitere Informationen finden Sie in der Browser-Dokumentation."
+      },
+      {
+        "heading": "Cookies von Drittanbietern",
+        "text": "Einige Cookies stammen von Drittanbietern (z.B. Analyse oder Zahlungsdienste) und unterliegen deren eigenen Datenschutzrichtlinien."
+      }
+    ]
+  },
+
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Einleitung",
+        "text": "Mit der Nutzung von MyxoFlow-Diensten stimmen Sie diesen Bedingungen zu. Bitte lesen Sie sie sorgfältig, bevor Sie unsere Plattform verwenden."
+      },
+      {
+        "heading": "Nutzung der Dienste",
+        "text": "Sie verpflichten sich, unsere Dienste gesetzeskonform und verantwortungsbewusst zu nutzen. Jede missbräuchliche Nutzung oder Störung kann zur Sperrung oder Kündigung führen."
+      },
+      {
+        "heading": "Urheberrecht",
+        "text": "Sämtliche Inhalte, Quellcode und Branding der Plattform sind geistiges Eigentum von MyxoFlow. Die Vervielfältigung oder Weiterverbreitung ist ohne schriftliche Genehmigung untersagt."
+      },
+      {
+        "heading": "Haftungsbeschränkung",
+        "text": "MyxoFlow haftet nicht für indirekte, zufällige oder Folgeschäden, die aus der Nutzung der Dienste entstehen. Die Haftung ist auf das gesetzlich zulässige Maß beschränkt."
+      },
+      {
+        "heading": "Änderungen der Bedingungen",
+        "text": "Wir können diese Bedingungen gelegentlich ändern. Die fortgesetzte Nutzung der Dienste gilt als Zustimmung zur aktualisierten Version."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "title": "Haftungsausschluss",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Allgemeiner Haftungsausschluss",
+        "text": "Die von MyxoFlow bereitgestellten Informationen dienen allgemeinen Informationszwecken. Trotz größter Sorgfalt übernehmen wir keine Gewähr für Vollständigkeit oder Zuverlässigkeit."
+      },
+      {
+        "heading": "Fachlicher Haftungsausschluss",
+        "text": "MyxoFlow bietet keine Rechts-, Finanz- oder Unternehmensberatung. Jegliche Nutzung der Website-Informationen erfolgt auf eigenes Risiko."
+      },
+      {
+        "heading": "Externe Links Haftungsausschluss",
+        "text": "Unsere Website kann Links zu externen Websites enthalten. Für deren Inhalte oder Praktiken sind wir nicht verantwortlich."
+      }
+    ]
+  },
+
+  "dpa": {
+    "title": "Vereinbarung zur Datenverarbeitung (DPA)",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Umfang der Datenverarbeitung",
+        "text": "Dieses DPA beschreibt die Verantwortlichkeiten im Zusammenhang mit der Verarbeitung personenbezogener Daten zwischen MyxoFlow und seinen Kunden gemäß DSGVO und geltenden Gesetzen."
+      },
+      {
+        "heading": "Rollen und Verantwortlichkeiten",
+        "text": "MyxoFlow handelt als Datenverarbeiter und folgt allen rechtmäßigen Weisungen des Datenverantwortlichen. Beide Parteien verpflichten sich zu angemessener Sicherheit und Vertraulichkeit."
+      },
+      {
+        "heading": "Unterauftragnehmer",
+        "text": "Wir beauftragen nur vertrauenswürdige Unterauftragnehmer, die gleichwertige Datenschutzstandards erfüllen und in genehmigten Jurisdiktionen tätig sind."
+      },
+      {
+        "heading": "Meldung von Datenschutzverletzungen",
+        "text": "Im Fall einer Datenschutzverletzung informiert MyxoFlow die betroffenen Verantwortlichen unverzüglich und unterstützt sämtliche erforderlichen Gegenmaßnahmen."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "partnerOpportunities": {
+    "title": "Diventa Partner, Non Candidarti",
+    "subtitle": "Non assumiamo dipendenti — creiamo partnership azionarie",
+    "benefits": [
+      {
+        "icon": "handshake",
+        "title": "Quota azionaria del 50%",
+        "description": "Crea soluzioni sulla nostra piattaforma e guadagna il 50% delle quote. La tua innovazione, la nostra infrastruttura."
+      },
+      {
+        "icon": "trending_up",
+        "title": "Opportunità di mercato",
+        "description": "Individua mercati o flussi di lavoro che beneficiano della decentralizzazione. Ti aiutiamo ad ottimizzare e scalare."
+      },
+      {
+        "icon": "groups",
+        "title": "Collaborazione autonoma",
+        "description": "Lavora in autonomia con pieno supporto della piattaforma. Nessuna struttura aziendale, solo partnership."
+      }
+    ],
+    "ideal": "Partner ideali: aziende e professionisti che individuano inefficienze e desiderano risolverle con l'intelligenza decentralizzata."
+  }
+}

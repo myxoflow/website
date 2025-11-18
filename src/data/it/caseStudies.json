@@ -1,0 +1,85 @@
+{
+  "caseStudies": [
+    {
+      "id": "textilecorp-manufacturing",
+      "client": "TextileCorp Manufacturing",
+      "industry": "Produzione Tessile",
+      "industryKey": "textile",
+      "challenge": "Il monitoraggio manuale della produzione causava il 30% di sprechi, controllo qualità incoerente in 5 stabilimenti e impossibilità di prevedere la manutenzione. Le operazioni erano reattive, non proattive.",
+      "solution": "Implementato StichFlow con monitoraggio in tempo reale, controllo qualità automatizzato, manutenzione predittiva e dashboard unificata in tutte le sedi. Integrato con i sistemi ERP esistenti.",
+      "results": [
+        "Aumento del 40% dell'efficienza produttiva",
+        "Riduzione del 25% degli sprechi e dei costi dei materiali",
+        "Miglioramento del 60% nei punteggi di coerenza della qualità",
+        "Riduzione del 50% dei tempi di fermo imprevisti degli impianti",
+        "ROI raggiunto entro 3 mesi dall'implementazione"
+      ],
+      "quote": "StichFlow ha rivoluzionato le nostre operazioni. Abbiamo raggiunto il ROI in 3 mesi e continuiamo a vedere miglioramenti ogni trimestre. Il supporto diretto degli sviluppatori è stato prezioso.",
+      "metrics": [
+        { "label": "Efficienza produttiva", "before": "65%", "after": "91%", "improvement": "+40%", "unit": "indice di efficienza" },
+        { "label": "Spreco materiale", "before": "30%", "after": "7%", "improvement": "-77%", "unit": "percentuale di spreco" },
+        { "label": "Coerenza qualità", "before": "72%", "after": "95%", "improvement": "+32%", "unit": "indice di qualità" },
+        { "label": "Fermo impianto", "before": "120 h/mese", "after": "24 h/mese", "improvement": "-80%", "unit": "ore al mese" }
+      ],
+      "image": "/images/case-studies/textilecorp.jpg",
+      "duration": "3 mesi di implementazione",
+      "featured": true,
+      "tags": ["produzione", "automazione", "roi"],
+      "publishedDate": "2024-03-15"
+    },
+    {
+      "id": "moderndating-platform",
+      "client": "ModernDating Platform",
+      "industry": "Piattaforme di incontri e social",
+      "industryKey": "dating",
+      "challenge": "Basso tasso di successo degli incontri (25%), calo dell'engagement degli utenti, alto tasso di abbandono (65%) e scarse conversioni premium. Gli algoritmi esistenti non erano efficaci.",
+      "solution": "Implementato MyxoDate con algoritmi avanzati di matching ML, analisi del comportamento degli utenti, strumenti di ottimizzazione dell'engagement e framework A/B testing per il miglioramento continuo.",
+      "results": [
+        "Tasso di successo incontri al 73% (miglioramento 192%)",
+        "Retention utenti al 68% (miglioramento 94%)",
+        "Aumento dell'85% degli utenti attivi giornalieri",
+        "Incremento del 125% nelle conversioni premium",
+        "Raddoppio del fatturato in 6 mesi"
+      ],
+      "quote": "MyxoDate ha trasformato completamente la nostra piattaforma. Gli utenti sono più felici, l'engagement è salito alle stelle e il fatturato è raddoppiato. Il sistema AI di matching è incredibilmente sofisticato.",
+      "metrics": [
+        { "label": "Tasso di successo incontri", "before": "25%", "after": "73%", "improvement": "+192%", "unit": "tasso di successo" },
+        { "label": "Retention utenti", "before": "35%", "after": "68%", "improvement": "+94%", "unit": "tasso di retention" },
+        { "label": "Conversione premium", "before": "8%", "after": "18%", "improvement": "+125%", "unit": "tasso di conversione" },
+        { "label": "Utenti attivi giornalieri", "before": "12k", "after": "22k", "improvement": "+83%", "unit": "utenti attivi" }
+      ],
+      "image": "/images/case-studies/moderndating.jpg",
+      "duration": "2 mesi di implementazione",
+      "featured": true,
+      "tags": ["dating", "ai", "engagement"],
+      "publishedDate": "2024-02-15"
+    },
+    {
+      "id": "craftmasters-marketplace",
+      "client": "CraftMasters Marketplace",
+      "industry": "E-commerce e marketplace",
+      "industryKey": "marketplace",
+      "challenge": "Gestione frammentata dei fornitori, evasione ordini inefficiente (media 5,2 giorni), bassa soddisfazione clienti (3,2/5) e alto volume di ticket di supporto.",
+      "solution": "Implementato MyxoCraft con dashboard fornitori unificata, instradamento automatico ordini, workflow di qualità, ottimizzazione customer experience e sistema di supporto integrato.",
+      "results": [
+        "Evasione ordini più veloce del 54% (media 2,4 giorni)",
+        "Aumento del 45% del punteggio di soddisfazione dei fornitori",
+        "Miglioramento del 44% del rating clienti (4,6/5)",
+        "Riduzione del 60% dei ticket di supporto",
+        "Aumento del 30% dei ricavi del marketplace"
+      ],
+      "quote": "L'approccio unificato alla piattaforma ha reso la gestione del nostro marketplace incredibilmente efficiente. Fornitori e clienti adorano l'esperienza semplificata.",
+      "metrics": [
+        { "label": "Tempo evasione ordini", "before": "5,2 giorni", "after": "2,4 giorni", "improvement": "-54%", "unit": "media giorni" },
+        { "label": "Soddisfazione clienti", "before": "3,2/5", "after": "4,6/5", "improvement": "+44%", "unit": "punteggio rating" },
+        { "label": "Retention fornitori", "before": "68%", "after": "89%", "improvement": "+31%", "unit": "tasso di retention" },
+        { "label": "Ticket supporto", "before": "450/mese", "after": "180/mese", "improvement": "-60%", "unit": "ticket al mese" }
+      ],
+      "image": "/images/case-studies/craftmasters.jpg",
+      "duration": "6 settimane di implementazione",
+      "featured": true,
+      "tags": ["marketplace", "automazione", "soddisfazione"],
+      "publishedDate": "2024-01-20"
+    }
+  ]
+}

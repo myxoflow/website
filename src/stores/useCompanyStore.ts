@@ -1,18 +1,34 @@
 // src/stores/useCompanyStore.ts
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
-
-import companyData from '../data/company.json'
-import aboutData from '../data/about.json'
-import partnersData from '../data/partners.json'
-import howItWorksData from '../data/howItWorks.json'
-
+import { ref, computed, watch } from 'vue'
+import { currentLang } from '../composables/useLang'
 
 export const useCompanyStore = defineStore('company', () => {
-  const company = ref(companyData)
-  const about = ref(aboutData)
-  const partners = ref(partnersData)
-  const howItWorks = ref(howItWorksData)
+  const company = ref<any>({})
+  const about = ref<any>({})
+  const partners = ref<any>({})
+  const howItWorks = ref<any>({})
+
+  // Function to load language-specific JSON content
+  async function loadData() {
+    const lang = currentLang.value
+    try {
+      company.value = (await import(`../data/${lang}/company.json`)).default
+      about.value = (await import(`../data/${lang}/about.json`)).default
+      partners.value = (await import(`../data/${lang}/partners.json`)).default
+      howItWorks.value = (await import(`../data/${lang}/howItWorks.json`)).default
+    } catch (err) {
+      // On error, fallback to English
+      company.value = (await import('../data/en/company.json')).default
+      about.value = (await import('../data/en/about.json')).default
+      partners.value = (await import('../data/en/partners.json')).default
+      howItWorks.value = (await import('../data/en/howItWorks.json')).default
+    }
+  }
+  // Load data on store init
+  loadData()
+  // And whenever language changes
+  watch(currentLang, loadData)
 
   // HOW IT WORKS PAGE
   const operationalModel = computed(() => howItWorks.value.howItWorks)

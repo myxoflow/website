@@ -1,0 +1,83 @@
+{
+  "company": {
+    "name": "MyxoFlow",
+    "tagline": "Costruzione decentralizzata, risultati reali",
+    "description": "Ispirata al risolutore di problemi più efficiente della natura, la muffa melmosa, MyxoFlow funziona come una rete decentralizzata, adattiva e orientata al profitto. Ottimizziamo flussi di lavoro, implementazione e risorse — senza strati aziendali inutili.",
+    "email": "info@myxoflow.com",
+    "phone": "(+39) 3758327534",
+    "address": {
+      "street": "Innovation Hub",
+      "city": "Napoli",
+      "state": "Campania",
+      "zip": "80100",
+      "country": "Italia"
+    },
+    "social": [
+      {
+        "platform": "github",
+        "url": "https://github.com/myxoflow",
+        "handle": "myxoflow"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/myxoflow",
+        "handle": "MyxoFlow"
+      }
+    ]
+  },
+
+  "philosophy": {
+    "title": "La nostra filosofia",
+    "subtitle": "Sfida ai modelli di business tradizionali con trasparenza ed efficienza",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Decentralizzati e adattivi",
+        "description": "Nessuna gerarchia aziendale. Funzioniamo come un unico sistema adattivo ispirato all'intelligenza della muffa melmosa — trovando percorsi ottimali in tempo reale."
+      },
+      {
+        "icon": "balance",
+        "title": "Equi e trasparenti",
+        "description": "Le aziende caricano troppo, supponendo che gli utenti siano 'ignoranti sui prezzi.' Noi ribaltiamo il modello: trasparenza, efficienza e compensi equi per tutti."
+      },
+      {
+        "icon": "speed",
+        "title": "Veloci e responsabili",
+        "description": "Dall'idea all'esecuzione in 30 giorni. Niente burocrazia, niente ritardi — solo risultati forniti da una rete resiliente e responsabile."
+      }
+    ]
+  },
+
+  "team": {
+    "title": "Il sistema centrale",
+    "subtitle": "Due nodi, un'unica intelligenza adattiva",
+    "members": [
+      {
+        "name": "Bobby Seelam",
+        "role": "Fondatore & Responsabile prodotto",
+        "avatar": "/images/team/bobby.jpg",
+        "bio": "Porta capacità completa dall'idea all'esecuzione e acquisizione clienti.",
+        "responsibilities": [
+          "Strategia aziendale e ideazione",
+          "Design prodotto e contenuti",
+          "Relazioni con i clienti e supervisione delle implementazioni",
+          "Gestione competizioni freelance",
+          "Esecuzione end-to-end"
+        ]
+      },
+      {
+        "name": "Saivinay Manda",
+        "role": "Responsabile Full-Stack & AI",
+        "avatar": "/images/team/saivinay.jpg",
+        "bio": "Costruisce sistemi intelligenti che garantiscono ottimizzazione e scalabilità in tempo reale.",
+        "responsibilities": [
+          "Sviluppo frontend e backend",
+          "Sistemi di Intelligenza Artificiale e automazione",
+          "Architettura dashboard Neo4j",
+          "Ingegneria software scalabile",
+          "Infrastruttura di deployment affidabile"
+        ]
+      }
+    ]
+  }
+}

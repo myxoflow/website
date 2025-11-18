@@ -1,0 +1,329 @@
+{
+  "products": [
+    {
+      "key": "myxofill",
+      "name": "MyxoFill",
+      "tagline": "Transparente IT-Workforce-Plattform",
+      "description": "Europaweites Portal, das Unternehmen mit geprüften IT-Technikern verbindet. Keine Vermittler, faire Bezahlung, schnelle Einsätze, Echtzeit-Matching.",
+      "overview": "MyxoFill optimiert Field Service für IT, indem es Kunden und qualifizierte Techniker direkt verbindet. Die Plattform automatisiert Matching, Escrow-Zahlungen und verifizierte Bewertungen—so wird ein traditionell intransparenter Markt fair und meritokratisch.",
+      "features": [
+        "Direktvermittlung – keine Agenturen/Markups",
+        "Geprüfte Techniker mit Ratings & Skills-Test",
+        "Mobiles Aufgaben-Dashboard & Live-Updates",
+        "Automatisierte Escrow-Zahlungen",
+        "Datensichere Kommunikation & Verträge",
+        "AI-basiertes Job-Matching nach Standort & Skill"
+      ],
+      "useCases": [
+        "POS & Netzwerkeinrichtung",
+        "IT-Setup und Wartung im Einzelhandel",
+        "Telekom- & ISP-Installationen",
+        "Hardware-Rollouts für mehrere Standorte",
+        "IT-Einsatz/Ersatz vor Ort"
+      ],
+      "pricing": {
+        "model": "Servicebasierte Plattformgebühr",
+        "tiers": [
+          {
+            "name": "Einzelauftrag",
+            "price": "Ab €180/Tag",
+            "billingPeriod": "pro Auftrag",
+            "description": "Einzeleinsätze von Technikern",
+            "features": [
+              "Mind. €150/Tag für Freelancer",
+              "Transparente Tarife – keine Zwischenhändler",
+              "Sofortige Zahlung via Escrow",
+              "Europaweite Abdeckung"
+            ],
+            "cta": "Techniker anfragen"
+          },
+          {
+            "name": "Enterprise-Vertrag",
+            "price": "Individualpreis",
+            "billingPeriod": "monatlich oder jährlich",
+            "description": "Mehrere Standorte/regelmäßige Einsätze",
+            "features": [
+              "Zugewiesener Freelancer-Pool",
+              "Priorisierter Dispatch & Support",
+              "Workforce-Analytics-Dashboard",
+              "Custom-API-Integration"
+            ],
+            "cta": "Enterprise-Angebot anfragen",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "freelance",
+        "it-field-service",
+        "plattform",
+        "escrow",
+        "ai-matching"
+      ],
+      "featured": true,
+      "geography": "Europa-First, global skalierbar"
+    },
+    {
+      "key": "minerva",
+      "name": "Minerva",
+      "tagline": "Individuelle Produktfertigung",
+      "description": "Merchandising und Werbeartikel über globale Lieferanten. Flexible Qualitäts- und Kostenoptimierung.",
+      "overview": "Minerva nutzt unser globales Lieferanten-Netzwerk für individuelle Produktionen mit optimalem Preis-Leistungs-Verhältnis. Keine unnötigen Prüfungen—nur effiziente, transparente Produktion.",
+      "features": [
+        "Globales Lieferantennetz",
+        "Produktion von Marken-Merchandise",
+        "Werbeartikel",
+        "Flexible Qualitätsstufen",
+        "Kostenoptimierung",
+        "Kurze Lieferzeiten"
+      ],
+      "useCases": [
+        "Firmen-Merchandise",
+        "Event-Giveaways",
+        "Individuelle Brand-Produkte",
+        "Marketingmaterial",
+        "Großbestellungen"
+      ],
+      "pricing": {
+        "model": "Mikromargen pro Produkt",
+        "tiers": [
+          {
+            "name": "Standardproduktion",
+            "price": "Angebot",
+            "billingPeriod": "pro Auftrag",
+            "description": "Individualpreise pro Produkt",
+            "features": [
+              "Globale Lieferanten",
+              "Flexible Qualitätsoptionen",
+              "Transparente Preise",
+              "Mengenrabatte"
+            ],
+            "cta": "Angebot anfordern"
+          }
+        ]
+      },
+      "tags": ["fertigung", "merchandise", "global"],
+      "featured": false,
+      "geography": "Globale Produktion, Lieferung Europa"
+    },
+    {
+      "key": "flowcraft",
+      "name": "FlowCraft",
+      "tagline": "Textilproduktion",
+      "description": "Bekleidungsfertigung über globales Netzwerk. Optimierung von Design bis Lieferung.",
+      "overview": "Flow verbindet Design, Fertigung & Lieferung für Mode. Globales Netzwerk garantiert wettbewerbsfähige Preise ohne Qualitätsverlust.",
+      "features": [
+        "Komplette Pipeline Bekleidungsfertigung",
+        "Design-Integration",
+        "Globales Produktionsnetzwerk",
+        "Qualitäts-/Kostenoptimierung",
+        "Lieferkoordination",
+        "Neo4j-Supply Chain Tracking"
+      ],
+      "useCases": [
+        "Individuelle Modeserien",
+        "Corporate-Uniformen",
+        "Produktion für Modemarken",
+        "Werbe-Bekleidung",
+        "Großbestellungen"
+      ],
+      "pricing": {
+        "model": "Service-Fee + Mikromargen",
+        "tiers": [
+          {
+            "name": "Bekleidungsproduktion",
+            "price": "Angebot",
+            "billingPeriod": "pro Auftrag",
+            "description": "Individuelle Fertigung auf Anfrage",
+            "features": [
+              "Designsupport",
+              "Globale Fertigung",
+              "Optimierte Lieferkette",
+              "Qualitätssicherung"
+            ],
+            "cta": "Angebot anfordern"
+          }
+        ]
+      },
+      "tags": ["bekleidung", "fertigung", "fashion"],
+      "featured": true,
+      "geography": "Globale Produktion"
+    },
+    {
+      "key": "cheddar",
+      "name": "Cheddar",
+      "tagline": "Verifizierte Kontakte. Echte Ergebnisse.",
+      "description": "Exklusives Dating mit dynamischem Gleichgewichtsmanagement und strenger Verifizierung. Nur echte Profile, kein Algorithmus, kein Datenverkauf.",
+      "overview": "Cheddar hält das Gleichgewicht mit Kapazitätsmanagement und ID+Live-Check. Keine Blackbox – transparente Filter, echte Profile, Ergebnisfokus.",
+      "features": [
+        "Dynamisches Gleichgewicht für ausgewogene Geschlechter",
+        "Ausweisprüfung über Stripe Identity/Onfido",
+        "Foto-Aufnahme nur per Kamera, Liveness Detection",
+        "Transparente Filter & Sortierung nach Nähe",
+        "30 Tage Membership, kein Auto-Renewal",
+        "Automatische Pause & Rückerstattung bei Überbelegung"
+      ],
+      "useCases": [
+        "Ernsthafte Datende mit Anspruch auf Qualität",
+        "Nutzer mit Fokus auf Datenschutz & kein Datenverkauf",
+        "Wer effizientes Dating ohne Zeitverschwendung sucht",
+        "Freunde von Filtersystemen statt Algorithmus",
+        "Referral-gesteuertes Wachstum & Qualitätskontrolle"
+      ],
+      "pricing": {
+        "model": "Dynamische Mitgliedsbeiträge, je nach Kapazität",
+        "tiers": [
+          {
+            "name": "Founding Member (Frauen)",
+            "price": "Kostenlos",
+            "billingPeriod": "90 Tage kostenlos, erneuerbar",
+            "description": "Zugang gratis, Kapazitätsmanagement vorbehalten",
+            "features": [
+              "Vollständige Verifizierung & Discovery-Tools",
+              "Automatische Erneuerung 90 Tage",
+              "Option zur freiwilligen Pause"
+            ],
+            "cta": "Als Founding Member eintreten"
+          },
+          {
+            "name": "Standard Membership (Männer)",
+            "price": "€100",
+            "billingPeriod": "30 Tage, keine Automatik",
+            "description": "30 Tage, ggf. manuelle Verlängerung",
+            "features": [
+              "Alle Verifizierungs-/Entdeckungstools",
+              "Priority-Warteliste, anteilige Rückerstattung bei Pause",
+              "Referral Credits & Einrittspreis fixiert"
+            ],
+            "cta": "Membership beantragen"
+          }
+        ]
+      },
+      "tags": ["dating", "verifizierung", "kapazitätsmanagement", "datenschutz"],
+      "featured": true
+    },
+    {
+      "key": "kitchenos",
+      "name": "KitchenOS",
+      "tagline": "Smartes Küchen-Betriebssystem für Restaurants",
+      "description": "Cloud-basierte Restaurantverwaltung: Bestellabwicklung, Küchenflow, Inventar und Mitarbeiter werden von einem System gesteuert.",
+      "overview": "KitchenOS ist das End-to-End-Betriebssystem, das sich mit POS, Displays, Personalplanung und Lieferplattformen verbindet. KI schafft das Steuerzentrum für jede Küche—bessere Abläufe, bessere Ergebnisse.",
+      "features": [
+        "Omnichannel-Bestellmanagement (vor Ort, App, Delivery)",
+        "Küchen-Displaysystem in Echtzeit mit Smart-Priorisierung",
+        "Automatisiertes Inventar-Tracking & Beschaffung",
+        "KI-Dashboards für Analysen & Forecasts",
+        "Mitarbeiterplanung mit Lohnabrechnung",
+        "Self-Service-Ordering & Voice-Bot-Integration",
+        "Kundenbindung/CRM & Marketing",
+        "Mobile KPI-Alerts (Lager, Verzögerung)"
+      ],
+      "useCases": [
+        "Fine-Dining & Service-Restaurants",
+        "Ghost- & Cloud-Kitchens",
+        "Technikaffine Ketten/QSRs",
+        "Unabhängige Lokale mit QR-Bestellung"
+      ],
+      "pricing": {
+        "model": "Abo pro Standort",
+        "tiers": [
+          {
+            "name": "Einzelstandort",
+            "price": "$299",
+            "billingPeriod": "monatlich",
+            "description": "Vollständiges Küchenbetriebssystem",
+            "features": [
+              "Cloud-POS & Order-Hub",
+              "Digitales Küchen-Display",
+              "Autom. Inventar & Nachbestellung",
+              "Personalplanung & Payroll",
+              "AI-Dashboard",
+              "24/7 Support & Hosting"
+            ],
+            "cta": "Kostenlose Testphase starten"
+          },
+          {
+            "name": "Multi-Standort-Enterprise",
+            "price": "Individualpreis",
+            "billingPeriod": "pro Standort",
+            "description": "Für Ketten & Franchises",
+            "features": [
+              "Zentrale Steuerung mehrerer Standorte",
+              "Standardrezepte & Compliance",
+              "Offene API-Integration",
+              "Erweiterte Analysen & Prognosen",
+              "Dedizierter Account-Manager",
+              "Individuelle Implementierung & Schulung"
+            ],
+            "cta": "Sales kontaktieren",
+            "popular": true
+          }
+        ]
+      },
+      "tags": [
+        "restaurant",
+        "automation",
+        "hospitality",
+        "cloud-pos",
+        "ai-forecasting"
+      ],
+      "featured": true,
+      "geography": "Weltweiter Einsatz, Cloud"
+    },
+    {
+      "key": "timid",
+      "name": "Timid",
+      "tagline": "Browser mit Datenschutzfokus",
+      "description": "Open-Source-Fork von Brave, ohne Werbung und Tracking. 100% Privatsphäre & Nutzersouveränität.",
+      "overview": "Timid ist ein minimalistischer Browser auf Brave-Basis, ohne Werbe- und Tracking-Komponenten. Volle Kontrolle, Open-Source-Transparenz, keine Ablenkung.",
+      "features": [
+        "Open-source (Brave Fork)",
+        "Keine Werbung & Tracking",
+        "Volle Datenschutzorientierung",
+        "Minimals Design",
+        "GitHub-Updates",
+        "Volle Nutzerkontrolle"
+      ],
+      "useCases": [
+        "Privates Surfen",
+        "Unternehmensweite Deployments",
+        "Sicherheitsfokussierte Unternehmen",
+        "Bildungseinrichtungen",
+        "Privatgebrauch"
+      ],
+      "pricing": {
+        "model": "Kostenlos + optionaler Support",
+        "tiers": [
+          {
+            "name": "Kostenloser Download",
+            "price": "€0",
+            "billingPeriod": "für immer",
+            "description": "Open-source Browser",
+            "features": [
+              "Alle Datenschutzfunktionen",
+              "Regelmäßige Updates",
+              "Community-Support",
+              "GitHub-Zugang"
+            ],
+            "cta": "Gratis herunterladen"
+          },
+          {
+            "name": "Enterprise-Support",
+            "price": "€50",
+            "billingPeriod": "pro Nutzer/Jahr",
+            "description": "Für Organisationen",
+            "features": [
+              "Installationssupport",
+              "Custom Configurations",
+              "Priorisierte Updates",
+              "Technischer Support"
+            ],
+            "cta": "Kontakt aufnehmen"
+          }
+        ]
+      },
+      "tags": ["browser", "privacy", "open-source"],
+      "featured": false
+    }
+  ]
+}

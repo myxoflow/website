@@ -1,0 +1,124 @@
+{
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Introduzione",
+        "text": "In MyxoFlow rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Questa informativa spiega come raccogliamo, utilizziamo e salvaguardiamo le informazioni."
+      },
+      {
+        "heading": "Dati che raccogliamo",
+        "text": "Raccogliamo le informazioni personali che ci fornisci, come nome, email, numero di telefono e dettagli aziendali. Possiamo raccogliere anche informazioni tecniche relative all'uso della nostra piattaforma, come indirizzo IP, tipo di browser e identificativi del dispositivo."
+      },
+      {
+        "heading": "Come utilizziamo i dati",
+        "text": "Utilizziamo i tuoi dati per fornire servizi, comunicare con te, ottimizzare le prestazioni della piattaforma e adempiere agli obblighi legali. Non vendiamo né cediamo mai i tuoi dati a terzi."
+      },
+      {
+        "heading": "Conservazione dei dati",
+        "text": "Le informazioni personali sono conservate solo per il tempo necessario alla fornitura dei servizi, alla conformità legale o per scopi aziendali legittimi. Quando non sono più necessarie, i dati vengono cancellati o anonimizzati in modo sicuro."
+      },
+      {
+        "heading": "I tuoi diritti",
+        "text": "Hai il diritto di accedere, correggere o cancellare i tuoi dati e di revocare il consenso in qualsiasi momento contattando [info@myxoflow.com](mailto:info@myxoflow.com)."
+      },
+      {
+        "heading": "Contatti",
+        "text": "Per domande su questa informativa o sulle modalità di gestione dei dati, contattaci a [info@myxoflow.com](mailto:info@myxoflow.com)."
+      }
+    ]
+  },
+
+  "cookies": {
+    "title": "Informativa sui Cookie",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Cosa sono i cookie?",
+        "text": "I cookie sono piccoli file di testo memorizzati sul tuo dispositivo che ci aiutano a capire come utilizzi il nostro sito Web e la piattaforma."
+      },
+      {
+        "heading": "Come utilizziamo i cookie",
+        "text": "Utilizziamo i cookie per autenticazione, analisi e miglioramento dell'esperienza utente. Questo ci permette di riconoscere i visitatori abituali e ottimizzare le prestazioni della piattaforma."
+      },
+      {
+        "heading": "Gestione dei cookie",
+        "text": "Puoi disabilitare i cookie tramite le impostazioni del browser, ma questo potrebbe influire su alcune funzionalità del sito. Consulta la documentazione del browser per maggiori dettagli."
+      },
+      {
+        "heading": "Cookie di terze parti",
+        "text": "Alcuni cookie possono provenire da servizi di terze parti (ad esempio, analitica o gateway di pagamento). Questi sono soggetti alle rispettive informative sulla privacy."
+      }
+    ]
+  },
+
+  "terms": {
+    "title": "Termini e Condizioni",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Introduzione",
+        "text": "Utilizzando i servizi di MyxoFlow accetti questi termini. Ti invitiamo a leggerli attentamente prima di utilizzare la nostra piattaforma."
+      },
+      {
+        "heading": "Utilizzo dei servizi",
+        "text": "Accetti di usare i nostri servizi in modo lecito e responsabile. Ogni abuso o tentativo di perturbare le operazioni può comportare sospensione o interruzione."
+      },
+      {
+        "heading": "Proprietà intellettuale",
+        "text": "Tutti i contenuti, il codice e il branding della piattaforma sono proprietà intellettuale di MyxoFlow. Non puoi riprodurre né distribuire materiali senza autorizzazione esplicita."
+      },
+      {
+        "heading": "Limitazione di responsabilità",
+        "text": "MyxoFlow non è responsabile per danni indiretti, incidentali o consequenziali derivanti dall'uso dei servizi. La responsabilità è limitata nella misura massima consentita dalla legge."
+      },
+      {
+        "heading": "Modifiche ai termini",
+        "text": "Potremmo modificare questi termini periodicamente. L’utilizzo continuato dei nostri servizi implica l’accettazione della versione aggiornata."
+      }
+    ]
+  },
+
+  "disclaimer": {
+    "title": "Disclaimer",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Disclaimer generale",
+        "text": "Le informazioni fornite da MyxoFlow sono solo a scopo informativo generale. Pur puntando all’accuratezza, non garantiamo completezza o affidabilità."
+      },
+      {
+        "heading": "Disclaimer professionale",
+        "text": "MyxoFlow non fornisce consulenza legale, finanziaria o aziendale. Ogni utilizzo delle informazioni del sito è a tuo rischio esclusivo."
+      },
+      {
+        "heading": "Disclaimer sui link esterni",
+        "text": "Il nostro sito può contenere link a siti di terze parti. Non siamo responsabili per i contenuti o le pratiche di quei siti esterni."
+      }
+    ]
+  },
+
+  "dpa": {
+    "title": "Accordo sul trattamento dei dati (DPA)",
+    "lastUpdated": "2025-11-12",
+    "content": [
+      {
+        "heading": "Ambito del trattamento dei dati",
+        "text": "Questo DPA definisce le responsabilità relative al trattamento dei dati personali tra MyxoFlow e i suoi clienti in conformità con il GDPR e altre leggi applicabili."
+      },
+      {
+        "heading": "Ruoli e responsabilità",
+        "text": "MyxoFlow agisce come responsabile del trattamento e segue tutte le istruzioni valide del titolare dei dati. Entrambe le parti si impegnano a garantire sicurezza e riservatezza adeguata."
+      },
+      {
+        "heading": "Subresponsabili",
+        "text": "Ci affidiamo solo a subresponsabili fidati che rispettano standard equivalenti di protezione dati e operano in giurisdizioni approvate."
+      },
+      {
+        "heading": "Notifica di violazione dei dati",
+        "text": "In caso di violazione dei dati, MyxoFlow informerà tempestivamente i titolari coinvolti e assisterà in ogni azione di mitigazione necessaria."
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "howItWorks": {
+    "title": "Come lavoriamo",
+    "subtitle": "Un processo semplice, trasparente e competitivo",
+    "overview": "Il nostro workflow garantisce equità, rapidità e responsabilità attraverso un modello competitivo decentralizzato — permettendo agli esperti di portare valore velocemente, senza intermediari né burocrazia.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Bisogni del cliente",
+        "description": "Definisci i requisiti per backfill, deployment software o prodotti su misura.",
+        "icon": "task"
+      },
+      {
+        "number": "02",
+        "title": "Lancio della competizione",
+        "description": "Freelancer o aziende partner europee fanno offerte sulle attività.",
+        "icon": "groups"
+      },
+      {
+        "number": "03",
+        "title": "Esecuzione & consegna",
+        "description": "I vincitori completano la copertura o la produzione.",
+        "icon": "check_circle"
+      },
+      {
+        "number": "04",
+        "title": "Pagamento & risultati",
+        "description": "I freelancer ricevono un pagamento garantito (€150/giorno).",
+        "icon": "payments"
+      }
+    ],
+    "cta": {
+      "text": "Entra nella nostra rete",
+      "link": "/partners"
+    }
+  }
+}

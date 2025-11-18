@@ -1,0 +1,83 @@
+{
+  "company": {
+    "name": "MyxoFlow",
+    "tagline": "Dezentralisiertes Bauen, echte Ergebnisse",
+    "description": "Inspiriert vom effizientesten Problemlöser der Natur, dem Schleimpilz, arbeitet MyxoFlow als dezentrales, adaptives, profitorientiertes Netzwerk. Wir optimieren Arbeitsabläufe, Deployment und Ressourcen—ohne unnötige Unternehmensebenen.",
+    "email": "info@myxoflow.com",
+    "phone": "(+39) 3758327534",
+    "address": {
+      "street": "Innovation Hub",
+      "city": "Neapel",
+      "state": "Kampanien",
+      "zip": "80100",
+      "country": "Italien"
+    },
+    "social": [
+      {
+        "platform": "github",
+        "url": "https://github.com/myxoflow",
+        "handle": "myxoflow"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/myxoflow",
+        "handle": "MyxoFlow"
+      }
+    ]
+  },
+
+  "philosophy": {
+    "title": "Unsere Philosophie",
+    "subtitle": "Wir fordern traditionelle Geschäftsmodelle heraus mit Transparenz und Effizienz",
+    "principles": [
+      {
+        "icon": "hub",
+        "title": "Dezentralisiert & Adaptiv",
+        "description": "Keine Unternehmenshierarchie. Wir arbeiten als ein adaptives System, inspiriert von der Schleimpilz-Intelligenz—optimale Wege in Echtzeit finden."
+      },
+      {
+        "icon": "balance",
+        "title": "Fair & Transparent",
+        "description": "Unternehmen verlangen zu viel, in der Annahme, Nutzer seien 'preisunwissend.' Wir drehen das Modell um: Transparenz, Effizienz und faire Vergütung für alle."
+      },
+      {
+        "icon": "speed",
+        "title": "Schnell & Verantwortlich",
+        "description": "Von der Idee zur Umsetzung in 30 Tagen. Keine Bürokratie, keine Verzögerungen—nur Ergebnisse, geliefert von einem resilienten, verantwortlichen Netzwerk."
+      }
+    ]
+  },
+
+  "team": {
+    "title": "Das zentrale System",
+    "subtitle": "Zwei Knoten, eine adaptive Intelligenz",
+    "members": [
+      {
+        "name": "Bobby Seelam",
+        "role": "Gründer & Produktleitung",
+        "avatar": "/images/team/bobby.jpg",
+        "bio": "Bringt Fähigkeiten von der Idee bis zur Umsetzung und Kundengewinnung.",
+        "responsibilities": [
+          "Business Strategie & Ideenfindung",
+          "Produktdesign & Inhalte",
+          "Kundenbeziehungen & Deploymentüberwachung",
+          "Management von Freelancer-Wettbewerben",
+          "End-to-End Durchführungen"
+        ]
+      },
+      {
+        "name": "Saivinay Manda",
+        "role": "Full-Stack & KI-Leitung",
+        "avatar": "/images/team/saivinay.jpg",
+        "bio": "Entwickelt intelligente Systeme, die Echtzeit-Optimierung und Skalierbarkeit gewährleisten.",
+        "responsibilities": [
+          "Frontend- & Backend-Entwicklung",
+          "KI- & Automatisierungssysteme",
+          "Neo4j Dashboard Architektur",
+          "Skalierbare Softwareentwicklung",
+          "Zuverlässige Deployment-Infrastruktur"
+        ]
+      }
+    ]
+  }
+}

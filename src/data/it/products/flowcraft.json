@@ -1,0 +1,136 @@
+{
+  "key": "flowcraft",
+  "name": "FlowCraft",
+  "title": "Piattaforma decentralizzata per la produzione di abbigliamento",
+  "tagline": "Ottimizza la produzione. Potenzia le fabbriche. Consegna diretta.",
+  "background": {
+    "headline": "Ecosistema della moda frammentato",
+    "summary": "La produzione di capi d’abbigliamento spesso coinvolge diversi fornitori scollegati, prezzi opachi e scarsa coordinazione. I brand affrontano ritardi, costi imprevisti e qualità incoerente, mentre le fabbriche competono alla cieca per gli ordini senza visibilità e compensi equi.",
+    "insight": "FlowCraft reinventa la manifattura tessile suddividendo gli ordini in task modulari, consentendo alle fabbriche di fare offerte sui task in base alle proprie competenze e orchestrando l’intera supply chain."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Le filiere di produzione globali sono frammentate e inefficienti.",
+      "I clienti non hanno visibilità su costi reali e tempistiche.",
+      "Troppi passaggi aumentano ritardi e abbassano il controllo della qualità.",
+      "Le fabbriche sono sottopagate o sovraccaricate a causa di offerte opache.",
+      "Nessuno scoring di merito standardizzato; fabbriche non verificate minano la fiducia.",
+      "La logistica è manuale e soggetta a errori.",
+      "Le maggiorazioni tradizionali fanno lievitare i prezzi senza valore aggiunto."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "I brand cercano efficienza, consegna rapida e garanzia di qualità. Le fabbriche vogliono compensi giusti e compiti chiari. FlowCraft crea una rete trasparente e competitiva che collega entrambe le parti.",
+    "dataPoints": [
+      "Il mercato globale dell’abbigliamento supera 1,5 trilioni di dollari/anno.",
+      "Il 60% dei brand segnala frequenti ritardi e costi inattesi (McKinsey 2024).",
+      "Le fabbriche lavorano spesso con una redditività <70% per la cattiva allocazione dei compiti."
+    ]
+  },
+  "solution": {
+    "headline": "La nostra piattaforma di produzione trasparente",
+    "description": "FlowCraft suddivide gli ordini complessi in task modulari. Le fabbriche fanno offerte sui task dove eccellono. La piattaforma coordina produzione, logistica e pagamenti, garantendo puntualità e compensi equi.",
+    "coreFeatures": [
+      {
+        "title": "Dashboard dei task modulari",
+        "text": "Gli ordini sono suddivisi in sub-task come cucito, stampa, spedizione. Le fabbriche fanno offerte sui task in cui sono più specializzate."
+      },
+      {
+        "title": "Rete globale di fabbriche",
+        "text": "Collega i brand a fabbriche verificate in tutto il mondo, ottimizzando costi, qualità e tempi."
+      },
+      {
+        "title": "Offerte trasparenti",
+        "text": "Le fabbriche competono in modo aperto su ogni task. I clienti possono selezionare in base a competenze, costi e reputazione."
+      },
+      {
+        "title": "Coordinazione supply chain",
+        "text": "FlowCraft assicura l’allineamento dei task e traccia i progressi lungo tutta la produzione."
+      },
+      {
+        "title": "Pagamenti automatici",
+        "text": "I clienti pagano FlowCraft; i fondi vengono distribuiti alle fabbriche dopo la verifica dei compiti, riducendo contestazioni e ritardi."
+      },
+      {
+        "title": "QA & tracciamento SCM",
+        "text": "Visibilità end-to-end tramite tracciamento supply chain su Neo4j e valutazioni verificate delle fabbriche."
+      },
+      {
+        "title": "Valutazione meritocratica delle fabbriche",
+        "text": "Le fabbriche accumulano un profilo di merito in base ad affidabilità, velocità e qualità per accedere a opportunità migliori."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Prima e dopo: Modello tradizionale vs FlowCraft",
+    "items": [
+      {
+        "aspect": "Prezzi",
+        "traditional": "Ricarichi opachi tra fornitori",
+        "flowcraft": "Offerte trasparenti per task, competitive ed eque"
+      },
+      {
+        "aspect": "Gestione ordini",
+        "traditional": "Coordinazione manuale tra vendor",
+        "flowcraft": "Orchestrazione automatica e dashboard task"
+      },
+      {
+        "aspect": "Pagamenti",
+        "traditional": "Fatturazione a più parti e ritardi",
+        "flowcraft": "Pagamenti escrow rilasciati dopo verifica task"
+      },
+      {
+        "aspect": "Controllo qualità",
+        "traditional": "Standard incostanti tra fabbriche",
+        "flowcraft": "Solo fabbriche verificate e supply chain trasparente"
+      },
+      {
+        "aspect": "Responsabilità",
+        "traditional": "Diffusa tra intermediari",
+        "flowcraft": "Contratti diretti task-fabbrica e tracking performance"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Visione: una produzione snella ed equa",
+    "principles": [
+      {
+        "title": "Merito sopra le relazioni storiche",
+        "description": "Le fabbriche scelgono compiti in base a competenze e risultati comprovati."
+      },
+      {
+        "title": "Trasparenza invece di segretezza",
+        "description": "Task, offerte e pagamenti tutti visibili e verificabili."
+      },
+      {
+        "title": "Efficienza invece di ridondanza",
+        "description": "Suddividere i task elimina sprechi e ottimizza i tempi."
+      },
+      {
+        "title": "Miglioramento continuo",
+        "description": "Le performance delle fabbriche generano reputazione e più opportunità."
+      }
+    ],
+    "summary": "FlowCraft sposta valore da reti opache a fabbriche competenti, offrendo ai brand manifattura efficiente e di qualità."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "Costi di produzione ridotti del 20-40% tramite offerte competitive sui task.",
+      "I guadagni delle fabbriche crescono del 30-50% grazie all’allocazione equa.",
+      "Tempi ordine-consegna ridotti del 25-50% tramite coordinazione automatica.",
+      "Contestazioni di pagamento minimizzate grazie a escrow e verifiche."
+    ]
+  },
+  "whyNow": [
+    "Le filiere globali richiedono oggi coordinazione più veloce ed efficiente.",
+    "Le fabbriche devono salvaguardare i margini in un mercato competitivo.",
+    "Dashboard digitali, bidding su task e pagamenti automatici ora sono scalabili.",
+    "I brand chiedono sempre più trasparenza e qualità tracciabile."
+  ],
+  "sources": [
+    "McKinsey Fashion 2024",
+    "Rapporti globali settore abbigliamento",
+    "Supply Chain Quarterly",
+    "Sondaggi settore fabbriche"
+  ]
+}

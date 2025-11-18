@@ -1,0 +1,137 @@
+{
+  "key": "minerva",
+  "name": "Minerva",
+  "title": "Modulare On-Demand-Plattform für Bekleidung",
+  "tagline": "Entwerfe es. Wir fertigen es. Lieferung auf Abruf.",
+  "background": {
+    "headline": "Zersplitterter und ineffizienter Markt für individuelle Bekleidung",
+    "summary": "Der Markt für individuelle Kleidung leidet unter Überbeständen, langer Lieferzeit und geringen Personalisierungsoptionen. Bestehende Plattformen bieten wenig Auswahl und setzen auf Lagerware oder teure Eigenproduktion.",
+    "insight": "Minerva denkt Bekleidungsfertigung modular und digital neu: Der Kunde wählt alle Variablen, Lieferketten bleiben schlank und reaktionsfähig."
+  },
+  "problem": {
+    "structuralChallenges": [
+      "Wenig SKU-Optionen bei den meisten Print-on-Demand-Plattformen schränken die Kreativität ein.",
+      "Überbestände an Nischenstoffen oder -größen binden Kapital.",
+      "Fabriken haben keinen Standard für komplexe Individualaufträge.",
+      "Lange Lieferzeiten bei seltenen Kombinationen.",
+      "Qualitätskontrolle ist inkonsistent bei dezentralen Lieferanten.",
+      "Digital-zu-physisch-Workflows sind manuell, fehleranfällig und oft inkompatibel.",
+      "Personalisierung ist ohne ein strukturiertes System schwer zu skalieren."
+    ]
+  },
+  "marketOpportunity": {
+    "insight": "Verbraucher verlangen immer mehr personalisierte Kleidung. Marken und Marktplätze wollen anpassen ohne Überbestand oder hohe Kosten. Minerva verbindet diese Bedürfnisse mit modularer Fertigung.",
+    "dataPoints": [
+      "Der Markt für individuelle Kleidung soll bis 2027 $10Mrd erreichen (MarketWatch).",
+      "Über 60% der Verbraucher bevorzugen personalisierte Produkte (Epsilon Research).",
+      "Print-on-Demand wächst global mit über 20% p.a."
+    ]
+  },
+  "solution": {
+    "headline": "Ein digital-modulares Bekleidungssystem",
+    "description": "Mit Minerva designen Nutzer Produkte nach Stoff, Qualität, Faserstärke, Größe und Druckart—und erhalten automatisch standardisierte Produktionsaufträge für die weltweite Lieferkette.",
+    "coreFeatures": [
+      {
+        "title": "Interaktive Designmatrix",
+        "text": "Kunden wählen Stoff, Qualität, Stärke, Größe und Verzierung—fast unbegrenzte Varianten."
+      },
+      {
+        "title": "Automatische Produktionsaufträge",
+        "text": "Jede Bestellung ergibt SKU-Code + User-File + Anweisungen, eliminiert Fabrik-Rätselraten."
+      },
+      {
+        "title": "On-Demand- vs. Vorrat-Strategie",
+        "text": "Bestseller werden gelagert, seltene/teure Designs nur bei Bestellung gefertigt."
+      },
+      {
+        "title": "Mehrmethoden-Druck & Dekor",
+        "text": "Tinte, Stick, Sublimation, DTF—Routing zu passenden Maschinen."
+      },
+      {
+        "title": "Zentrale Qualitätskontrolle",
+        "text": "Fotobeweise und Fehlertracking sichern Standards bei allen Lieferanten."
+      },
+      {
+        "title": "Dynamisches Supply-Chain-Routing",
+        "text": "Aufträge zum nächsten mit passendem Lager und Equipment—effizient & günstig."
+      },
+      {
+        "title": "Skalierbare SKU-Matrix",
+        "text": "Der modulare Ansatz wird zum Wettbewerbsvorteil—tausende Varianten ohne Ineffizienz."
+      }
+    ]
+  },
+  "comparative": {
+    "title": "Traditionelle Bekleidung vs Minerva",
+    "items": [
+      {
+        "aspect": "Produktvielfalt",
+        "traditional": "Begrenzte SKUs, wenig Individualisierung",
+        "minerva": "Tausende Kombinationen durch Matrix"
+      },
+      {
+        "aspect": "Lagerhaltung",
+        "traditional": "Überbestand an langsam drehenden Varianten",
+        "minerva": "Bestseller lagern, seltene Varianten on-demand"
+      },
+      {
+        "aspect": "Produktionsablauf",
+        "traditional": "Manuelle Dateirouting, viele Fehler",
+        "minerva": "Digitale Tickets mit glasklaren Anweisungen"
+      },
+      {
+        "aspect": "Individualisierung",
+        "traditional": "Wenig Optionen, starre Templates",
+        "minerva": "Freie Wahl bei Stoff, Größe, Qualität, Verzierung"
+      },
+      {
+        "aspect": "Lieferzeit",
+        "traditional": "Wochen bis Monate bei seltenen Optionen",
+        "minerva": "Schnelle Lieferung auch bei Unikaten durch intelligente Steuerung"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Strategische Vision: Personalisierte Kleidung, einfach",
+    "principles": [
+      {
+        "title": "Modularität als Vorteil",
+        "description": "Strukturierte SKU-Matrix macht Komplexität effizient und kundenfreundlich."
+      },
+      {
+        "title": "Schlanke Lieferketten",
+        "description": "Nur Bestseller werden gelagert; seltene Produkte werden on-demand gefertigt, weniger Lagerkosten."
+      },
+      {
+        "title": "Digital-First Produktion",
+        "description": "Automatisierte Tickets, Validierung & Routing ermöglichen fehlerlose und skalierbare Fertigung."
+      },
+      {
+        "title": "Kunden-Ermächtigung",
+        "description": "Nutzer bestimmen jede Designvariablen ohne Abstriche bei Qualität oder Geschwindigkeit."
+      }
+    ],
+    "summary": "Minerva macht aus chaotischer, langsamer Personalisierung eine skalierbare, effiziente und hochgradig individuelle Lösung."
+  },
+  "metrics": {
+    "expectedImpact": [
+      "SKU-Verwaltung wird systematisch, Produktionsfehler sinken um bis zu 50%.",
+      "Lieferzeiten für Maßprodukte sinken um 40–60%.",
+      "Lagerkosten sinken um 30–70%.",
+      "Kundenzufriedenheit steigt durch mehr Personalisierung."
+    ]
+  },
+  "whyNow": [
+    "Schnelles Wachstum von Online-Custom-Bekleidung und Print-on-Demand.",
+    "Technologien für digitales Design, Datei-Validierung und automatisiertes Routing funktionieren heute.",
+    "Globale Lieferketten sind für Modularity bereit.",
+    "Spitzen-Nachfrage nach Personalisierung—jetzt erster Vorteil möglich."
+  ],
+  "sources": [
+    "marketwatch.com",
+    "epsilon.com",
+    "printondemandnews.com",
+    "statista.com",
+    "fashiontechinsights.org"
+  ]
+}
