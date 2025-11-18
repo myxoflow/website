@@ -6,6 +6,7 @@ import type { NavigationItem } from '../types/index'
 
 export const useLayoutStore = defineStore('layout', () => {
   const navigation = ref<NavigationItem[]>([])
+  const footerLinks = ref<Record<string, any>>({})
 
   // Function to load language-specific navigation JSON
   async function loadNavigation() {
@@ -13,10 +14,12 @@ export const useLayoutStore = defineStore('layout', () => {
     try {
       const navImport = await import(`../data/${lang}/navigation.json`)
       navigation.value = navImport.default.navigation || []
+      footerLinks.value = navImport.default.footer || {}
     } catch (err) {
       // Fallback to English
       const navImport = await import('../data/en/navigation.json')
       navigation.value = navImport.default.navigation || []
+      footerLinks.value = navImport.default.footer || {}
     }
   }
 
@@ -25,5 +28,5 @@ export const useLayoutStore = defineStore('layout', () => {
   // Reactively watch language changes
   watch(currentLang, loadNavigation)
 
-  return { navigation }
+  return { navigation, footerLinks }
 })

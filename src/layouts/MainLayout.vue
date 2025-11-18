@@ -1,21 +1,36 @@
 <template>
   <q-layout view="hHh lpR fFf">
+    <q-header elevated>
+      <q-toolbar>
+        <q-toolbar-title>MyxoFlow</q-toolbar-title>
+        <LanguageSwitcher />
+      </q-toolbar>
+    </q-header>
+
     <AppHeader :nav="nav" />
-    <AppFooter />
-    <TubeLight  />
+    
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <AppFooter />
+    <TubeLight />
   </q-layout>
 </template>
 
 <script setup lang="ts">
+import { onMounted, computed } from 'vue'
+import { useLayoutStore } from 'src/stores/useLayoutStore'
+import { initLang } from 'src/composables/useLang'
 import AppHeader from 'src/components/AppHeader.vue'
 import AppFooter from 'src/components/AppFooter.vue'
 import TubeLight from 'src/components/TubeLight.vue'
+import LanguageSwitcher from 'src/components/LanguageSwitcher.vue'
 
-import navigationJson from 'src/data/navigation.json'
+const layoutStore = useLayoutStore()
+const nav = computed(() => layoutStore.navigation)
 
-const nav = navigationJson.navigation as unknown as object[]
-
+onMounted(() => {
+  initLang()
+})
 </script>
