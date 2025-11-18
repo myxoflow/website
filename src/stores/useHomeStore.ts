@@ -48,7 +48,10 @@ export const useHomeStore = defineStore('home', () => {
   }
   // Load data on init, and whenever language changes
   loadData()
-  watch(currentLang, loadData)
+  watch(currentLang, () => {
+  console.log('Language changed, reloading...')
+  loadData()
+}, { flush: 'post' })  // Defer the watch until after renders
 
   //--- HOMEPAGE ---//
   const heroSection = computed(() => home.value.hero)

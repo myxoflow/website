@@ -28,7 +28,10 @@ export const useCompanyStore = defineStore('company', () => {
   // Load data on store init
   loadData()
   // And whenever language changes
-  watch(currentLang, loadData)
+ watch(currentLang, () => {
+  console.log('Language changed, reloading...')
+  loadData()
+}, { flush: 'post' })  // Defer the watch until after renders
 
   // HOW IT WORKS PAGE
   const operationalModel = computed(() => howItWorks.value.howItWorks)

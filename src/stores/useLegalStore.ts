@@ -21,7 +21,10 @@ export const useLegalStore = defineStore('legal', () => {
 
   // Initial load and watch for lang changes
   loadLegal()
-  watch(currentLang, loadLegal)
+  watch(currentLang, () => {
+  console.log('Language changed, reloading...')
+  loadData()
+}, { flush: 'post' })  // Defer the watch until after renders
 
   const privacyPolicy = computed(() => content.value.privacyPolicy)
   const cookiesPolicy = computed(() => content.value.cookies)

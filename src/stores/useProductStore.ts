@@ -43,7 +43,10 @@ export const useProductStore = defineStore('product', () => {
   }
   // Initial load and reactive reload
   loadProducts()
-  watch(currentLang, loadProducts)
+  watch(currentLang, () => {
+  console.log('Language changed, reloading...')
+  loadData()
+}, { flush: 'post' })  // Defer the watch until after renders
 
   // Computed
   const allProducts = computed(() => products.value)
