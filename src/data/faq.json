@@ -1,0 +1,14 @@
+{
+  "faqs": [
+    {
+      "id": "getting-started",
+      "question": "What is MyxoFlow?",
+      "answer": "MyxoFlow is a platform that makes software simple and accessible."
+    },
+    {
+      "id": "pricing",
+      "question": "How does pricing work?",
+      "answer": "We offer flexible plans based on your team size and feature needs."
+    }
+  ]
+}
