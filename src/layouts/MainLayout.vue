@@ -1,42 +1,39 @@
 <template>
-  <q-layout view="hHh lpR fFf" class="app-layout">
-    <!-- Gradient Background -->
-    <div class="gradient-bg"></div>
-    <div class="glow-orb glow-orb-top"></div>
-    <div class="glow-orb glow-orb-bottom"></div>
+  <q-layout class="app-layout">
 
-    <!-- HEADER -->
-    <q-header bordered class="app-header">
-      <q-toolbar class="toolbar-container">
+    <!-- Background effects -->
+    <div class="gradient-bg" />
+    <div class="glow-orb glow-orb-top" />
+    <div class="glow-orb glow-orb-bottom" />
+
+    <!-- Header -->
+    <q-header elevated class="app-header">
+      <div class="toolbar-container row items-center justify-between">
+
         <!-- Logo -->
         <router-link to="/" class="logo-link">
-          <q-avatar square size="40px">
-            <img src="../assets/icons/main/myxoflow.svg" alt="Logo" />
-          </q-avatar>
-          <q-toolbar-title class="logo-title">MyxoFlow</q-toolbar-title>
+          <q-img src="/logo.svg" width="32px" height="32px" />
+          <h1 class="logo-title">MyxoFlow</h1>
         </router-link>
 
-        <q-space />
-
-        <!-- Desktop Navigation -->
-        <div class="desktop-nav">
+        <!-- Desktop nav -->
+        <div class="desktop-nav desktop-only">
           <router-link
             v-for="item in simpleNavItems"
             :key="item.path"
-            :to="item.path"
             class="nav-link"
+            :to="item.path"
           >
             {{ item.label }}
           </router-link>
 
-          <!-- Dropdown menus -->
           <q-btn-dropdown
             v-for="item in dropdownNavItems"
             :key="item.path"
-            :label="item.label"
+            class="nav-dropdown"
             flat
             dense
-            class="nav-dropdown"
+            :label="item.label"
           >
             <q-list>
               <q-item
@@ -44,92 +41,83 @@
                 :key="child.path"
                 clickable
                 v-close-popup
-                @click="() => $router.push(child.path)"
+                @click="goTo(child)"
               >
                 <q-item-section>{{ child.label }}</q-item-section>
               </q-item>
             </q-list>
           </q-btn-dropdown>
+
+          <LanguageSwitcher class="lang-switcher" />
         </div>
 
-        <!-- Language Switcher -->
-        <LanguageSwitcher class="lang-switcher desktop-only" />
-
-        <!-- Mobile Menu Button -->
+        <!-- Mobile menu button -->
         <q-btn
+          class="mobile-only"
           flat
           dense
           round
           icon="menu"
-          class="mobile-only"
-          @click="mobileMenuOpen = true"
+          @click="mobileMenuOpen = !mobileMenuOpen"
         />
-      </q-toolbar>
+      </div>
     </q-header>
 
-    <!-- Mobile Drawer -->
+    <!-- Mobile drawer -->
     <q-drawer
       v-model="mobileMenuOpen"
       overlay
-      behavior="mobile"
-      :width="280"
+      side="right"
       class="mobile-drawer"
+      behavior="mobile"
     >
-      <q-scroll-area class="fit">
-        <q-list padding>
+      <q-list padding>
+        <q-item
+          v-for="item in simpleNavItems"
+          :key="item.path"
+          clickable
+          v-ripple
+          @click="goTo(item)"
+        >
+          <q-item-section>{{ item.label }}</q-item-section>
+        </q-item>
+
+        <q-expansion-item
+          v-for="item in dropdownNavItems"
+          :key="item.path"
+          expand-separator
+          :label="item.label"
+        >
           <q-item
-            v-for="item in simpleNavItems"
-            :key="item.path"
+            v-for="child in item.children"
+            :key="child.path"
             clickable
             v-ripple
-            @click="() => { $router.push(item.path); mobileMenuOpen = false }"
+            @click="goTo(child)"
           >
-            <q-item-section>{{ item.label }}</q-item-section>
+            <q-item-section>{{ child.label }}</q-item-section>
           </q-item>
+        </q-expansion-item>
 
-          <q-expansion-item
-            v-for="item in dropdownNavItems"
-            :key="item.path"
-            :label="item.label"
-            icon="expand_more"
-          >
-            <q-item
-              v-for="child in item.children"
-              :key="child.path"
-              clickable
-              v-ripple
-              @click="() => { $router.push(child.path); mobileMenuOpen = false }"
-              class="q-pl-lg"
-            >
-              <q-item-section>{{ child.label }}</q-item-section>
-            </q-item>
-          </q-expansion-item>
-
-          <q-separator class="q-my-md" />
-
-          <q-item>
-            <q-item-section>
-              <LanguageSwitcher />
-            </q-item-section>
-          </q-item>
-        </q-list>
-      </q-scroll-area>
+        <q-item>
+          <q-item-section>
+            <LanguageSwitcher />
+          </q-item-section>
+        </q-item>
+      </q-list>
     </q-drawer>
 
-    <!-- PAGE CONTAINER -->
+    <!-- Page container -->
     <q-page-container class="page-container">
-      <q-page class="page-content">
+      <div class="page-content">
         <div class="content-card">
           <router-view />
         </div>
-      </q-page>
+      </div>
+
+      <AppFooter />
+      <TubeLight />
     </q-page-container>
-
-    <!-- FOOTER -->
-    <AppFooter />
-
-    <!-- TubeLight Effect -->
-    <TubeLight class="desktop-only" />
   </q-layout>
 </template>
 
@@ -139,12 +127,10 @@ import { useRouter } from 'vue-router'
 import { initLang } from 'src/composables/useLang'
 import navigationJson from 'src/data/navigation.json'
 
-// Import Components
 import AppFooter from 'src/components/AppFooter.vue'
 import TubeLight from 'src/components/TubeLight.vue'
 import LanguageSwitcher from 'src/components/LanguageSwitcher.vue'
 
-// Define Types
 interface NavigationItemBase {
   label: string
   path: string
@@ -160,19 +146,28 @@ type NavigationItem = NavigationItemBase | NavigationParent
 const nav = navigationJson.navigation as NavigationItem[]
 const router = useRouter()
 
-// State
 const mobileMenuOpen = ref(false)
 
-// Computed
-const simpleNavItems = computed(() => 
-  nav.filter((i): i is NavigationItemBase => !('children' in i) && i.label.toLowerCase() !== 'home')
+const simpleNavItems = computed(() =>
+  nav.filter(
+    (i): i is NavigationItemBase =>
+      !('children' in i) && i.label.toLowerCase() !== 'home'
+  )
 )
 
-const dropdownNavItems = computed(() => 
+const dropdownNavItems = computed(() =>
   nav.filter((i): i is NavigationParent => 'children' in i)
 )
 
-// Initialize language on mount
+const goTo = (item: NavigationItemBase) => {
+  mobileMenuOpen.value = false
+  if (item.external) {
+    window.open(item.path, '_blank')
+  } else {
+    router.push(item.path)
+  }
+}
+
 onMounted(() => {
   initLang()
 })
@@ -180,7 +175,7 @@ onMounted(() => {
 
 <style scoped>
 .app-layout {
-  min-height: 100vh;
+  min-height: 100%;
   background: #020617;
   color: #f1f5f9;
   position: relative;
@@ -354,6 +349,7 @@ onMounted(() => {
   backdrop-filter: blur(24px);
   padding: 1rem;
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.6);
+  animation: fadeUp 0.5s ease-out;
 }
 
 @media (min-width: 640px) {
@@ -379,9 +375,5 @@ onMounted(() => {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.content-card {
-  animation: fadeUp 0.5s ease-out;
 }
 </style>

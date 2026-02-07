@@ -8,17 +8,9 @@
 
 /* Typography & Body Defaults */
 html,
-body {
-  font-family: var(--q-font-family-base);
-  font-size: var(--q-font-size-body);
-  font-weight: var(--q-font-weight-regular);
-  color: var(--q-text-color);
-  background-color: var(--q-bg-color);
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,
+#q-app {
+  height: 100%;
 }
 
 /* Headings */
