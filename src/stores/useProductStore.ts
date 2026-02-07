@@ -45,7 +45,7 @@ export const useProductStore = defineStore('product', () => {
   loadProducts()
   watch(currentLang, () => {
   console.log('Language changed, reloading...')
-  loadData()
+  loadProducts()
 }, { flush: 'post' })  // Defer the watch until after renders
 
   // Computed

@@ -9,6 +9,58 @@ export const useCompanyStore = defineStore('company', () => {
   const partners = ref<any>({})
   const howItWorks = ref<any>({})
 
+  const emptyCompanyInfo = {
+    name: '',
+    tagline: '',
+    description: '',
+    email: '',
+    phone: '',
+    address: {
+      street: '',
+      city: '',
+      state: '',
+      zip: '',
+      country: '',
+    },
+    social: [],
+  }
+  const emptyPhilosophy = {
+    title: '',
+    subtitle: '',
+    principles: [],
+  }
+  const emptyTeam = {
+    title: '',
+    subtitle: '',
+    members: [],
+  }
+  const emptyNetwork = {
+    title: '',
+    deployment: { title: '', scope: '', description: '' },
+    supply: { title: '', scope: '', description: '' },
+  }
+  const emptyRevenueModel = {
+    title: '',
+    streams: [],
+  }
+  const emptyVision = {
+    title: '',
+    goals: [],
+  }
+  const emptyPartnerOpportunities = {
+    title: '',
+    subtitle: '',
+    benefits: [],
+    ideal: '',
+  }
+  const emptyOperationalModel = {
+    title: '',
+    subtitle: '',
+    overview: '',
+    steps: [],
+    cta: null,
+  }
+
   // Function to load language-specific JSON content
   async function loadData() {
     const lang = currentLang.value
@@ -34,20 +86,20 @@ export const useCompanyStore = defineStore('company', () => {
 }, { flush: 'post' })  // Defer the watch until after renders
 
   // HOW IT WORKS PAGE
-  const operationalModel = computed(() => howItWorks.value.howItWorks)
+  const operationalModel = computed(() => howItWorks.value.howItWorks || emptyOperationalModel)
 
   // COMPANY PAGE
-  const companyInfo = computed(() => company.value.company)
-  const companyPhilosophy = computed(() => company.value.philosophy)
-  const team = computed(() => company.value.team)
+  const companyInfo = computed(() => company.value.company || emptyCompanyInfo)
+  const companyPhilosophy = computed(() => company.value.philosophy || emptyPhilosophy)
+  const team = computed(() => company.value.team || emptyTeam)
 
   // ABOUT PAGE
-  const network = computed(() => about.value.network)
-  const revenueModel = computed(() => about.value.revenueModel)
-  const vision = computed(() => about.value.vision)
+  const network = computed(() => about.value.network || emptyNetwork)
+  const revenueModel = computed(() => about.value.revenueModel || emptyRevenueModel)
+  const vision = computed(() => about.value.vision || emptyVision)
 
   // PARTNER PAGE
-  const partnerOpportunities = computed(() => partners.value.partnerOpportunities)
+  const partnerOpportunities = computed(() => partners.value.partnerOpportunities || emptyPartnerOpportunities)
 
   return {
     companyInfo,

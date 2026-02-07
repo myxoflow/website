@@ -1,22 +1,16 @@
 <template>
   <q-layout class="app-layout">
-
-    <!-- Background effects -->
     <div class="gradient-bg" />
     <div class="glow-orb glow-orb-top" />
     <div class="glow-orb glow-orb-bottom" />
 
-    <!-- Header -->
     <q-header elevated class="app-header">
       <div class="toolbar-container row items-center justify-between">
-
-        <!-- Logo -->
         <router-link to="/" class="logo-link">
           <q-img src="/logo.svg" width="32px" height="32px" />
           <h1 class="logo-title">MyxoFlow</h1>
         </router-link>
 
-        <!-- Desktop nav -->
         <div class="desktop-nav desktop-only">
           <router-link
             v-for="item in simpleNavItems"
@@ -51,7 +45,6 @@
           <LanguageSwitcher class="lang-switcher" />
         </div>
 
-        <!-- Mobile menu button -->
         <q-btn
           class="mobile-only"
           flat
@@ -63,7 +56,6 @@
       </div>
     </q-header>
 
-    <!-- Mobile drawer -->
     <q-drawer
       v-model="mobileMenuOpen"
       overlay
@@ -107,7 +99,6 @@
       </q-list>
     </q-drawer>
 
-    <!-- Page container -->
     <q-page-container class="page-container">
       <div class="page-content">
         <div class="content-card">
@@ -172,6 +163,7 @@ onMounted(() => {
   initLang()
 })
 </script>
+
 
 <style scoped>
 .app-layout {

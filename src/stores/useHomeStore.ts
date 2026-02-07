@@ -15,6 +15,31 @@ export const useHomeStore = defineStore('home', () => {
   const isLoading = ref(false)
   const error = ref<string | null>(null)
 
+  const emptyHero = {
+    badge: { icon: '', text: '' },
+    title: '',
+    subtitle: '',
+    highlights: [],
+    cta: { primary: '', secondary: '' },
+  }
+  const emptyPhilosophy = {
+    title: '',
+    subtitle: '',
+    principles: [],
+  }
+  const emptyOperationalModel = {
+    title: '',
+    subtitle: '',
+    steps: [],
+  }
+  const emptyFinalCTA = {
+    title: '',
+    subtitle: '',
+    primary: '',
+    secondary: '',
+    guarantee: '',
+  }
+
   //--- DATA LOADING ---//
   async function loadData() {
     isLoading.value = true
@@ -54,10 +79,10 @@ export const useHomeStore = defineStore('home', () => {
 }, { flush: 'post' })  // Defer the watch until after renders
 
   //--- HOMEPAGE ---//
-  const heroSection = computed(() => home.value.hero)
-  const philosophy = computed(() => home.value.philosophy)
-  const operationalModel = computed(() => home.value.operationalModel)
-  const homePageCTA = computed(() => home.value.finalCTA)
+  const heroSection = computed(() => home.value.hero || emptyHero)
+  const philosophy = computed(() => home.value.philosophy || emptyPhilosophy)
+  const operationalModel = computed(() => home.value.operationalModel || emptyOperationalModel)
+  const homePageCTA = computed(() => home.value.finalCTA || emptyFinalCTA)
 
   //--- COMPANY PAGE ---//
   const companyInfo = computed(() => company.value.company)

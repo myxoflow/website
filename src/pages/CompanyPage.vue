@@ -6,9 +6,9 @@
       <p class="company-description">{{ companyInfo.description }}</p>
 
       <nav class="company-nav">
-        <RouterLink to="/about" class="nav-link">About</RouterLink>
-        <RouterLink to="/how-it-works" class="nav-link">How It Works</RouterLink>
-        <RouterLink to="/partners" class="nav-link">Partners</RouterLink>
+        <RouterLink to="/company/about" class="nav-link">About</RouterLink>
+        <RouterLink to="/company/how-it-works" class="nav-link">How It Works</RouterLink>
+        <RouterLink to="/company/partners" class="nav-link">Partners</RouterLink>
       </nav>
     </header>
 
