@@ -78,13 +78,21 @@ function applyTheme(theme: Theme) {
 
 function cycleTheme() {
   if (showSlime.value) return;
+
   showSlime.value = true;
+
+  // lock scroll during splash
+  document.body.style.overflow = "hidden";
+
   themeIndex.value = (themeIndex.value + 1) % themes.length;
   applyTheme(currentTheme.value);
 }
 
 function onAnimationEnd() {
   showSlime.value = false;
+
+  // restore scroll
+  document.body.style.overflow = "";
 }
 
 onMounted(() => {
@@ -107,7 +115,6 @@ onMounted(() => {
   position: absolute;
   top: 50%;
   left: 50%;
-  right: 50%;
   width: 1200px;
   height: 1200px;
   transform-origin: center;
@@ -150,15 +157,19 @@ onMounted(() => {
     opacity: 0.45;
   }
 }
-.tubelight-btn 
-.q-btn__content {
+
+/* Fixed tubelight button */
+.tubelight-btn {
   position: fixed;
   top: 50%;
-  bottom: 50%;
   right: 50px;
-  z-index: 11;
+  transform: translateY(-50%);
+  z-index: 1100;
+}
+
+/* Keep content simple, no positioning here */
+.tubelight-btn .q-btn__content {
   background: transparent !important;
   box-shadow: none !important;
-
 }
 </style>
