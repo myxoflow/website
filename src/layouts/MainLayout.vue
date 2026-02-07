@@ -1,198 +1,135 @@
 <template>
-  <q-layout
-    view="hHh lpR fFf"
-    class="min-h-screen bg-night-950 text-slate-100 font-sans relative overflow-hidden"
-  >
-    <!-- Gradient + glow background -->
-    <div
-      class="pointer-events-none absolute inset-0 bg-gradient-to-b from-night-900/90 via-night-950 to-black"
-    />
-    <div
-      class="pointer-events-none absolute -top-32 left-1/2 -translate-x-1/2 h-72 w-[36rem] rounded-full bg-primary-500/20 blur-3xl"
-    />
-    <div
-      class="pointer-events-none absolute -bottom-24 right-0 h-64 w-64 rounded-full bg-electric/25 blur-3xl"
-    />
+  <q-layout view="hHh lpR fFf" class="app-layout">
+    <!-- Gradient Background -->
+    <div class="gradient-bg"></div>
+    <div class="glow-orb glow-orb-top"></div>
+    <div class="glow-orb glow-orb-bottom"></div>
 
-    <!-- HEADER with Navigation -->
-    <q-header
-      bordered
-      class="z-20 bg-night-900/70 border-b border-white/10 backdrop-blur-md shadow-soft"
-    >
-      <div
-        class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-6 md:py-4"
-      >
-        <!-- Left: logo / brand -->
-        <div class="flex items-center gap-3">
-          <router-link to="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <q-avatar square size="40px" class="sm:size-50">
-              <img src="../assets/icons/main/myxoflow.svg" alt="MyxoFlow Logo" />
-            </q-avatar>
-            <span class="text-base sm:text-lg font-semibold">MyxoFlow</span>
-          </router-link>
-        </div>
+    <!-- HEADER -->
+    <q-header bordered class="app-header">
+      <q-toolbar class="toolbar-container">
+        <!-- Logo -->
+        <router-link to="/" class="logo-link">
+          <q-avatar square size="40px">
+            <img src="../assets/icons/main/myxoflow.svg" alt="Logo" />
+          </q-avatar>
+          <q-toolbar-title class="logo-title">MyxoFlow</q-toolbar-title>
+        </router-link>
+
+        <q-space />
 
         <!-- Desktop Navigation -->
-        <nav
-          class="hidden items-center gap-4 text-xs font-medium text-slate-300 md:flex lg:gap-6"
-        >
+        <div class="desktop-nav">
           <router-link
             v-for="item in simpleNavItems"
             :key="item.path"
             :to="item.path"
-            class="relative rounded-full px-3 py-1.5 transition-all duration-200 hover:text-white hover:bg-white/5"
-            active-class="text-white bg-white/10"
+            class="nav-link"
           >
             {{ item.label }}
           </router-link>
-          
-          <!-- Dropdown items -->
-          <div
+
+          <!-- Dropdown menus -->
+          <q-btn-dropdown
             v-for="item in dropdownNavItems"
             :key="item.path"
-            class="relative"
-            @mouseenter="() => openDropdown = item.path"
-            @mouseleave="() => openDropdown = null"
+            :label="item.label"
+            flat
+            dense
+            class="nav-dropdown"
           >
-            <button
-              class="relative rounded-full px-3 py-1.5 transition-all duration-200 hover:text-white hover:bg-white/5"
-              @click="navigate(item.path)"
-            >
-              {{ item.label }}
-            </button>
-            <div
-              v-show="openDropdown === item.path"
-              class="absolute left-0 top-full mt-2 min-w-[180px] rounded-2xl border border-white/10 bg-night-900/95 backdrop-blur-xl shadow-soft"
-            >
-              <router-link
+            <q-list>
+              <q-item
                 v-for="child in item.children"
                 :key="child.path"
-                :to="child.path"
-                class="block px-4 py-2.5 text-sm hover:bg-white/5 first:rounded-t-2xl last:rounded-b-2xl transition-colors"
+                clickable
+                v-close-popup
+                @click="() => $router.push(child.path)"
               >
-                {{ child.label }}
-              </router-link>
-            </div>
-          </div>
-        </nav>
-
-        <!-- Right: Language Switcher -->
-        <div class="hidden items-center gap-2 sm:flex">
-          <LanguageSwitcher
-            class="rounded-full bg-white/5 px-3 py-1.5 text-xs font-medium text-slate-200 backdrop-blur-xs border border-white/10 hover:bg-white/10 transition-colors"
-          />
+                <q-item-section>{{ child.label }}</q-item-section>
+              </q-item>
+            </q-list>
+          </q-btn-dropdown>
         </div>
+
+        <!-- Language Switcher -->
+        <LanguageSwitcher class="lang-switcher desktop-only" />
 
         <!-- Mobile Menu Button -->
-        <button
-          @click="mobileMenuOpen = !mobileMenuOpen"
-          class="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors md:hidden"
-        >
-          <q-icon
-            :name="mobileMenuOpen ? 'close' : 'menu'"
-            size="24px"
-            class="text-white"
-          />
-        </button>
-      </div>
-
-      <!-- Mobile Navigation Menu -->
-      <transition
-        enter-active-class="transition-all duration-300 ease-out"
-        enter-from-class="opacity-0 -translate-y-4"
-        enter-to-class="opacity-100 translate-y-0"
-        leave-active-class="transition-all duration-200 ease-in"
-        leave-from-class="opacity-100 translate-y-0"
-        leave-to-class="opacity-0 -translate-y-4"
-      >
-        <div
-          v-show="mobileMenuOpen"
-          class="md:hidden border-t border-white/10 bg-night-900/95 backdrop-blur-xl"
-        >
-          <nav class="flex flex-col gap-1 px-4 py-4">
-            <router-link
-              v-for="item in simpleNavItems"
-              :key="item.path"
-              :to="item.path"
-              @click="mobileMenuOpen = false"
-              class="px-4 py-3 rounded-xl text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
-              active-class="text-white bg-white/10"
-            >
-              {{ item.label }}
-            </router-link>
-            
-            <!-- Mobile Dropdown items -->
-            <div
-              v-for="item in dropdownNavItems"
-              :key="item.path"
-              class="flex flex-col"
-            >
-              <button
-                @click="toggleMobileDropdown(item.path)"
-                class="flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
-              >
-                {{ item.label }}
-                <q-icon
-                  :name="mobileOpenDropdown === item.path ? 'expand_less' : 'expand_more'"
-                  size="20px"
-                />
-              </button>
-              <div
-                v-show="mobileOpenDropdown === item.path"
-                class="flex flex-col gap-1 pl-4 mt-1"
-              >
-                <router-link
-                  v-for="child in item.children"
-                  :key="child.path"
-                  :to="child.path"
-                  @click="mobileMenuOpen = false"
-                  class="px-4 py-2.5 rounded-lg text-sm text-slate-400 hover:text-white hover:bg-white/5 transition-colors"
-                >
-                  {{ child.label }}
-                </router-link>
-              </div>
-            </div>
-
-            <!-- Mobile Language Switcher -->
-            <div class="mt-4 pt-4 border-t border-white/10">
-              <LanguageSwitcher
-                class="w-full rounded-full bg-white/5 px-3 py-2.5 text-xs font-medium text-slate-200 backdrop-blur-xs border border-white/10 hover:bg-white/10 transition-colors text-center"
-              />
-            </div>
-          </nav>
-        </div>
-      </transition>
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          class="mobile-only"
+          @click="mobileMenuOpen = true"
+        />
+      </q-toolbar>
     </q-header>
 
-    <!-- PAGE CONTAINER (CRITICAL FOR ROUTING) -->
-    <q-page-container
-      class="relative z-10 flex min-h-[calc(100vh-80px)] justify-center"
+    <!-- Mobile Drawer -->
+    <q-drawer
+      v-model="mobileMenuOpen"
+      overlay
+      behavior="mobile"
+      :width="280"
+      class="mobile-drawer"
     >
-      <main
-        class="mx-auto flex w-full max-w-7xl flex-col px-3 pb-8 pt-4 sm:px-4 sm:pb-10 sm:pt-6 md:px-6 md:pb-12 md:pt-10 animate-fade-up"
-      >
-        <!-- Primary content card with glass effect -->
-        <section
-          class="relative w-full rounded-3xl sm:rounded-4xl border border-white/10 bg-white/5 shadow-soft backdrop-blur-xl"
-        >
-          <!-- Subtle inner border/glow -->
-          <div
-            class="pointer-events-none absolute inset-0 rounded-3xl sm:rounded-4xl border border-white/5"
-          />
+      <q-scroll-area class="fit">
+        <q-list padding>
+          <q-item
+            v-for="item in simpleNavItems"
+            :key="item.path"
+            clickable
+            v-ripple
+            @click="() => { $router.push(item.path); mobileMenuOpen = false }"
+          >
+            <q-item-section>{{ item.label }}</q-item-section>
+          </q-item>
 
-          <!-- Slot content -->
-          <div class="relative z-10 p-3 sm:p-4 md:p-6 lg:p-8">
-            <router-view />
-          </div>
-        </section>
-      </main>
+          <q-expansion-item
+            v-for="item in dropdownNavItems"
+            :key="item.path"
+            :label="item.label"
+            icon="expand_more"
+          >
+            <q-item
+              v-for="child in item.children"
+              :key="child.path"
+              clickable
+              v-ripple
+              @click="() => { $router.push(child.path); mobileMenuOpen = false }"
+              class="q-pl-lg"
+            >
+              <q-item-section>{{ child.label }}</q-item-section>
+            </q-item>
+          </q-expansion-item>
+
+          <q-separator class="q-my-md" />
+
+          <q-item>
+            <q-item-section>
+              <LanguageSwitcher />
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-scroll-area>
+    </q-drawer>
+
+    <!-- PAGE CONTAINER -->
+    <q-page-container class="page-container">
+      <q-page class="page-content">
+        <div class="content-card">
+          <router-view />
+        </div>
+      </q-page>
     </q-page-container>
 
     <!-- FOOTER -->
     <AppFooter />
 
-    <!-- AMBIENT LIGHT EFFECT -->
-    <TubeLight class="hidden lg:block" />
+    <!-- TubeLight Effect -->
+    <TubeLight class="desktop-only" />
   </q-layout>
 </template>
 
@@ -224,9 +161,7 @@ const nav = navigationJson.navigation as NavigationItem[]
 const router = useRouter()
 
 // State
-const openDropdown = ref<string | null>(null)
 const mobileMenuOpen = ref(false)
-const mobileOpenDropdown = ref<string | null>(null)
 
 // Computed
 const simpleNavItems = computed(() => 
@@ -237,15 +172,6 @@ const dropdownNavItems = computed(() =>
   nav.filter((i): i is NavigationParent => 'children' in i)
 )
 
-// Methods
-function navigate(path: string) {
-  router.push(path)
-}
-
-function toggleMobileDropdown(path: string) {
-  mobileOpenDropdown.value = mobileOpenDropdown.value === path ? null : path
-}
-
 // Initialize language on mount
 onMounted(() => {
   initLang()
@@ -253,16 +179,209 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Ensure layout fills viewport */
-:deep(.q-layout) {
+.app-layout {
   min-height: 100vh;
+  background: #020617;
+  color: #f1f5f9;
+  position: relative;
+  overflow-x: hidden;
 }
-:deep(.q-page-container) {
+
+/* Background Effects */
+.gradient-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.9), #020617, #000);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(80px);
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.glow-orb-top {
+  top: -128px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 576px;
+  height: 288px;
+  background: rgba(99, 102, 241, 0.2);
+}
+
+.glow-orb-bottom {
+  bottom: -96px;
+  right: 0;
+  width: 256px;
+  height: 256px;
+  background: rgba(14, 165, 233, 0.25);
+}
+
+/* Header */
+.app-header {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.toolbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.desktop-nav {
+  display: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: flex;
+  }
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.router-link-active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-dropdown {
+  font-size: 0.875rem;
+  color: #cbd5e1;
+}
+
+.lang-switcher {
+  margin-left: 0.5rem;
+}
+
+/* Mobile Drawer */
+.mobile-drawer {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(12px);
+  color: #f1f5f9;
+}
+
+.mobile-drawer :deep(.q-item) {
+  color: #cbd5e1;
+  border-radius: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.mobile-drawer :deep(.q-item:hover) {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+/* Page Container */
+.page-container {
+  position: relative;
+  z-index: 10;
   min-height: calc(100vh - 80px);
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+.page-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-content {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* Content Card */
+.content-card {
+  position: relative;
+  width: 100%;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  padding: 1rem;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.6);
+}
+
+@media (min-width: 640px) {
+  .content-card {
+    padding: 1.5rem;
+    border-radius: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-card {
+    padding: 2rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content-card {
+  animation: fadeUp 0.5s ease-out;
 }
 </style>
